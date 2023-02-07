@@ -1,5 +1,5 @@
 <script>
-  import Step from "./step.svelte";
+  import Step from "$lib/Step.svelte";
   let name = "";
   let color = "#FFFFFF";
 </script>
@@ -8,13 +8,13 @@
   <div class="flex flex-col ">
     <div class="text-5xl font-bold">Chatbot creation</div>
 
-    <div class="form-control w-full max-w-xs mt-4">
+    <div class="form-control w-full mt-4">
       <label for="input" class="label">
         <span class="label-text">Chatbot name</span>
       </label>
       <input
         placeholder="Jean"
-        class="input input-bordered w-full max-w-xs"
+        class="input input-bordered w-full"
         bind:value={name}
       />
     </div>
@@ -28,7 +28,11 @@
         />
       </label>
     </div>
-    <button class="btn mt-8">Confirm</button>
+    <button
+      class="btn mt-8"
+      on:click={() => (window.location.href = "/creationChatbot/infos")}
+      >Next</button
+    >
   </div>
   <div class="m-12">
     <Step />
