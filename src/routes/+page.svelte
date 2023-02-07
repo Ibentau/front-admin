@@ -1,8 +1,13 @@
-<div class="flex flex-col items-center my-8">
-  <h1 class="text-3xl font-medium">Create your ChatBot</h1>
+<div class="flex flex-col justify-center items-center h-screen w-1/2 mx-auto">
+  <h1 class="text-4xl font-bold m-4">Create your Chatbot</h1>
+  <span
+    >Ibentau is a chatbot that can be integrated into the website of a
+    technology conference. It is capable of answering questions from
+    participants such as the schedule, accommodation or how to submit an
+    article.</span
+  >
   <button
     on:click={() => (window.location.href = "/creationChatbot")}
-    class="bg-indigo-500 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded"
-    >Create</button
+    class="btn text-2xl m-4">Create your Chatbot</button
   >
 </div>

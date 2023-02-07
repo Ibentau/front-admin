@@ -19,11 +19,11 @@
       />
     </div>
     <div class="mt-4">
-      <label>
+      <label class="flex items-center">
         Theme color :
-        <input type="color" bind:value={color} class="hidden rounded-full" />
+        <input type="color" bind:value={color} class="hidden " />
         <span
-          class="rounded-full w-8 h-8 border-gray-500 border inline-block"
+          class="rounded-full w-8 h-8 border-gray-500 border inline-block mx-4 "
           style="background-color: {color};"
         />
       </label>

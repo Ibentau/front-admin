@@ -41,7 +41,11 @@
     </div>
 
     <br />
-    <button class="btn">Next</button>
+    <button
+      class="btn mt-4"
+      on:click={() => (window.location.href = "/creationChatbot/finish")}
+      >Next</button
+    >
   </div>
   <div class="m-12">
     <Step currentstep={2} />
