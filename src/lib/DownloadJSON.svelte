@@ -1,7 +1,6 @@
-<script>
+<script lang="ts">
   function downloadJSON() {
-    const data = { name: "ChatGPT", language: "JavaScript" };
-    const dataJSON = JSON.stringify(data);
+    let dataJSON = localStorage.getItem("data") as string;
     const blob = new Blob([dataJSON], { type: "application/json" });
     const link = document.createElement("a");
     link.download = "data.json";
@@ -10,5 +9,4 @@
   }
 </script>
 
-<button class="btn" on:click={downloadJSON}>Télécharger le fichier .json</button
->
+<button class="btn" on:click={downloadJSON}>Télécharger le fichier json</button>
