@@ -5,7 +5,6 @@
   let start = "";
   let end = "";
   let title = "";
-  let address = "";
 
   function updateJSON() {
     // Initialize JSON
@@ -15,7 +14,6 @@
       start: start,
       end: end,
       date: date,
-      adress: address,
     };
 
     // Get JSON
@@ -75,17 +73,6 @@
         <span class="label-text">End of the conference</span>
       </label>
       <input type="time" class="input input-bordered w-full" bind:value={end} />
-    </div>
-
-    <div class="form-control w-full mt-4">
-      <label for="input" class="label">
-        <span class="label-text">Address</span>
-      </label>
-      <input
-        placeholder="263 Av. Général Leclerc, 35042 Rennes"
-        class="input input-bordered w-full"
-        bind:value={address}
-      />
     </div>
 
     <button

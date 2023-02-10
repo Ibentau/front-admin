@@ -4,6 +4,7 @@
   let event_start = "";
   let event_end = "";
   let color = "#FFFFFF";
+  let address = "";
 
   function updateJSON() {
     // Initialize JSON
@@ -12,6 +13,7 @@
       Theme: color,
       event_start: event_start,
       event_end: event_end,
+      adress: address,
       talks: [],
     };
     // Save JSON
@@ -54,6 +56,18 @@
         bind:value={event_end}
       />
     </div>
+
+    <div class="form-control w-full mt-2">
+      <label for="input" class="label">
+        <span class="label-text">Address</span>
+      </label>
+      <input
+        placeholder="263 Av. Général Leclerc, 35042 Rennes"
+        class="input input-bordered w-full"
+        bind:value={address}
+      />
+    </div>
+
     <div class="mt-2">
       <label class="flex items-center">
         Theme color :
@@ -64,6 +78,7 @@
         />
       </label>
     </div>
+
     <button
       class="btn mt-8"
       on:click={() => (window.location.href = "/creationChatbot/infos")}
