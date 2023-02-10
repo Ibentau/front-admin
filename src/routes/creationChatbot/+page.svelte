@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
   import Step from "$lib/Step.svelte";
+  import type { Conference } from "../../entities/conference";
   let name = "";
   let event_start = "";
   let event_end = "";
@@ -8,7 +9,7 @@
 
   function updateJSON() {
     // Initialize JSON
-    let yourData = {
+    let yourData: Conference = {
       Chatbot_name: name,
       Theme: color,
       event_start: event_start,
