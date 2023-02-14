@@ -1,6 +1,6 @@
 <script lang="ts">
   import Step from "$lib/Step.svelte";
-  import type { Conference } from "../../entities/conference";
+  import type { Conference, NameAndColor } from "../../entities/conference";
   export let name = "";
   export let color = "#FFFFFF";
   let event_start = "";
@@ -15,16 +15,15 @@
       address: address,
       talks: [],
     };
+
+    let NameAndColor: NameAndColor = {
+      name: name,
+      color: color,
+    };
     // Save JSON
     localStorage.setItem("data", JSON.stringify(yourData));
     // Save name and color
-    localStorage.setItem(
-      "name&color",
-      JSON.stringify({
-        name: name,
-        color: color,
-      })
-    );
+    localStorage.setItem("name&color", JSON.stringify(NameAndColor));
   }
 </script>
 

@@ -2,7 +2,11 @@
   import Highlight from "$lib/Highlight.svelte";
 
   import { code1, code2 } from "$lib/snipets";
-  const NameAndColor = JSON.parse(localStorage.getItem("name&color") as string);
+  import type { NameAndColor } from "../../entities/conference";
+  const NameAndColor: NameAndColor = JSON.parse(
+    localStorage.getItem("name&color") as string
+  );
+  const code3 = code2(NameAndColor);
 </script>
 
 <div class="flex flex-col justify-center  h-screen w-1/2 mx-auto">
@@ -15,7 +19,7 @@
       <Highlight code={code1} />
 
       <li>Add the following script tag at the end of your HTML file:</li>
-      <Highlight code={code2} />
+      <Highlight code={code3} />
     </ol>
   </div>
 </div>
