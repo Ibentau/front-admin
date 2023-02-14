@@ -10,7 +10,6 @@
     speakers.push({
       title: "",
       speaker: "",
-      date: "",
       start: "",
       end: "",
     });
@@ -39,7 +38,6 @@
           <tr>
             <th>Title</th>
             <th>Speaker</th>
-            <th>Date</th>
             <th>Start</th>
             <th>End</th>
             <th
@@ -68,25 +66,19 @@
               >
               <td
                 ><input
-                  type="date"
-                  class="input input-bordered w-full"
-                  bind:value={row.date}
-                /></td
-              >
-              <td
-                ><input
-                  type="time"
+                  type="datetime-local"
                   class="input input-bordered w-full"
                   bind:value={row.start}
                 /></td
               >
               <td
                 ><input
-                  type="time"
+                  type="datetime-local"
                   class="input input-bordered w-full"
                   bind:value={row.end}
                 /></td
               >
+
               <td><i class="material-icons text-error">&#xe872;</i> </td>
             </tr>
           {/each}

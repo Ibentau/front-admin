@@ -10,11 +10,11 @@
   function updateJSON() {
     // Initialize JSON
     let yourData: Conference = {
-      Chatbot_name: name,
-      Theme: color,
+      chatbot_name: name,
+      theme: color,
       event_start: event_start,
       event_end: event_end,
-      adress: address,
+      address: address,
       talks: [],
     };
     // Save JSON
@@ -41,7 +41,7 @@
         <span class="label-text">Event start date</span>
       </label>
       <input
-        type="date"
+        type="datetime-local"
         placeholder="02/01/2023"
         class="input input-bordered w-full"
         bind:value={event_start}
@@ -52,7 +52,7 @@
         <span class="label-text">Event end date</span>
       </label>
       <input
-        type="date"
+        type="datetime-local"
         class="input input-bordered w-full"
         bind:value={event_end}
       />
