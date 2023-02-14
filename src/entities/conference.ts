@@ -11,3 +11,8 @@ export interface Speak {
   start: string;
   end: string;
 }
+
+export interface NameAndColor {
+  name: string;
+  color: string;
+}
