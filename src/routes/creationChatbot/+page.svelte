@@ -10,8 +10,6 @@
   function updateJSON() {
     // Initialize JSON
     let yourData: Conference = {
-      chatbot_name: name,
-      theme: color,
       event_start: event_start,
       event_end: event_end,
       address: address,
@@ -19,6 +17,14 @@
     };
     // Save JSON
     localStorage.setItem("data", JSON.stringify(yourData));
+    // Save name and color
+    localStorage.setItem(
+      "name&color",
+      JSON.stringify({
+        name: name,
+        color: color,
+      })
+    );
   }
 </script>
 

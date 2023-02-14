@@ -1,6 +1,4 @@
 export interface Conference {
-  chatbot_name: string;
-  theme: string;
   event_start: string;
   event_end: string;
   address: string;
