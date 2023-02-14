@@ -1,10 +1,10 @@
 <script lang="ts">
   import Step from "$lib/Step.svelte";
   import type { Conference } from "../../entities/conference";
-  let name = "";
+  export let name = "";
+  export let color = "#FFFFFF";
   let event_start = "";
   let event_end = "";
-  let color = "#FFFFFF";
   let address = "";
 
   function updateJSON() {
