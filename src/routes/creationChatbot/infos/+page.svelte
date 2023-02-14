@@ -22,7 +22,7 @@
     let yourData = JSON.parse(localStorage.getItem("data") as string);
 
     // // Save JSON
-    yourData.talks = [speakers];
+    yourData.talks = speakers;
     localStorage.setItem("data", JSON.stringify(yourData));
   }
   newLine();
@@ -64,13 +64,26 @@
                   bind:value={row.speaker}
                 /></td
               >
-              <td
-                ><input
+              <td>
+                <input
                   type="datetime-local"
                   class="input input-bordered w-full"
                   bind:value={row.start}
-                /></td
-              >
+                  on:change={() => {
+                    const start = new Date(row.start);
+                    let end = new Date(row.end);
+
+                    if (row.end === "") {
+                      // Si end est vide, mettre à jour end avec start
+                      row.end = row.start;
+                    } else if (end < start) {
+                      // Si la valeur de row.end est antérieure à celle de row.start, mettez à jour row.end avec row.start
+                      row.end = row.start;
+                    }
+                  }}
+                />
+              </td>
+
               <td
                 ><input
                   type="datetime-local"
