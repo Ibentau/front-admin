@@ -17,6 +17,18 @@
     speakers = speakers;
   }
 
+  // delete a line
+  function deleteLine(row:Speak) {
+    const index = speakers.findIndex((speaker) => speaker === row);
+    if (index > -1) {
+      speakers.splice(index, 1);
+    }
+    // To update HTML display
+    speakers = speakers;    
+  }
+
+
+
   function updateJSON() {
     // Get JSON
     let yourData = JSON.parse(localStorage.getItem("data") as string);
@@ -89,10 +101,13 @@
                   type="datetime-local"
                   class="input input-bordered w-full"
                   bind:value={row.end}
-                /></td
-              >
+                /></td>
+              <td>              
+                <button class="btn btn-square btn-xs bg-transparent border-transparent" on:click={() => deleteLine(row)}>
+                <i class="material-icons text-error">&#xe872;</i>
+              </button>
+            </td>
 
-              <td><i class="material-icons text-error">&#xe872;</i> </td>
             </tr>
           {/each}
         </tbody>
