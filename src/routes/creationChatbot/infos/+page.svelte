@@ -1,5 +1,7 @@
 <script lang="ts">
+  import { page } from "$app/stores";
   import Step from "$lib/Step.svelte";
+  import { onMount } from "svelte";
   import type { Speak } from "../../../entities/conference";
 
   // Initialize JSON
@@ -18,16 +20,19 @@
   }
 
   // delete a line
-  function deleteLine(row:Speak) {
+  function deleteLine(row: Speak) {
     const index = speakers.findIndex((speaker) => speaker === row);
     if (index > -1) {
       speakers.splice(index, 1);
     }
     // To update HTML display
-    speakers = speakers;    
+    speakers = speakers;
   }
 
-
+  function loadJSON() {
+    let data = JSON.parse(localStorage.getItem("chatbotData") as string);
+    speakers = data.talks[0];
+  }
 
   function updateJSON() {
     // Get JSON
@@ -37,7 +42,14 @@
     yourData.talks = speakers;
     localStorage.setItem("data", JSON.stringify(yourData));
   }
-  newLine();
+
+  onMount(() => {
+    newLine();
+    const loadChatbot = $page.url.searchParams.has("load");
+    if (loadChatbot) {
+      loadJSON();
+    }
+  });
 </script>
 
 <div class="flex flex-wrap h-screen justify-center content-center ">
@@ -101,13 +113,16 @@
                   type="datetime-local"
                   class="input input-bordered w-full"
                   bind:value={row.end}
-                /></td>
-              <td>              
-                <button class="btn btn-square btn-xs bg-transparent border-transparent" on:click={() => deleteLine(row)}>
-                <i class="material-icons text-error">&#xe872;</i>
-              </button>
-            </td>
-
+                /></td
+              >
+              <td>
+                <button
+                  class="btn btn-square btn-xs bg-transparent border-transparent"
+                  on:click={() => deleteLine(row)}
+                >
+                  <i class="material-icons text-error">&#xe872;</i>
+                </button>
+              </td>
             </tr>
           {/each}
         </tbody>

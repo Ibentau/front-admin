@@ -6,8 +6,16 @@
     participants such as the schedule, accommodation or how to submit an
     article.</span
   >
-  <button
-    on:click={() => (window.location.href = "/creationChatbot")}
-    class="btn text-2xl m-4">Create your Chatbot</button
-  >
+  <span>
+    <button
+      on:click={() => (window.location.href = "/creationChatbot")}
+      class="btn text-2xl m-4">Create your Chatbot</button
+    >
+
+    <span>OR</span>
+    <button
+      on:click={() => (window.location.href = "/loadChatbot")}
+      class="btn text-2xl m-4">Load your Chatbot</button
+    >
+  </span>
 </div>
