@@ -1,11 +1,30 @@
 <script lang="ts">
   import Step from "$lib/Step.svelte";
-  import type { Conference, NameAndColor } from "../../entities/conference";
+  import type {
+    Conference,
+    NameAndColor,
+    Speak,
+  } from "../../entities/conference";
+  import { page } from "$app/stores";
+  import { onMount } from "svelte";
+
   export let name = "";
   export let color = "#FFFFFF";
   let event_start = "";
   let event_end = "";
   let address = "";
+  let talks: Speak[];
+  let loadChatbot: boolean;
+
+  function loadJSON() {
+    let data = JSON.parse(localStorage.getItem("chatbotData") as string);
+    name = data.chatbot_name;
+    color = data.theme;
+    event_start = data.event_start;
+    event_end = data.event_end;
+    address = data.address;
+    talks = data.talks;
+  }
 
   function updateJSON() {
     // Initialize JSON
@@ -13,7 +32,7 @@
       event_start: event_start,
       event_end: event_end,
       address: address,
-      talks: [],
+      talks: talks,
     };
 
     let NameAndColor: NameAndColor = {
@@ -25,6 +44,13 @@
     // Save name and color
     localStorage.setItem("name&color", JSON.stringify(NameAndColor));
   }
+
+  onMount(() => {
+    loadChatbot = $page.url.searchParams.has("load");
+    if (loadChatbot) {
+      loadJSON();
+    }
+  });
 </script>
 
 <div class="flex flex-wrap h-screen justify-center content-center ">
@@ -87,7 +113,10 @@
 
     <button
       class="btn mt-8"
-      on:click={() => (window.location.href = "/creationChatbot/infos")}
+      on:click={() =>
+        (window.location.href = loadChatbot
+          ? "/creationChatbot/infos?load=true"
+          : "/creationChatbot/infos")}
       on:click={updateJSON}>Next</button
     >
   </div>
