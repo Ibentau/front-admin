@@ -1,4 +1,6 @@
 <script>
+  // @ts-nocheck
+
   import Step from "$lib/Step.svelte";
   import DownloadJSON from "$lib/DownloadJSON.svelte";
 </script>

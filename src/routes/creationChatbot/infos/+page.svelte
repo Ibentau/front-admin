@@ -1,19 +1,26 @@
 <script lang="ts">
   import { page } from "$app/stores";
+  // import ICalParser, { type ICalJSON } from "ical-js-parser";
   import Step from "$lib/Step.svelte";
   import { onMount } from "svelte";
   import type { Speak } from "../../../entities/conference";
+  // https://www.npmjs.com/package/ical?activeTab=readme
+  import * as ical from "ical";
 
   // Initialize JSON
   let speakers: Speak[] = [];
-
-  function newLine() {
-    console.log(speakers);
+  function newLine(
+    _event: any,
+    title: string = "",
+    speaker: string = "",
+    start: string = "",
+    end: string = ""
+  ) {
     speakers.push({
-      title: "",
-      speaker: "",
-      start: "",
-      end: "",
+      title: title,
+      speaker: speaker,
+      start: start,
+      end: end,
     });
     // To update HTML display
     speakers = speakers;
@@ -50,13 +57,94 @@
       loadJSON();
     }
   });
+
+  let icsData: string;
+  let icsDataParsed;
+
+  function handleFileInput(event: Event) {
+    const input = event.target as HTMLInputElement;
+    const file = input.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (e: ProgressEvent<FileReader>) => {
+        icsData = e.target?.result as string;
+        sessionStorage.setItem("chatbotData", JSON.stringify(icsData));
+        console.log(icsData);
+        parseICS(icsData);
+        loadICS();
+      };
+      reader.readAsText(file);
+    }
+  }
+
+  function parseICS(icsData: string) {
+    // Parse from iCal string to JSON
+    icsDataParsed = ical.parseICS(icsData);
+  }
+
+  function loadICS() {
+    for (let k in icsDataParsed) {
+      if (icsDataParsed.hasOwnProperty(k)) {
+        // ev represent an event with a BEGIN and an END
+        var ev = icsDataParsed[k];
+        if (icsDataParsed[k].type == "VEVENT") {
+          const summary: string = ev.summary;
+          const index = summary.lastIndexOf("-");
+          const title = summary.substring(0, index);
+          const speaker = summary.substring(index + 1);
+          const start = dateParser(ev.start);
+          const end = dateParser(ev.end);
+          newLine(null, title, speaker, start, end);
+        }
+      }
+    }
+  }
+
+  function dateParser(dateToParse: string) {
+    const milliseconds = Date.parse(dateToParse);
+    const dateObj = new Date(milliseconds);
+    const year = dateObj.getFullYear();
+    const month = dateObj.getMonth() + 1;
+    const day = dateObj.getDate();
+    const hours = dateObj.getHours();
+    const minutes = dateObj.getMinutes();
+    const seconds = dateObj.getSeconds();
+    return `${year}-${month.toString().padStart(2, "0")}-${day
+      .toString()
+      .padStart(2, "0")}T${hours.toString().padStart(2, "0")}:${minutes
+      .toString()
+      .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+  }
+  // Reset input file if the page is reloaded
+  onMount(() => {
+    const input = document.querySelector(
+      'input[type="file"]'
+    ) as HTMLInputElement;
+    if (input) {
+      input.value = "";
+    }
+  });
 </script>
 
 <div class="flex flex-wrap h-screen justify-center content-center ">
   <div class="flex flex-col ">
-    <div class="text-5xl font-bold relative">
+    <div class="text-5xl font-bold flex relative">
       Chatbot creation
-      <button class="btn absolute right-0 ">Import ICS file</button>
+      <div class="absolute right-0">
+        <input
+          type="file"
+          accept=".ics"
+          name="loadInput"
+          class="mt-2 block w-full text-sm text-slate-500
+        file:mr-4 file:py-2 file:px-4
+        file:rounded-full file:border-0
+        file:text-sm file:font-semibold
+        file:bg-violet-50 file:text-violet-700
+        hover:file:bg-violet-100
+        "
+          on:change={handleFileInput}
+        />
+      </div>
     </div>
 
     <div class="overflow-x-auto">
