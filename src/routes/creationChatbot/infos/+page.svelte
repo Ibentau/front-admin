@@ -54,7 +54,10 @@
 
 <div class="flex flex-wrap h-screen justify-center content-center ">
   <div class="flex flex-col ">
-    <div class="text-5xl font-bold">Chatbot creation</div>
+    <div class="text-5xl font-bold relative">
+      Chatbot creation
+      <button class="btn absolute right-0 ">Import ICS file</button>
+    </div>
 
     <div class="overflow-x-auto">
       <table class="table table-compact w-full mt-4">
