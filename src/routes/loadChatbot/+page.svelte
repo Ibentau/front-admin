@@ -13,8 +13,7 @@
       reader.onload = (e: ProgressEvent<FileReader>) => {
         const contents = e.target?.result as string;
         chatbotData = JSON.parse(contents);
-        localStorage.setItem("chatbotData", JSON.stringify(chatbotData));
-        console.log(chatbotData);
+        sessionStorage.setItem("chatbotData", JSON.stringify(chatbotData));
       };
       reader.readAsText(file);
       isButtonDisabled = false;

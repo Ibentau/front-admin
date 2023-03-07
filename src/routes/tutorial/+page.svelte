@@ -4,7 +4,7 @@
   import { code1, code2 } from "$lib/snipets";
   import type { NameAndColor } from "../../entities/conference";
   const NameAndColor: NameAndColor = JSON.parse(
-    localStorage.getItem("name&color") as string
+    sessionStorage.getItem("name&color") as string
   );
   const code3 = code2(NameAndColor);
 </script>

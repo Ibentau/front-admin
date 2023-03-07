@@ -1,6 +1,6 @@
 <script lang="ts">
   function downloadJSON() {
-    let dataJSON = localStorage.getItem("data") as string;
+    let dataJSON = sessionStorage.getItem("data") as string;
     const blob = new Blob([dataJSON], { type: "application/json" });
     const link = document.createElement("a");
     link.download = "data.json";

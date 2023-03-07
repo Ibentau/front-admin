@@ -30,17 +30,17 @@
   }
 
   function loadJSON() {
-    let data = JSON.parse(localStorage.getItem("chatbotData") as string);
+    let data = JSON.parse(sessionStorage.getItem("chatbotData") as string);
     speakers = data.talks[0];
   }
 
   function updateJSON() {
     // Get JSON
-    let yourData = JSON.parse(localStorage.getItem("data") as string);
+    let yourData = JSON.parse(sessionStorage.getItem("data") as string);
 
     // // Save JSON
     yourData.talks = speakers;
-    localStorage.setItem("data", JSON.stringify(yourData));
+    sessionStorage.setItem("data", JSON.stringify(yourData));
   }
 
   onMount(() => {

@@ -17,7 +17,7 @@
   let loadChatbot: boolean;
 
   function loadJSON() {
-    let data = JSON.parse(localStorage.getItem("chatbotData") as string);
+    let data = JSON.parse(sessionStorage.getItem("chatbotData") as string);
     name = data.chatbot_name;
     color = data.theme;
     event_start = data.event_start;
@@ -40,9 +40,9 @@
       color: color,
     };
     // Save JSON
-    localStorage.setItem("data", JSON.stringify(yourData));
+    sessionStorage.setItem("data", JSON.stringify(yourData));
     // Save name and color
-    localStorage.setItem("name&color", JSON.stringify(NameAndColor));
+    sessionStorage.setItem("name&color", JSON.stringify(NameAndColor));
   }
 
   onMount(() => {
