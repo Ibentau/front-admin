@@ -7,9 +7,11 @@ export interface Conference {
 
 export interface Speak {
   title: string;
-  speaker: string;
+  speakers: string[];
   start: string;
   end: string;
+  location: string;
+  article_url: string;
 }
 
 export interface NameAndColor {

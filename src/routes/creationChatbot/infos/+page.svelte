@@ -14,13 +14,17 @@
     title: string = "",
     speaker: string = "",
     start: string = "",
-    end: string = ""
+    end: string = "",
+    location: string = "",
+    article_url: string = ""
   ) {
     speakers.push({
       title: title,
-      speaker: speaker,
+      speakers: parseSpeakers(speaker),
       start: start,
       end: end,
+      location: location,
+      article_url: article_url,
     });
     // To update HTML display
     speakers = speakers;
@@ -45,7 +49,7 @@
     // Get JSON
     let yourData = JSON.parse(sessionStorage.getItem("data") as string);
 
-    // // Save JSON
+    // Save JSON
     yourData.talks = speakers;
     sessionStorage.setItem("data", JSON.stringify(yourData));
   }
@@ -55,6 +59,12 @@
     const loadChatbot = $page.url.searchParams.has("load");
     if (loadChatbot) {
       loadJSON();
+    }
+    const input = document.querySelector(
+      'input[type="file"]'
+    ) as HTMLInputElement;
+    if (input) {
+      input.value = "";
     }
   });
 
@@ -100,6 +110,12 @@
     }
   }
 
+  function parseSpeakers(speaker: string): string[] {
+    // speaker : string --> speaker : ArrayList
+    // Example : "Jean, Marouane" --> [Jean, Marouane]
+    return speaker.split(",");
+  }
+
   function dateParser(dateToParse: string) {
     const milliseconds = Date.parse(dateToParse);
     const dateObj = new Date(milliseconds);
@@ -115,15 +131,6 @@
       .toString()
       .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
   }
-  // Reset input file if the page is reloaded
-  onMount(() => {
-    const input = document.querySelector(
-      'input[type="file"]'
-    ) as HTMLInputElement;
-    if (input) {
-      input.value = "";
-    }
-  });
 </script>
 
 <div class="flex flex-wrap h-screen justify-center content-center ">
@@ -155,6 +162,8 @@
             <th>Speaker</th>
             <th>Start</th>
             <th>End</th>
+            <th>Location</th>
+            <th>Article URL</th>
             <th
               ><button class="btn btn-square btn-xs" on:click={newLine}>
                 <i class="material-icons">&#xe145;</i></button
@@ -176,7 +185,7 @@
                 <input
                   placeholder="Benoît Combemale"
                   class="input input-bordered w-full"
-                  bind:value={row.speaker}
+                  bind:value={row.speakers}
                 /></td
               >
               <td>
@@ -204,6 +213,18 @@
                   type="datetime-local"
                   class="input input-bordered w-full"
                   bind:value={row.end}
+                /></td
+              >
+              <td
+                ><input
+                  class="input input-bordered w-full"
+                  bind:value={row.location}
+                /></td
+              >
+              <td
+                ><input
+                  class="input input-bordered w-full"
+                  bind:value={row.article_url}
                 /></td
               >
               <td>
