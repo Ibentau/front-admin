@@ -190,37 +190,37 @@
           </tr>
         </thead>
         <tbody>
-          {#each speakers as item}
+          {#each speakers as row}
             <tr>
               <td>
                 <input
                   placeholder="DevOps Show"
                   class="input input-bordered w-full"
-                  value={item.title}
+                  bind:value={row.title}
                 /></td
               >
               <td>
                 <input
                   placeholder="Benoît Combemale"
                   class="input input-bordered w-full"
-                  value={item.speakers}
+                  bind:value={row.speakers}
                 /></td
               >
               <td>
                 <input
                   type="datetime-local"
                   class="input input-bordered w-full"
-                  value={item.start}
+                  bind:value={row.start}
                   on:change={() => {
-                    const start = new Date(item.start);
-                    let end = new Date(item.end);
+                    const start = new Date(row.start);
+                    let end = new Date(row.end);
 
-                    if (item.end === "") {
+                    if (row.end === "") {
                       // Si end est vide, mettre à jour end avec start
-                      item.end = item.start;
+                      row.end = row.start;
                     } else if (end < start) {
                       // Si la valeur de row.end est antérieure à celle de row.start, mettez à jour row.end avec row.start
-                      item.end = item.start;
+                      row.end = row.start;
                     }
                   }}
                 />
@@ -230,25 +230,25 @@
                 ><input
                   type="datetime-local"
                   class="input input-bordered w-full"
-                  value={item.end}
+                  bind:value={row.end}
                 /></td
               >
               <td
                 ><input
                   class="input input-bordered w-full"
-                  value={item.location}
+                  bind:value={row.location}
                 /></td
               >
               <td
                 ><input
                   class="input input-bordered w-full"
-                  value={item.article_url}
+                  bind:value={row.article_url}
                 /></td
               >
               <td>
                 <button
                   class="btn btn-square btn-xs bg-transparent border-transparent"
-                  on:click={() => deleteLine(item)}
+                  on:click={() => deleteLine(row)}
                 >
                   <i class="material-icons text-error">&#xe872;</i>
                 </button>
