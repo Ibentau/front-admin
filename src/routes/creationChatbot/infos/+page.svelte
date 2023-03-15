@@ -36,17 +36,19 @@
 
   // delete a line
   function deleteLine(row: Speak) {
-    const index = speakers.findIndex((speaker) => speaker === row);
-    if (index > -1) {
-      speakers.splice(index, 1);
+    if (speakers.length > 1) {
+      const index = speakers.findIndex((speaker) => speaker === row);
+      if (index > -1) {
+        speakers.splice(index, 1);
+      }
+      // To update HTML display
+      speakers = speakers;
     }
-    // To update HTML display
-    speakers = speakers;
   }
 
   function loadJSON() {
     let data = JSON.parse(sessionStorage.getItem("chatbotData") as string);
-    speakers = data.talks[0];
+    speakers = data.talks;
   }
 
   function updateJSON() {
