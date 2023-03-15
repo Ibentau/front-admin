@@ -1,14 +1,18 @@
 <script lang="ts">
   import { page } from "$app/stores";
+  // https://github.com/sveltejs/svelte-virtual-list
+  import VirtualList from "@sveltejs/svelte-virtual-list";
   // import ICalParser, { type ICalJSON } from "ical-js-parser";
   import Step from "$lib/Step.svelte";
   import { onMount } from "svelte";
   import type { Speak } from "../../../entities/conference";
   // https://www.npmjs.com/package/ical?activeTab=readme
   import * as ical from "ical";
+  import { once } from "svelte/internal";
 
   // Initialize JSON
   let speakers: Speak[] = [];
+
   function newLine(
     _event: any,
     title: string = "",
@@ -98,13 +102,24 @@
         // ev represent an event with a BEGIN and an END
         var ev = icsDataParsed[k];
         if (icsDataParsed[k].type == "VEVENT") {
-          const summary: string = ev.summary;
+          const summary: string = ev.summary.substring(
+            ev.summary.lastIndexOf("]") + 1
+          );
           const index = summary.lastIndexOf("-");
-          const title = summary.substring(0, index);
-          const speaker = summary.substring(index + 1);
+          var title: string;
+          var speaker: string;
+          // Condition if no speaker
+          if (index == -1) {
+            title = summary;
+            speaker = "";
+          } else {
+            title = summary.substring(0, index);
+            speaker = summary.substring(index + 1);
+          }
           const start = dateParser(ev.start);
           const end = dateParser(ev.end);
-          newLine(null, title, speaker, start, end);
+          const location = ev.location;
+          newLine(null, title, speaker, start, end, location);
         }
       }
     }
@@ -154,8 +169,98 @@
       </div>
     </div>
 
-    <div class="overflow-x-auto">
-      <table class="table table-compact w-full mt-4">
+    <div class="overflow-y">
+      <table class="table-compact overflow-scroll w-full mt-4">
+        <VirtualList
+          itemHeight={48}
+          height="300px"
+          bind:items={speakers}
+          let:item
+        >
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Speaker</th>
+              <th>Start</th>
+              <th>End</th>
+              <th>Location</th>
+              <th>Article URL</th>
+              <th
+                ><button class="btn btn-square btn-xs" on:click={newLine}>
+                  <i class="material-icons">&#xe145;</i></button
+                >
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <input
+                  placeholder="DevOps Show"
+                  class="input input-bordered w-full"
+                  value={item.title}
+                /></td
+              >
+              <td>
+                <input
+                  placeholder="Benoît Combemale"
+                  class="input input-bordered w-full"
+                  value={item.speakers}
+                /></td
+              >
+              <td>
+                <input
+                  type="datetime-local"
+                  class="input input-bordered w-full"
+                  value={item.start}
+                  on:change={() => {
+                    const start = new Date(item.start);
+                    let end = new Date(item.end);
+
+                    if (item.end === "") {
+                      // Si end est vide, mettre à jour end avec start
+                      item.end = item.start;
+                    } else if (end < start) {
+                      // Si la valeur de row.end est antérieure à celle de row.start, mettez à jour row.end avec row.start
+                      item.end = item.start;
+                    }
+                  }}
+                />
+              </td>
+
+              <td
+                ><input
+                  type="datetime-local"
+                  class="input input-bordered w-full"
+                  value={item.end}
+                /></td
+              >
+              <td
+                ><input
+                  class="input input-bordered w-full"
+                  value={item.location}
+                /></td
+              >
+              <td
+                ><input
+                  class="input input-bordered w-full"
+                  value={item.article_url}
+                /></td
+              >
+              <td>
+                <button
+                  class="btn btn-square btn-xs bg-transparent border-transparent"
+                  on:click={() => deleteLine(item)}
+                >
+                  <i class="material-icons text-error">&#xe872;</i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </VirtualList>
+      </table>
+
+      <!-- <table class="table-auto overflow-scroll w-full mt-4">
         <thead>
           <tr>
             <th>Title</th>
@@ -238,16 +343,16 @@
             </tr>
           {/each}
         </tbody>
-      </table>
+      </table> -->
     </div>
 
     <button
-      class="btn mt-4"
+      class="btn mt-4 mx-8"
       on:click={() => (window.location.href = "/creationChatbot/finish")}
       on:click={updateJSON}>Next</button
     >
   </div>
-  <div class="m-12">
-    <Step currentstep={2} />
+  <div class="mt-14">
+    <Step currentstep={2} stepOrientation={"horizontal"} />
   </div>
 </div>

@@ -31,6 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/svelte-virtual-list": "^3.0.1",
 		"daisyui": "^2.50.0",
 		"ical": "^0.8.0",
 		"ical.js": "^1.5.0",
@@ -40,6 +41,8 @@
 		"semver": "^7.3.8",
 		"svelte-exmarkdown": "^1.1.7",
 		"svelte-markdown": "^0.2.3",
+		"svelte-tiny-virtual-list": "^2.0.5",
+		"svelte-virtual-table": "^1.0.4",
 		"vite-plugin-commonjs": "^0.6.1"
 	}
 }
