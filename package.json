@@ -40,7 +40,7 @@
 		"prism-svelte": "^0.5.0",
 		"prismjs": "^1.29.0",
 		"semver": "^7.3.8",
-		"svelte-exmarkdown": "^1.1.7",
+		"svelte-exmarkdown": "^2.0.0",
 		"svelte-markdown": "^0.2.3",
 		"svelte-tiny-virtual-list": "^2.0.5",
 		"svelte-virtual-table": "^1.0.4",
