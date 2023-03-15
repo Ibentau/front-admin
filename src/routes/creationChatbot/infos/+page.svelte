@@ -172,10 +172,10 @@
       </div>
     </div>
 
-    <div class="overflow-y">
-      <table class="table-compact overflow-scroll w-full mt-4">
-        <thead>
-          <tr>
+    <div class="">
+      <table class="table-compact overflow-scroll mt-4">
+        <thead class="overflow-y-auto sticky top-1">
+          <tr class="h-5 bg-base-200">
             <th>Title</th>
             <th>Speaker</th>
             <th>Start</th>
