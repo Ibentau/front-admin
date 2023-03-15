@@ -38,11 +38,13 @@
   function deleteLine(row: Speak) {
     if (speakers.length > 1) {
       const index = speakers.findIndex((speaker) => speaker === row);
+      console.log("INDEX : " + index);
       if (index > -1) {
         speakers.splice(index, 1);
       }
       // To update HTML display
       speakers = speakers;
+      console.log(speakers);
     }
   }
 
@@ -220,9 +222,11 @@
                     let end = new Date(item.end);
 
                     if (item.end === "") {
+                      console.log("START : " + item.start);
                       // Si end est vide, mettre à jour end avec start
                       item.end = item.start;
                     } else if (end < start) {
+                      console.log("START : " + item.start);
                       // Si la valeur de row.end est antérieure à celle de row.start, mettez à jour row.end avec row.start
                       item.end = item.start;
                     }
@@ -239,12 +243,14 @@
               >
               <td
                 ><input
+                  placeholder="B-140 (Atrium) - 1375 Ave. Thérèse-Lavoie-Roux, Montréal, Canada"
                   class="input input-bordered w-full"
                   value={item.location}
                 /></td
               >
               <td
                 ><input
+                  placeholder="https://ibentau.netlify.app"
                   class="input input-bordered w-full"
                   value={item.article_url}
                 /></td
