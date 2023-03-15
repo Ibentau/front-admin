@@ -53,7 +53,7 @@
   });
 </script>
 
-<div class="flex flex-wrap h-screen justify-center content-center ">
+<div class="flex flex-wrap justify-center content-center mt-14">
   <div class="flex flex-col ">
     <div class="text-5xl font-bold">Chatbot creation</div>
 

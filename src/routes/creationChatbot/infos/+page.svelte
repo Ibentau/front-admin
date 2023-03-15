@@ -36,17 +36,20 @@
 
   // delete a line
   function deleteLine(row: Speak) {
-    const index = speakers.findIndex((speaker) => speaker === row);
-    if (index > -1) {
-      speakers.splice(index, 1);
+    if (speakers.length > 1) {
+      const index = speakers.findIndex((speaker) => speaker === row);
+      if (index > -1) {
+        speakers.splice(index, 1);
+      }
+      // To update HTML display
+      speakers = speakers;
+    } else if (speakers.length == 1) {
     }
-    // To update HTML display
-    speakers = speakers;
   }
 
   function loadJSON() {
     let data = JSON.parse(sessionStorage.getItem("chatbotData") as string);
-    speakers = data.talks[0];
+    speakers = data.talks;
   }
 
   function updateJSON() {
@@ -148,7 +151,7 @@
   }
 </script>
 
-<div class="flex flex-wrap h-screen justify-center content-center ">
+<div class="flex flex-wrap justify-center content-center mt-14">
   <div class="flex flex-col ">
     <div class="text-5xl font-bold flex relative">
       Chatbot creation
@@ -171,28 +174,23 @@
 
     <div class="overflow-y">
       <table class="table-compact overflow-scroll w-full mt-4">
-        <VirtualList
-          itemHeight={48}
-          height="300px"
-          bind:items={speakers}
-          let:item
-        >
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Speaker</th>
-              <th>Start</th>
-              <th>End</th>
-              <th>Location</th>
-              <th>Article URL</th>
-              <th
-                ><button class="btn btn-square btn-xs" on:click={newLine}>
-                  <i class="material-icons">&#xe145;</i></button
-                >
-              </th>
-            </tr>
-          </thead>
-          <tbody>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Speaker</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Location</th>
+            <th>Article URL</th>
+            <th
+              ><button class="btn btn-square btn-xs" on:click={newLine}>
+                <i class="material-icons">&#xe145;</i></button
+              >
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each speakers as item}
             <tr>
               <td>
                 <input
@@ -256,94 +254,9 @@
                 </button>
               </td>
             </tr>
-          </tbody>
-        </VirtualList>
-      </table>
-
-      <!-- <table class="table-auto overflow-scroll w-full mt-4">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Speaker</th>
-            <th>Start</th>
-            <th>End</th>
-            <th>Location</th>
-            <th>Article URL</th>
-            <th
-              ><button class="btn btn-square btn-xs" on:click={newLine}>
-                <i class="material-icons">&#xe145;</i></button
-              >
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {#each speakers as row}
-            <tr>
-              <td>
-                <input
-                  placeholder="DevOps Show"
-                  class="input input-bordered w-full"
-                  bind:value={row.title}
-                /></td
-              >
-              <td>
-                <input
-                  placeholder="Benoît Combemale"
-                  class="input input-bordered w-full"
-                  bind:value={row.speakers}
-                /></td
-              >
-              <td>
-                <input
-                  type="datetime-local"
-                  class="input input-bordered w-full"
-                  bind:value={row.start}
-                  on:change={() => {
-                    const start = new Date(row.start);
-                    let end = new Date(row.end);
-
-                    if (row.end === "") {
-                      // Si end est vide, mettre à jour end avec start
-                      row.end = row.start;
-                    } else if (end < start) {
-                      // Si la valeur de row.end est antérieure à celle de row.start, mettez à jour row.end avec row.start
-                      row.end = row.start;
-                    }
-                  }}
-                />
-              </td>
-
-              <td
-                ><input
-                  type="datetime-local"
-                  class="input input-bordered w-full"
-                  bind:value={row.end}
-                /></td
-              >
-              <td
-                ><input
-                  class="input input-bordered w-full"
-                  bind:value={row.location}
-                /></td
-              >
-              <td
-                ><input
-                  class="input input-bordered w-full"
-                  bind:value={row.article_url}
-                /></td
-              >
-              <td>
-                <button
-                  class="btn btn-square btn-xs bg-transparent border-transparent"
-                  on:click={() => deleteLine(row)}
-                >
-                  <i class="material-icons text-error">&#xe872;</i>
-                </button>
-              </td>
-            </tr>
           {/each}
         </tbody>
-      </table> -->
+      </table>
     </div>
 
     <button
@@ -353,6 +266,6 @@
     >
   </div>
   <div class="mt-14">
-    <Step currentstep={2} stepOrientation={"horizontal"} />
+    <Step currentstep={2} stepOrientation={"horizontal"} display={"flex"} />
   </div>
 </div>
