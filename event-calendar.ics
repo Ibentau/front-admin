@@ -2229,6 +2229,7 @@ DESCRIPTION:Model-based robustness testing requires precise and complete behavio
 LOCATION:A-3502.1 - 1375 Ave. Thérèse-Lavoie-Roux, Montréal, Canada
 LAST-MODIFIED:20221020T223833Z
 END:VEVENT
+
 BEGIN:VEVENT
 DTSTART:20221028T150000Z
 DTEND:20221028T153000Z
@@ -2240,6 +2241,7 @@ DESCRIPTION:anguages like UML and OCL are used to precisely model systems. Compl
 LOCATION:A-3502.1 - 1375 Ave. Thérèse-Lavoie-Roux, Montréal, Canada
 LAST-MODIFIED:20221020T223805Z
 END:VEVENT
+
 BEGIN:VEVENT
 DTSTART:20221028T153000Z
 DTEND:20221028T160000Z
@@ -2438,6 +2440,7 @@ DESCRIPTION:The design and implementation of safety-critical human-machine inter
 LOCATION:A-5502.1 - 1375 Ave. Thérèse-Lavoie-Roux, Montréal, Canada
 LAST-MODIFIED:20221021T052135Z
 END:VEVENT
+
 BEGIN:VEVENT
 DTSTART:20221028T193000Z
 DTEND:20221028T210000Z

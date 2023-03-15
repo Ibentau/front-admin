@@ -1,14 +1,18 @@
 <script lang="ts">
   import { page } from "$app/stores";
+  // https://github.com/sveltejs/svelte-virtual-list
+  import VirtualList from "@sveltejs/svelte-virtual-list";
   // import ICalParser, { type ICalJSON } from "ical-js-parser";
   import Step from "$lib/Step.svelte";
   import { onMount } from "svelte";
   import type { Speak } from "../../../entities/conference";
   // https://www.npmjs.com/package/ical?activeTab=readme
   import * as ical from "ical";
+  import { once } from "svelte/internal";
 
   // Initialize JSON
   let speakers: Speak[] = [];
+
   function newLine(
     _event: any,
     title: string = "",
@@ -32,17 +36,20 @@
 
   // delete a line
   function deleteLine(row: Speak) {
-    const index = speakers.findIndex((speaker) => speaker === row);
-    if (index > -1) {
-      speakers.splice(index, 1);
+    if (speakers.length > 1) {
+      const index = speakers.findIndex((speaker) => speaker === row);
+      if (index > -1) {
+        speakers.splice(index, 1);
+      }
+      // To update HTML display
+      speakers = speakers;
+    } else if (speakers.length == 1) {
     }
-    // To update HTML display
-    speakers = speakers;
   }
 
   function loadJSON() {
     let data = JSON.parse(sessionStorage.getItem("chatbotData") as string);
-    speakers = data.talks[0];
+    speakers = data.talks;
   }
 
   function updateJSON() {
@@ -98,13 +105,24 @@
         // ev represent an event with a BEGIN and an END
         var ev = icsDataParsed[k];
         if (icsDataParsed[k].type == "VEVENT") {
-          const summary: string = ev.summary;
+          const summary: string = ev.summary.substring(
+            ev.summary.lastIndexOf("]") + 1
+          );
           const index = summary.lastIndexOf("-");
-          const title = summary.substring(0, index);
-          const speaker = summary.substring(index + 1);
+          var title: string;
+          var speaker: string;
+          // Condition if no speaker
+          if (index == -1) {
+            title = summary;
+            speaker = "";
+          } else {
+            title = summary.substring(0, index);
+            speaker = summary.substring(index + 1);
+          }
           const start = dateParser(ev.start);
           const end = dateParser(ev.end);
-          newLine(null, title, speaker, start, end);
+          const location = ev.location;
+          newLine(null, title, speaker, start, end, location);
         }
       }
     }
@@ -133,7 +151,7 @@
   }
 </script>
 
-<div class="flex flex-wrap h-screen justify-center content-center ">
+<div class="flex flex-wrap justify-center content-center mt-14">
   <div class="flex flex-col ">
     <div class="text-5xl font-bold flex relative">
       Chatbot creation
@@ -154,8 +172,8 @@
       </div>
     </div>
 
-    <div class="overflow-x-auto">
-      <table class="table table-compact w-full mt-4">
+    <div class="overflow-y">
+      <table class="table-compact overflow-scroll w-full mt-4">
         <thead>
           <tr>
             <th>Title</th>
@@ -172,37 +190,37 @@
           </tr>
         </thead>
         <tbody>
-          {#each speakers as row}
+          {#each speakers as item}
             <tr>
               <td>
                 <input
                   placeholder="DevOps Show"
                   class="input input-bordered w-full"
-                  bind:value={row.title}
+                  value={item.title}
                 /></td
               >
               <td>
                 <input
                   placeholder="Benoît Combemale"
                   class="input input-bordered w-full"
-                  bind:value={row.speakers}
+                  value={item.speakers}
                 /></td
               >
               <td>
                 <input
                   type="datetime-local"
                   class="input input-bordered w-full"
-                  bind:value={row.start}
+                  value={item.start}
                   on:change={() => {
-                    const start = new Date(row.start);
-                    let end = new Date(row.end);
+                    const start = new Date(item.start);
+                    let end = new Date(item.end);
 
-                    if (row.end === "") {
+                    if (item.end === "") {
                       // Si end est vide, mettre à jour end avec start
-                      row.end = row.start;
+                      item.end = item.start;
                     } else if (end < start) {
                       // Si la valeur de row.end est antérieure à celle de row.start, mettez à jour row.end avec row.start
-                      row.end = row.start;
+                      item.end = item.start;
                     }
                   }}
                 />
@@ -212,25 +230,25 @@
                 ><input
                   type="datetime-local"
                   class="input input-bordered w-full"
-                  bind:value={row.end}
+                  value={item.end}
                 /></td
               >
               <td
                 ><input
                   class="input input-bordered w-full"
-                  bind:value={row.location}
+                  value={item.location}
                 /></td
               >
               <td
                 ><input
                   class="input input-bordered w-full"
-                  bind:value={row.article_url}
+                  value={item.article_url}
                 /></td
               >
               <td>
                 <button
                   class="btn btn-square btn-xs bg-transparent border-transparent"
-                  on:click={() => deleteLine(row)}
+                  on:click={() => deleteLine(item)}
                 >
                   <i class="material-icons text-error">&#xe872;</i>
                 </button>
@@ -242,12 +260,12 @@
     </div>
 
     <button
-      class="btn mt-4"
+      class="btn mt-4 mx-8"
       on:click={() => (window.location.href = "/creationChatbot/finish")}
       on:click={updateJSON}>Next</button
     >
   </div>
-  <div class="m-12">
-    <Step currentstep={2} />
+  <div class="mt-14">
+    <Step currentstep={2} stepOrientation={"horizontal"} display={"flex"} />
   </div>
 </div>
