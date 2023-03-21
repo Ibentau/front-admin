@@ -9,7 +9,19 @@
     zip.file("data.json", blobJSON);
 
     // Add the docker-compose.yml file to the zip file
-    const dockercompose: string = "";
+    const dockercompose: string = `version: '3.0'
+services:
+  rasa_action:
+    image: ghcr.io/ibentau/rasa-backend/actions:main
+    volumes:
+      - ./config.json:/app/config.json
+  rasa_model:
+    image: ghcr.io/ibentau/rasa-backend/rasa-model:main
+    ports:
+      - 5005:5005
+    environment:
+      - ACTION_SERVER=rasa_action
+      - ACTION_PORT=5055`;
     zip.file("docker-compose.yml", dockercompose);
 
     zip

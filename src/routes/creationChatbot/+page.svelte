@@ -14,7 +14,7 @@
   let event_end = "";
   let address = "";
   let talks: Speak[];
-  let meals: [];
+  let meals: [] = [];
   let loadChatbot: boolean;
 
   function loadJSON() {

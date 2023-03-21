@@ -1,12 +1,12 @@
 <script lang="ts">
   import Highlight from "$lib/Highlight.svelte";
 
-  import { code1, code2 } from "$lib/snipets";
+  import { code1, coded2 } from "$lib/snipets";
   import type { NameAndColor } from "../../entities/conference";
   const NameAndColor: NameAndColor = JSON.parse(
     sessionStorage.getItem("name&color") as string
   );
-  const code3 = code2(NameAndColor);
+  const code2 = coded2(NameAndColor);
 </script>
 
 <div class="flex flex-col justify-center  h-screen w-1/2 mx-auto">
@@ -26,7 +26,7 @@
       <li class="mt-8">
         Add the following script tag at the end of your HTML file:
       </li>
-      <Highlight code={code3} />
+      <Highlight code={code2} />
     </ol>
   </div>
 </div>
