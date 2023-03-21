@@ -14,6 +14,7 @@
   let event_end = "";
   let address = "";
   let talks: Speak[];
+  let meals: [];
   let loadChatbot: boolean;
 
   function loadJSON() {
@@ -33,6 +34,7 @@
       event_end: event_end,
       address: address,
       talks: talks,
+      meals: meals,
     };
 
     let NameAndColor: NameAndColor = {

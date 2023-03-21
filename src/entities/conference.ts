@@ -3,6 +3,7 @@ export interface Conference {
   event_end: string;
   address: string;
   talks: Speak[];
+  meals: [];
 }
 
 export interface Speak {
