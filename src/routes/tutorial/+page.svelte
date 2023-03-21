@@ -14,11 +14,18 @@
   <div>
     <ol class="list-decimal">
       <li>
+        Unzip the downloaded file and open a terminal in the unzipped folder.
+        Run the following command:
+      </li>
+      <Highlight code={"docker-compose up"} />
+      <li class="mt-8">
         Add the following script and link tag to the head of your HTML file:
       </li>
       <Highlight code={code1} />
 
-      <li>Add the following script tag at the end of your HTML file:</li>
+      <li class="mt-8">
+        Add the following script tag at the end of your HTML file:
+      </li>
       <Highlight code={code3} />
     </ol>
   </div>
