@@ -1,0 +1,864 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//researchr.org//conf.researchr.org//EN
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+DTSTART:20220613T080000Z
+DTEND:20220613T083000Z
+DTSTAMP:20230321T132644Z
+UID:bc3c368d-48e7-4f16-8be8-47668f7093b7@conf.researchr.org
+CREATED:20220504T133035Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:2 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T190858Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220613T100000Z
+DTEND:20220613T113000Z
+DTSTAMP:20230321T132644Z
+UID:8e749eac-2e13-464a-bc8a-50397c94c756@conf.researchr.org
+CREATED:20220504T133110Z
+SUMMARY:[ICT4S Catering] Lunch
+DESCRIPTION:Lunch
+LOCATION:Restaurant - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T191235Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220613T130000Z
+DTEND:20220613T133000Z
+DTSTAMP:20230321T132644Z
+UID:85162e45-cf10-4c87-b26d-b3589480fbec@conf.researchr.org
+CREATED:20220504T133035Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:2 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T190912Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T063000Z
+DTEND:20220614T070000Z
+DTSTAMP:20230321T132644Z
+UID:05e0a266-3238-45e6-998a-eac2ed7f427e@conf.researchr.org
+CREATED:20220517T123259Z
+SUMMARY:[ICT4S Research Papers] Finding Significant Differences in the Energy Consumption when Comparing Programming Languages and Programs.  - Lukas Koedijk\, Ana Maria Oprescu
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T114957Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T070000Z
+DTEND:20220614T073000Z
+DTSTAMP:20230321T132644Z
+UID:adaee256-0c57-4322-b7dc-1cd0654cbdfd@conf.researchr.org
+CREATED:20220517T123259Z
+SUMMARY:[ICT4S Research Papers] WebAssembly versus JavaScript: Energy and Runtime Performance - João de Macedo\, João Saraiva\, Rui Pereira\, Rui Abreu
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T114957Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T073000Z
+DTEND:20220614T080000Z
+DTSTAMP:20230321T132644Z
+UID:2c5f0711-08d2-4a4f-859d-9e889e3f1a7b@conf.researchr.org
+CREATED:20220520T114813Z
+SUMMARY:[ICT4S Research Papers]  Energy Cost and Accuracy Impact of K-Anonymity - Ana Maria Oprescu\, Sander Misdorp\, Koen van Elsen
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T115043Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T063000Z
+DTEND:20220614T070000Z
+DTSTAMP:20230321T132644Z
+UID:3e35b65e-a972-4a23-a2fc-fd872c0323c0@conf.researchr.org
+CREATED:20220517T123249Z
+SUMMARY:[ICT4S Research Papers] Music Within Limits.  - Yann Seznec
+DESCRIPTION:The creation of music relies heavily on\, and is tightly intertwined with\, mass production and industrialisation\, making it virtually inseparable from many of the fundamental issues that make up the climate crisis today. Music (and the arts more generally) has the potential to play a role in influencing behaviour and effecting structural change by showcasing the issues at play and raising awareness around the magnitude of the crisis. However\, digital music making contains an embedded political ecology and problematic history which must be assessed and acknowledged in order to effectively leverage this power. Therefore this paper will situate digital music within a cultural history of industrialisation\, with all of the ecology contained therein. Building upon this\, a set of approaches will be laid out that draw from established ICT4S concepts of limits theory and heuristic design\, combined with artistic practice\, proposing potential ways forward that will encourage digital music making to move towards a sustainable future and position musical tools to challenge societal norms.
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220613T104832Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T070000Z
+DTEND:20220614T073000Z
+DTSTAMP:20230321T132644Z
+UID:c51ce24d-c02b-4d62-adff-0361882199b8@conf.researchr.org
+CREATED:20220517T123249Z
+SUMMARY:[ICT4S Research Papers] Towards considering Planetary Boundaries in Life Cycle Assessments of ICT.  - Pernilla Bergmark\, Gustaf Zachrisson
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185214Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T073000Z
+DTEND:20220614T080000Z
+DTSTAMP:20230321T132644Z
+UID:9eb75269-15d9-4168-9962-1c409a662f80@conf.researchr.org
+CREATED:20220517T123249Z
+SUMMARY:[ICT4S Research Papers] Decarbonization Potential of Building Automation: Results from a German Survey and Outlook.  - Severin Beucker\, Simon Hinterholzer
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185214Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T080000Z
+DTEND:20220614T083000Z
+DTSTAMP:20230321T132644Z
+UID:fcf474ab-3067-43d6-93ad-7da398ea5e21@conf.researchr.org
+CREATED:20220504T153951Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T184901Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T083000Z
+DTEND:20220614T100000Z
+DTSTAMP:20230321T132644Z
+UID:ecb0697b-9a2a-47bb-b1fd-8ffcd596f24c@conf.researchr.org
+CREATED:20220504T140048Z
+SUMMARY:[ICT4S Keynotes] “Our Stories\, our voices”: A feminist toolkit for digital justice in the urban margins - Ayona Datta
+DESCRIPTION:In this lecture\, Ayona Datta will present a feminist toolkit as a pathway to digital justice in the urban margins. This is in a context where despite a digital revolution in the global south\, young people living in low-income neighborhoods find themselves unable to benefit from top-down technological solutions – not least because these technologies do not reach them\, but also because these technologies are often used by the state to surveil and further disempower them. In their project in New Delhi\, Ayona and her research team focussed on the mobile phone as an interface between digital and urban realms\, that could help women innovate through WhatsApp messages\, selfies\, poetry and podcasts to document and articulate their everyday struggles during the COVID crisis. The feminist toolkit that emerged from these interactions is a loose collection of mechanisms\, instruments\, and guidelines to push back against digital power and authority. The toolkit uses indigenous forms of expression and knowledge\, by underlining the affective and resistant potential of data through the anger\, joy\, freedom and despair to create new forms of decentralised\, fragmented and low-tech co-optations from below.
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T172002Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T100000Z
+DTEND:20220614T114500Z
+DTSTAMP:20230321T132644Z
+UID:98913e75-de0f-4cd7-bec2-308fdfc595fa@conf.researchr.org
+CREATED:20220504T153944Z
+SUMMARY:[ICT4S Catering] Lunch
+DESCRIPTION:Lunch
+LOCATION:Restaurant - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T190857Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T115700Z
+DTEND:20220614T120900Z
+DTSTAMP:20230321T132644Z
+UID:e56895f8-3d32-4af9-abec-839d4914d4b1@conf.researchr.org
+CREATED:20220523T080048Z
+SUMMARY:[ICT4S Demonstrations and Posters] A Roadmap Towards Building a National Smart Campus: An Ecosystem Approach - Larry Abdullai\, Jari Porras\, Sanaul Haque
+DESCRIPTION:Larry Abdullai\, Jari Porras and Sanaul Haque
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125318Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T120900Z
+DTEND:20220614T122100Z
+DTSTAMP:20230321T132644Z
+UID:1f1c433b-74ef-46a7-8162-d21d3e0dff68@conf.researchr.org
+CREATED:20220523T080048Z
+SUMMARY:[ICT4S Demonstrations and Posters] Energy Consumption and Performance of Heapsort in Hardware and Software.  - Maja Kirkeby\, Thomas Krabben\, Mathias Larsen\, Maria Bendix Mikkelsen\, Mads Rosendahl\, Martin Sundman\, Tjark Petersen\, Martin Schoeberl
+DESCRIPTION:Maja Kirkeby\, Thomas Krabben\, Mathias Larsen\, Maria Bendix Mikkelsen\, Mads Rosendahl\, Martin Sundman\, Tjark Petersen and Martin Schoeberl
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125351Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T122100Z
+DTEND:20220614T123300Z
+DTSTAMP:20230321T132644Z
+UID:0306cf31-0e34-4235-b0f8-70c291334379@conf.researchr.org
+CREATED:20220523T080048Z
+SUMMARY:[ICT4S Demonstrations and Posters] MANAi - An IntelliJ Plugin for Software Energy Consumption Profiling.  - Andreas Schuler\, Gabriele Anderst-Kotsis
+DESCRIPTION:Andreas Schuler and Gabriele Kotsis
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125456Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T123300Z
+DTEND:20220614T124500Z
+DTSTAMP:20230321T132644Z
+UID:4e10a314-0366-4c90-8da4-0d369f95cf98@conf.researchr.org
+CREATED:20220523T080048Z
+SUMMARY:[ICT4S Demonstrations and Posters] Towards sustainability assessment of artificial intelligence in artistic practices.  - Petra Jääskeläinen\, Daniel Pargman\, André Holzapfel
+DESCRIPTION:Petra Jääskeläinen\, Daniel Pargman and André Holzapfel
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125519Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T124500Z
+DTEND:20220614T125615Z
+DTSTAMP:20230321T132644Z
+UID:deff5da3-0841-46d9-83dc-a52614d58630@conf.researchr.org
+CREATED:20220523T081803Z
+SUMMARY:[ICT4S Demonstrations and Posters] A Roadmap Towards Building a National Smart Campus: An Ecosystem Approach - Larry Abdullai\, Jari Porras\, Sanaul Haque
+DESCRIPTION:Larry Abdullai\, Jari Porras and Sanaul Haque
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125318Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T125615Z
+DTEND:20220614T130730Z
+DTSTAMP:20230321T132644Z
+UID:76c904b4-8335-4dbd-bd76-ccac9955a92f@conf.researchr.org
+CREATED:20220523T081803Z
+SUMMARY:[ICT4S Demonstrations and Posters] Energy Consumption and Performance of Heapsort in Hardware and Software.  - Maja Kirkeby\, Thomas Krabben\, Mathias Larsen\, Maria Bendix Mikkelsen\, Mads Rosendahl\, Martin Sundman\, Tjark Petersen\, Martin Schoeberl
+DESCRIPTION:Maja Kirkeby\, Thomas Krabben\, Mathias Larsen\, Maria Bendix Mikkelsen\, Mads Rosendahl\, Martin Sundman\, Tjark Petersen and Martin Schoeberl
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125351Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T130730Z
+DTEND:20220614T131845Z
+DTSTAMP:20230321T132644Z
+UID:f93e353e-4a7b-4a14-ab34-dd12f717e047@conf.researchr.org
+CREATED:20220523T081803Z
+SUMMARY:[ICT4S Demonstrations and Posters] MANAi - An IntelliJ Plugin for Software Energy Consumption Profiling.  - Andreas Schuler\, Gabriele Anderst-Kotsis
+DESCRIPTION:Andreas Schuler and Gabriele Kotsis
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125456Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T131845Z
+DTEND:20220614T133000Z
+DTSTAMP:20230321T132644Z
+UID:52840069-036d-4e6c-b304-49834d515a86@conf.researchr.org
+CREATED:20220523T081803Z
+SUMMARY:[ICT4S Demonstrations and Posters] Towards sustainability assessment of artificial intelligence in artistic practices.  - Petra Jääskeläinen\, Daniel Pargman\, André Holzapfel
+DESCRIPTION:Petra Jääskeläinen\, Daniel Pargman and André Holzapfel
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125519Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T124500Z
+DTEND:20220614T133000Z
+DTSTAMP:20230321T132644Z
+UID:65c21cfd-e8ac-490f-9518-24018feaaf5b@conf.researchr.org
+CREATED:20220504T154223Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T184919Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T133000Z
+DTEND:20220614T140000Z
+DTSTAMP:20230321T132644Z
+UID:76228878-afb3-4268-8462-a675b1c8d0d1@conf.researchr.org
+CREATED:20220517T123452Z
+SUMMARY:[ICT4S Research Papers] Addressing students’ eco-anxiety when teaching sustainability in computing education.  - Elina Eriksson\, Anne Peters\, Daniel Pargman\, Björn Hedin\, Minna Laurell-Thorslund\, Sandra Sjöö
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T130529Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T140000Z
+DTEND:20220614T143000Z
+DTSTAMP:20230321T132644Z
+UID:aaa031f3-4d6a-4497-b7d2-ae06dc6674cd@conf.researchr.org
+CREATED:20220517T123452Z
+SUMMARY:[ICT4S Research Papers] Consumer Uptake of Digital Low-Carbon Innovations.  - Charlie Wilson\, Barnaby Andrews\, Emilie Vrain
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T150705Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T143000Z
+DTEND:20220614T150000Z
+DTSTAMP:20230321T132644Z
+UID:19befb51-e06d-4bd9-98f3-315f34d9116c@conf.researchr.org
+CREATED:20220517T123452Z
+SUMMARY:[ICT4S Research Papers] The `Vattn’ Case: Analysing Sustainability Impacts in a Software Startup.  - Susan Lieu\, Adelric Wong\, Birgit Penzenstadler
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T183033Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T133000Z
+DTEND:20220614T140000Z
+DTSTAMP:20230321T132644Z
+UID:43fb5bf7-bd3c-49ed-99f0-366c23dcb754@conf.researchr.org
+CREATED:20220517T123524Z
+SUMMARY:[ICT4S Research Papers] Data-Centric Green AI: An Exploratory Empirical Study. - Roberto Verdecchia\, Luís Cruz\, June Sallou\, Michelle Lin\, James Wickenden\, Estelle Hotellier
+DESCRIPTION:With the growing availability of large-scale datasets\, and the popularization of affordable storage and computational capabilities\, the energy consumed by AI is becoming a growing concern. To address this issue\, in recent years\, studies have focused on demonstrating how AI energy efficiency can be improved by tuning the model training strategy. Nevertheless\, how modifications applied to datasets can impact the energy consumption of AI is still an open question. To fill this gap\, in this exploratory study\, we evaluate if datacentric approaches can be utilized to improve AI energy efficiency. To achieve our goal\, we conduct an empirical experiment\, executed by considering 6 different AI algorithms\, a dataset comprising 5\,574 data points\, and two dataset modifications (number of data points and number of features). Our results show evidence that\, by exclusively conducting modifications on datasets\, energy consumption can be drastically reduced (up to 92.16%)\, often at the cost of a negligible or even absent accuracy decline. As additional introductory results\, we demonstrate how\, by exclusively changing the algorithm used\, energy savings up to two orders of magnitude can be achieved. In conclusion\, this exploratory investigation empirically demonstrates the importance of applying data-centric techniques to improve AI energy efficiency. Our results call for a research agenda that focuses on data-centric techniques\, to further enable and democratize Green AI.
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T115043Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T140000Z
+DTEND:20220614T143000Z
+DTSTAMP:20230321T132644Z
+UID:b4b5bf9a-59ad-4f80-bd86-c4a48dad9069@conf.researchr.org
+CREATED:20220518T152712Z
+SUMMARY:[ICT4S Research Papers] Analysing the energy impact of different optimisations for machine learning models.  - Maria Gutierrez\, Felix García\, Mª Angeles Moraga
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T115043Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T143000Z
+DTEND:20220614T150000Z
+DTSTAMP:20230321T132644Z
+UID:eae7ac94-d563-4541-8f5a-a77a66d5186d@conf.researchr.org
+CREATED:20220520T115043Z
+SUMMARY:[ICT4S Research Papers] Assessing the embodied carbon footprint of IoT edge devices with a bottom-up life-cycle approach - Thibault Pirson\, David Bol
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T115043Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T133000Z
+DTEND:20220614T140000Z
+DTSTAMP:20230321T132644Z
+UID:8ad9646b-6d84-4a1a-8dc5-d25a4ebdb5a0@conf.researchr.org
+CREATED:20220517T190341Z
+SUMMARY:[ICT4S Research Papers] From (e-)wasteland to Repair Society: Exploring ICT repair through speculative scenarios.  - Minna Laurell-Thorslund\, Sahra Svensson-Hoglund\, Daniel Pargman\, Elina Eriksson
+DESCRIPTION:
+LOCATION:305 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220518T153042Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T140000Z
+DTEND:20220614T143000Z
+DTSTAMP:20230321T132644Z
+UID:c257c327-ddd3-4c49-b79e-259498bcf494@conf.researchr.org
+CREATED:20220518T152808Z
+SUMMARY:[ICT4S Research Papers] Green IT and Green Software - Roberto Verdecchia\, Patricia Lago\, Christof Ebert\, Carol de Vries
+DESCRIPTION:Ecologic behavior is the need across the world to mitigate impacts of climate change. Software and IT play a pivotal role towards ecologic behaviors for many reasons. Being aware that IT systems alone already consume 10% of global electricity\, the leading software practitioners must embark on green IT and green coding.
+LOCATION:305 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220518T153038Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T133000Z
+DTEND:20220614T140000Z
+DTSTAMP:20230321T132644Z
+UID:5a5c0414-f3cb-4e11-bfe5-1fb1afd3a2ca@conf.researchr.org
+CREATED:20220517T123552Z
+SUMMARY:[ICT4S Research Papers] Designing a Mobility Intelligence System for Decision-making with Shared Mobility Data.  - Lukas Böhm\, Felix Peters\, Paul Bossauer\, Dennis Lawo\, Christina Pakusch\, Gunnar Stevens
+DESCRIPTION:
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185541Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T140000Z
+DTEND:20220614T143000Z
+DTSTAMP:20230321T132644Z
+UID:ae04b6b6-f9cc-4e9c-a7b0-71495b5d9e7e@conf.researchr.org
+CREATED:20220517T123552Z
+SUMMARY:[ICT4S Research Papers] From micro behaviors to macro effects - Agent Based Modeling of environmental awareness spread and its effects on critical resource consumption. - Giovanna Sissa\, Giovanni Franza
+DESCRIPTION:
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T190341Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T143000Z
+DTEND:20220614T150000Z
+DTSTAMP:20230321T132644Z
+UID:b03a73c6-303c-40f9-94bf-11d5f2299e19@conf.researchr.org
+CREATED:20220517T123552Z
+SUMMARY:[ICT4S Research Papers] Let’s Start Reducing the Carbon Footprint of Academic Conferences.  - Markus Funke\, Patricia Lago
+DESCRIPTION:The COVID-19 pandemic forced researchers to move academic conferences to a virtual format\; but also brought attention back to the carbon footprint of their physical format. In general\, while conferences can follow different formats with a different carbon footprint\, the related factors of influence remain unclear\, hence hindering informed decisions on how to organize and attend them. \nThis work provides a preliminary study of the carbon footprint of academic conferences and the trade-offs between alternative conference types. First\, we conducted a systematic literature review (SLR) to identify factors that contribute to the carbon footprint of on-site\, virtual\, and hybrid conferences. Second\, we conducted an interview survey among steering committee members of a pilot of prominent international conferences to complement the SLR. \nThere is agreement in the literature and the research community that on-site conferences suffer from travel-related emissions among many other factors. While the on-site type benefits from strong networking possibilities\, the virtual and hybrid types can reduce carbon emissions significantly. Notwithstanding\, we miss a generic framework that accounts for all revealed carbon footprint factors in each conference type. Also\, compared to carbon offsetting\, carbon handprinting as a footprint reduction option is considered in neither the literature nor the research community. Among the results\, we provide a first sustainability model to compare current and future conference types according to their sustainability trade-offs. The model can be used as a decision-making tool by\, e.g.\, conference organizers.
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220608T143714Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220614T160000Z
+DTEND:20220614T200000Z
+DTSTAMP:20230321T132644Z
+UID:f7ab4898-452e-4d6d-a1eb-b3b4fb2d3056@conf.researchr.org
+CREATED:20220504T154718Z
+SUMMARY:[ICT4S Catering] Dinner
+DESCRIPTION:Dinner
+LOCATION:Restaurant - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T191333Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T060000Z
+DTEND:20220615T063000Z
+DTSTAMP:20230321T132644Z
+UID:d4769f4c-ad88-4752-adc7-8e660e40f19c@conf.researchr.org
+CREATED:20220517T125341Z
+SUMMARY:[ICT4S Research Papers] Consumer Uptake of Digital Low-Carbon Innovations.  - Charlie Wilson\, Barnaby Andrews\, Emilie Vrain
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185147Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T063000Z
+DTEND:20220615T070000Z
+DTSTAMP:20230321T132644Z
+UID:262c079d-73ce-4671-af4e-449c2914ccaa@conf.researchr.org
+CREATED:20220517T125341Z
+SUMMARY:[ICT4S Research Papers] The `Vattn’ Case: Analysing Sustainability Impacts in a Software Startup.  - Susan Lieu\, Adelric Wong\, Birgit Penzenstadler
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185147Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T070000Z
+DTEND:20220615T073000Z
+DTSTAMP:20230321T132644Z
+UID:9ddd8d8c-80f6-4be7-97dc-97957008420c@conf.researchr.org
+CREATED:20220517T125341Z
+SUMMARY:[ICT4S Research Papers] Addressing students’ eco-anxiety when teaching sustainability in computing education.  - Elina Eriksson\, Anne Peters\, Daniel Pargman\, Björn Hedin\, Minna Laurell-Thorslund\, Sandra Sjöö
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185147Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T060000Z
+DTEND:20220615T063000Z
+DTSTAMP:20230321T132644Z
+UID:482b3f62-fc0e-4cb2-bbef-74f562f272d2@conf.researchr.org
+CREATED:20220517T125523Z
+SUMMARY:[ICT4S Research Papers] From micro behaviors to macro effects - Agent Based Modeling of environmental awareness spread and its effects on critical resource consumption. - Giovanna Sissa\, Giovanni Franza
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T190341Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T063000Z
+DTEND:20220615T070000Z
+DTSTAMP:20230321T132644Z
+UID:7b7f70de-85c4-4b89-9ea4-6ff83c2dd1ea@conf.researchr.org
+CREATED:20220517T125523Z
+SUMMARY:[ICT4S Research Papers] Designing a Mobility Intelligence System for Decision-making with Shared Mobility Data.  - Lukas Böhm\, Felix Peters\, Paul Bossauer\, Dennis Lawo\, Christina Pakusch\, Gunnar Stevens
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185405Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T070000Z
+DTEND:20220615T073000Z
+DTSTAMP:20230321T132644Z
+UID:0c36b15f-c5c3-4dba-8705-498dc226ffb3@conf.researchr.org
+CREATED:20220517T125523Z
+SUMMARY:[ICT4S Research Papers] Let’s Start Reducing the Carbon Footprint of Academic Conferences.  - Markus Funke\, Patricia Lago
+DESCRIPTION:The COVID-19 pandemic forced researchers to move academic conferences to a virtual format\; but also brought attention back to the carbon footprint of their physical format. In general\, while conferences can follow different formats with a different carbon footprint\, the related factors of influence remain unclear\, hence hindering informed decisions on how to organize and attend them. \nThis work provides a preliminary study of the carbon footprint of academic conferences and the trade-offs between alternative conference types. First\, we conducted a systematic literature review (SLR) to identify factors that contribute to the carbon footprint of on-site\, virtual\, and hybrid conferences. Second\, we conducted an interview survey among steering committee members of a pilot of prominent international conferences to complement the SLR. \nThere is agreement in the literature and the research community that on-site conferences suffer from travel-related emissions among many other factors. While the on-site type benefits from strong networking possibilities\, the virtual and hybrid types can reduce carbon emissions significantly. Notwithstanding\, we miss a generic framework that accounts for all revealed carbon footprint factors in each conference type. Also\, compared to carbon offsetting\, carbon handprinting as a footprint reduction option is considered in neither the literature nor the research community. Among the results\, we provide a first sustainability model to compare current and future conference types according to their sustainability trade-offs. The model can be used as a decision-making tool by\, e.g.\, conference organizers.
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220608T143714Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T073000Z
+DTEND:20220615T080000Z
+DTSTAMP:20230321T132644Z
+UID:6d8e5148-33e0-48ec-bf5b-1cd54042f864@conf.researchr.org
+CREATED:20220504T154401Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T184931Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T080000Z
+DTEND:20220615T100000Z
+DTSTAMP:20230321T132644Z
+UID:0103cfce-0fc6-4138-b9f2-15992982a1ec@conf.researchr.org
+CREATED:20220504T183544Z
+SUMMARY:[ICT4S Keynotes] The Role of Policymaking in Orienting ICT Towards Sustainability Goals - Narmine Abou Bakari\, Andreas Goldthau\, David de Francisco
+DESCRIPTION:Policymakers are deeply involved in steering the development of ICT towards sustainability goals. This policy keynote will include presentations on policymaking as it relates to Artificial Intelligence\, Global Energy\, and Digital Rights. The speakers will then engage in a roundtable discussion on cross-cutting issues.
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220518T181513Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T100000Z
+DTEND:20220615T114500Z
+DTSTAMP:20230321T132644Z
+UID:6eebf618-bd0e-442d-bd1b-e384b26b3093@conf.researchr.org
+CREATED:20220504T154407Z
+SUMMARY:[ICT4S Catering] Lunch
+DESCRIPTION:Lunch
+LOCATION:Restaurant - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T190903Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T115700Z
+DTEND:20220615T120900Z
+DTSTAMP:20230321T132644Z
+UID:9eefffda-fad3-4548-857f-a6c3dc683896@conf.researchr.org
+CREATED:20220523T080424Z
+SUMMARY:[ICT4S Demonstrations and Posters] CSRE4SOC (CSR evaluation for software companies).  - Elisa Jimenez\, Coral Calero\, Mª Angeles Moraga
+DESCRIPTION:Elisa Jimenez\, Coral Calero and Mª Ángeles Moraga
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125614Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T120900Z
+DTEND:20220615T122100Z
+DTSTAMP:20230321T132644Z
+UID:52cd4bfd-49be-4d8d-b547-ebff31e2a6af@conf.researchr.org
+CREATED:20220523T080424Z
+SUMMARY:[ICT4S Demonstrations and Posters] Key enabling technologies for a circular economy - Juan José Ortega Gras\, Maria Victoria Bueno Delgado\, Gregorio Cañavate Cruzado\, Josefina Garrido Lova
+DESCRIPTION:Juan José Ortega Gras\, Maria Victoria Bueno Delgado\, Gregorio Cañavate Cruzado and Josefina Garrido Lova
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125713Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T122100Z
+DTEND:20220615T123300Z
+DTSTAMP:20230321T132644Z
+UID:58371ba8-54aa-4209-b38f-940184e5ec42@conf.researchr.org
+CREATED:20220523T080424Z
+SUMMARY:[ICT4S Demonstrations and Posters] Software Sustainability: A Design Case for Achieving Sustainable Pension Services in Developing Country.  - Mikhail Ola Adisa\, Shola Oyedeji\, Jari Porras
+DESCRIPTION:Mikhail Ola Adisa\, Shola Oyedeji and Jari Porras
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125506Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T123300Z
+DTEND:20220615T124500Z
+DTSTAMP:20230321T132644Z
+UID:448b0f5b-ad48-464d-9691-28df98c5fdf5@conf.researchr.org
+CREATED:20220523T080424Z
+SUMMARY:[ICT4S Demonstrations and Posters] Waste Management Hackathon Providing New Ideas to Increase Citizen Awareness\, Motivation and Engagement.  - Inna Sosunova\, Jari Porras\, Ekaterina Makarova\, Andrei Rybin
+DESCRIPTION:Inna Sosunova\, Jari Porras\, Ekaterina Makarova and Andrei Rybin
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125536Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T124500Z
+DTEND:20220615T125615Z
+DTSTAMP:20230321T132644Z
+UID:8fd78da5-d57b-446a-a920-1d56b2813186@conf.researchr.org
+CREATED:20220523T081640Z
+SUMMARY:[ICT4S Demonstrations and Posters] CSRE4SOC (CSR evaluation for software companies).  - Elisa Jimenez\, Coral Calero\, Mª Angeles Moraga
+DESCRIPTION:Elisa Jimenez\, Coral Calero and Mª Ángeles Moraga
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125614Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T125615Z
+DTEND:20220615T130730Z
+DTSTAMP:20230321T132644Z
+UID:e1634195-bcbe-42d4-b30c-8c6b56330d72@conf.researchr.org
+CREATED:20220523T081640Z
+SUMMARY:[ICT4S Demonstrations and Posters] Key enabling technologies for a circular economy - Juan José Ortega Gras\, Maria Victoria Bueno Delgado\, Gregorio Cañavate Cruzado\, Josefina Garrido Lova
+DESCRIPTION:Juan José Ortega Gras\, Maria Victoria Bueno Delgado\, Gregorio Cañavate Cruzado and Josefina Garrido Lova
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125713Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T130730Z
+DTEND:20220615T131845Z
+DTSTAMP:20230321T132644Z
+UID:a6975247-54c4-49da-b04d-8cdb9aa88bb5@conf.researchr.org
+CREATED:20220523T081640Z
+SUMMARY:[ICT4S Demonstrations and Posters] Software Sustainability: A Design Case for Achieving Sustainable Pension Services in Developing Country.  - Mikhail Ola Adisa\, Shola Oyedeji\, Jari Porras
+DESCRIPTION:Mikhail Ola Adisa\, Shola Oyedeji and Jari Porras
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125506Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T131845Z
+DTEND:20220615T133000Z
+DTSTAMP:20230321T132644Z
+UID:d73b3d97-6c69-4a5c-b00a-a547f4670aa3@conf.researchr.org
+CREATED:20220523T081640Z
+SUMMARY:[ICT4S Demonstrations and Posters] Waste Management Hackathon Providing New Ideas to Increase Citizen Awareness\, Motivation and Engagement.  - Inna Sosunova\, Jari Porras\, Ekaterina Makarova\, Andrei Rybin
+DESCRIPTION:Inna Sosunova\, Jari Porras\, Ekaterina Makarova and Andrei Rybin
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20221206T125536Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T124500Z
+DTEND:20220615T133000Z
+DTSTAMP:20230321T132644Z
+UID:89d29803-1b5c-4cd4-8a36-c39610e7bd56@conf.researchr.org
+CREATED:20220504T154411Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T184942Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T133000Z
+DTEND:20220615T140000Z
+DTSTAMP:20230321T132644Z
+UID:a4a517ac-ff50-4c91-bf8f-802bdb9e4d08@conf.researchr.org
+CREATED:20220517T125319Z
+SUMMARY:[ICT4S Research Papers] Finding Significant Differences in the Energy Consumption when Comparing Programming Languages and Programs.  - Lukas Koedijk\, Ana Maria Oprescu
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T114957Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T140000Z
+DTEND:20220615T143000Z
+DTSTAMP:20230321T132644Z
+UID:1dd7edad-12c4-4133-9e82-75f677bf882b@conf.researchr.org
+CREATED:20220517T125319Z
+SUMMARY:[ICT4S Research Papers] WebAssembly versus JavaScript: Energy and Runtime Performance - João de Macedo\, João Saraiva\, Rui Pereira\, Rui Abreu
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T114957Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T143000Z
+DTEND:20220615T150000Z
+DTSTAMP:20230321T132644Z
+UID:209dc0d7-b641-48ad-891b-8b6af22841b4@conf.researchr.org
+CREATED:20220520T114957Z
+SUMMARY:[ICT4S Research Papers]  Energy Cost and Accuracy Impact of K-Anonymity - Ana Maria Oprescu\, Sander Misdorp\, Koen van Elsen
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T115043Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T133000Z
+DTEND:20220615T140000Z
+DTSTAMP:20230321T132644Z
+UID:a666ea01-0f7e-4a57-b154-54f6c87b6b57@conf.researchr.org
+CREATED:20220517T125509Z
+SUMMARY:[ICT4S Research Papers] Music Within Limits.  - Yann Seznec
+DESCRIPTION:The creation of music relies heavily on\, and is tightly intertwined with\, mass production and industrialisation\, making it virtually inseparable from many of the fundamental issues that make up the climate crisis today. Music (and the arts more generally) has the potential to play a role in influencing behaviour and effecting structural change by showcasing the issues at play and raising awareness around the magnitude of the crisis. However\, digital music making contains an embedded political ecology and problematic history which must be assessed and acknowledged in order to effectively leverage this power. Therefore this paper will situate digital music within a cultural history of industrialisation\, with all of the ecology contained therein. Building upon this\, a set of approaches will be laid out that draw from established ICT4S concepts of limits theory and heuristic design\, combined with artistic practice\, proposing potential ways forward that will encourage digital music making to move towards a sustainable future and position musical tools to challenge societal norms.
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220613T104832Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T140000Z
+DTEND:20220615T143000Z
+DTSTAMP:20230321T132644Z
+UID:0cae2b1f-f211-4b36-b1aa-cf4a698e56e4@conf.researchr.org
+CREATED:20220517T125509Z
+SUMMARY:[ICT4S Research Papers] Towards considering Planetary Boundaries in Life Cycle Assessments of ICT.  - Pernilla Bergmark\, Gustaf Zachrisson
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T183120Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T143000Z
+DTEND:20220615T150000Z
+DTSTAMP:20230321T132644Z
+UID:02f732ec-b088-4006-91c5-f2284aff5f7e@conf.researchr.org
+CREATED:20220517T125509Z
+SUMMARY:[ICT4S Research Papers] Decarbonization Potential of Building Automation: Results from a German Survey and Outlook.  - Severin Beucker\, Simon Hinterholzer
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T151221Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T133000Z
+DTEND:20220615T140000Z
+DTSTAMP:20230321T132644Z
+UID:30cf393c-c92f-4d22-867c-1eb6a692c33f@conf.researchr.org
+CREATED:20220517T125557Z
+SUMMARY:[ICT4S Research Papers] Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud.  - Sophie Vos\, Patricia Lago\, Roberto Verdecchia\, Ilja Heitlager
+DESCRIPTION:A promise of cloud computing is the reduction of energy footprint enabled by economies of scale. Unfortunately\, little research is available on how cloud consumers can reduce their energy footprint when running software in the public cloud. Moreover\, cloud consumers do not have full access to information regarding their cloud infrastructure usage\, which is required to understand the impact of design decisions on energy usage. The purpose of our study is to support cloud consumers in developing energy-efficient workloads in the public cloud. To achieve our goal\, we collaborated with a large cloud solution provider to discover an initial set of reusable architectural tactics for software energy efficiency. Starting from interviews with 17 practitioners\, we reviewed and selected available tactics to improve the energy efficiency of individual workloads in the public cloud\, and synthetized the identified tactics in a reusable model. In addition\, we conducted a case study to assess the impact of utilizing a tactic\, which was selected following a prioritization provided by the practitioners. Our results demonstrate the possibility to architect cloud workloads for energy efficiency through reasoning and estimation of resource optimization. However\, the process is not (yet) straightforward due to the current lack of transparency of cloud providers.
+LOCATION:305 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220616T180721Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T140000Z
+DTEND:20220615T143000Z
+DTSTAMP:20230321T132644Z
+UID:1b25dbe2-51a5-401b-8558-f3f01451c9fe@conf.researchr.org
+CREATED:20220517T125557Z
+SUMMARY:[ICT4S Research Papers] An impact inheritance approach to the estimation of the carbon footprints of economic activities.  - Francis CHARPENTIER
+DESCRIPTION:
+LOCATION:305 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T145653Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T143000Z
+DTEND:20220615T150000Z
+DTSTAMP:20230321T132644Z
+UID:c53bcdf6-718b-4d24-953b-ee6eab5dc6d2@conf.researchr.org
+CREATED:20220517T125557Z
+SUMMARY:[ICT4S Research Papers] Sustainability in Agile Software Development: A Survey Study among Practitioners.  - Peter Bambazek\, Iris Groher\, Norbert Seyff
+DESCRIPTION:
+LOCATION:305 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T182921Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220615T160000Z
+DTEND:20220615T200000Z
+DTSTAMP:20230321T132644Z
+UID:c7bcf34a-6e14-4e45-a851-a974a6ab0be1@conf.researchr.org
+CREATED:20220504T154240Z
+SUMMARY:[ICT4S Catering] Dinner
+DESCRIPTION:Dinner
+LOCATION:Restaurant - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T191348Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T060000Z
+DTEND:20220616T063000Z
+DTSTAMP:20230321T132644Z
+UID:2aee1e0e-6543-480c-bd36-2854a431aa3d@conf.researchr.org
+CREATED:20220517T125357Z
+SUMMARY:[ICT4S Research Papers] Data-Centric Green AI: An Exploratory Empirical Study. - Roberto Verdecchia\, Luís Cruz\, June Sallou\, Michelle Lin\, James Wickenden\, Estelle Hotellier
+DESCRIPTION:With the growing availability of large-scale datasets\, and the popularization of affordable storage and computational capabilities\, the energy consumed by AI is becoming a growing concern. To address this issue\, in recent years\, studies have focused on demonstrating how AI energy efficiency can be improved by tuning the model training strategy. Nevertheless\, how modifications applied to datasets can impact the energy consumption of AI is still an open question. To fill this gap\, in this exploratory study\, we evaluate if datacentric approaches can be utilized to improve AI energy efficiency. To achieve our goal\, we conduct an empirical experiment\, executed by considering 6 different AI algorithms\, a dataset comprising 5\,574 data points\, and two dataset modifications (number of data points and number of features). Our results show evidence that\, by exclusively conducting modifications on datasets\, energy consumption can be drastically reduced (up to 92.16%)\, often at the cost of a negligible or even absent accuracy decline. As additional introductory results\, we demonstrate how\, by exclusively changing the algorithm used\, energy savings up to two orders of magnitude can be achieved. In conclusion\, this exploratory investigation empirically demonstrates the importance of applying data-centric techniques to improve AI energy efficiency. Our results call for a research agenda that focuses on data-centric techniques\, to further enable and democratize Green AI.
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T115043Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T063000Z
+DTEND:20220616T070000Z
+DTSTAMP:20230321T132644Z
+UID:84e53846-4d63-4431-91c6-c0505185ae6a@conf.researchr.org
+CREATED:20220518T152731Z
+SUMMARY:[ICT4S Research Papers] Analysing the energy impact of different optimisations for machine learning models.  - Maria Gutierrez\, Felix García\, Mª Angeles Moraga
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T115043Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T070000Z
+DTEND:20220616T073000Z
+DTSTAMP:20230321T132644Z
+UID:e579ff59-4cfc-4620-ad79-5082e9aed82c@conf.researchr.org
+CREATED:20220520T114856Z
+SUMMARY:[ICT4S Research Papers] Assessing the embodied carbon footprint of IoT edge devices with a bottom-up life-cycle approach - Thibault Pirson\, David Bol
+DESCRIPTION:
+LOCATION:205 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220520T115043Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T060000Z
+DTEND:20220616T063000Z
+DTSTAMP:20230321T132644Z
+UID:02a2ce3b-e999-4546-8c40-9a3b68f88024@conf.researchr.org
+CREATED:20220517T125539Z
+SUMMARY:[ICT4S Research Papers] Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud.  - Sophie Vos\, Patricia Lago\, Roberto Verdecchia\, Ilja Heitlager
+DESCRIPTION:A promise of cloud computing is the reduction of energy footprint enabled by economies of scale. Unfortunately\, little research is available on how cloud consumers can reduce their energy footprint when running software in the public cloud. Moreover\, cloud consumers do not have full access to information regarding their cloud infrastructure usage\, which is required to understand the impact of design decisions on energy usage. The purpose of our study is to support cloud consumers in developing energy-efficient workloads in the public cloud. To achieve our goal\, we collaborated with a large cloud solution provider to discover an initial set of reusable architectural tactics for software energy efficiency. Starting from interviews with 17 practitioners\, we reviewed and selected available tactics to improve the energy efficiency of individual workloads in the public cloud\, and synthetized the identified tactics in a reusable model. In addition\, we conducted a case study to assess the impact of utilizing a tactic\, which was selected following a prioritization provided by the practitioners. Our results demonstrate the possibility to architect cloud workloads for energy efficiency through reasoning and estimation of resource optimization. However\, the process is not (yet) straightforward due to the current lack of transparency of cloud providers.
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220616T180721Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T063000Z
+DTEND:20220616T070000Z
+DTSTAMP:20230321T132644Z
+UID:6a8a2d0b-5f29-4314-9f0b-cb8cf4708e2a@conf.researchr.org
+CREATED:20220517T125539Z
+SUMMARY:[ICT4S Research Papers] An impact inheritance approach to the estimation of the carbon footprints of economic activities.  - Francis CHARPENTIER
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185303Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T070000Z
+DTEND:20220616T073000Z
+DTSTAMP:20230321T132644Z
+UID:f2a72593-7044-4ba7-bc3e-7f831933c4b1@conf.researchr.org
+CREATED:20220517T125539Z
+SUMMARY:[ICT4S Research Papers] Sustainability in Agile Software Development: A Survey Study among Practitioners.  - Peter Bambazek\, Iris Groher\, Norbert Seyff
+DESCRIPTION:
+LOCATION:224 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185303Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T060000Z
+DTEND:20220616T063000Z
+DTSTAMP:20230321T132644Z
+UID:20675b9d-9f5f-45e4-a229-2b68bfeec006@conf.researchr.org
+CREATED:20220517T182200Z
+SUMMARY:[ICT4S Research Papers] From (e-)wasteland to Repair Society: Exploring ICT repair through speculative scenarios.  - Minna Laurell-Thorslund\, Sahra Svensson-Hoglund\, Daniel Pargman\, Elina Eriksson
+DESCRIPTION:
+LOCATION:305 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220518T153103Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T063000Z
+DTEND:20220616T070000Z
+DTSTAMP:20230321T132644Z
+UID:328e1e36-6e92-47fd-8980-4905f1b4a1be@conf.researchr.org
+CREATED:20220518T152817Z
+SUMMARY:[ICT4S Research Papers] Green IT and Green Software - Roberto Verdecchia\, Patricia Lago\, Christof Ebert\, Carol de Vries
+DESCRIPTION:Ecologic behavior is the need across the world to mitigate impacts of climate change. Software and IT play a pivotal role towards ecologic behaviors for many reasons. Being aware that IT systems alone already consume 10% of global electricity\, the leading software practitioners must embark on green IT and green coding.
+LOCATION:305 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220518T153111Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T073000Z
+DTEND:20220616T080000Z
+DTSTAMP:20230321T132644Z
+UID:cb8ac240-63ef-4b8e-9124-ee859288b761@conf.researchr.org
+CREATED:20220504T144652Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185019Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T080000Z
+DTEND:20220616T090000Z
+DTSTAMP:20230321T132644Z
+UID:f6c4c6e9-65aa-40f9-a0ab-2f48f14300c0@conf.researchr.org
+CREATED:20220520T141317Z
+SUMMARY:[ICT4S General events] Strategic Interventions: Steering ICT Towards Sustainability - Sarah Barns
+DESCRIPTION: ICT development often appears to follow an inevitable path of progress\, with technologies and strategies simply appearing and then quickly becoming a normal part of our increasingly digtialised world. But through strategic interventions\, ICT development can be aligned with collective goals of social equity\, environmental resilience\, and economic prosperity. In this session\, Sarah Barns will reflect upon the various ways that individuals and organisations can actively steer ICT towards sustainability ends.
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220523T121159Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T090000Z
+DTEND:20220616T100000Z
+DTSTAMP:20230321T132644Z
+UID:7b70d52b-03a0-43fb-8f80-d6933738e112@conf.researchr.org
+CREATED:20220517T190108Z
+SUMMARY:[ICT4S General events] ICT4S collaboration
+DESCRIPTION:
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T190108Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T100000Z
+DTEND:20220616T114500Z
+DTSTAMP:20230321T132644Z
+UID:eedc3907-314e-4599-a1ed-16ba9c731c46@conf.researchr.org
+CREATED:20220504T144725Z
+SUMMARY:[ICT4S Catering] Lunch
+DESCRIPTION:Lunch
+LOCATION:Restaurant - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T190910Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T114500Z
+DTEND:20220616T131500Z
+DTSTAMP:20230321T132644Z
+UID:d6734120-20cb-4a3a-b8b0-cd785f6567fd@conf.researchr.org
+CREATED:20220504T183120Z
+SUMMARY:[ICT4S Keynotes] Creating Better Software by Centering Diversity\, Equity\, and Inclusion - Kelly Blincoe
+DESCRIPTION:TBA
+LOCATION:424 - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T172014Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220616T131500Z
+DTEND:20220616T134500Z
+DTSTAMP:20230321T132644Z
+UID:139e3d2e-f87b-4ece-99f4-2d61fd3155f2@conf.researchr.org
+CREATED:20220504T144714Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185042Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220617T080000Z
+DTEND:20220617T083000Z
+DTSTAMP:20230321T132644Z
+UID:01e807d4-4166-42c5-a712-34fa65c1f065@conf.researchr.org
+CREATED:20220504T133052Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T185803Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220617T100000Z
+DTEND:20220617T113000Z
+DTSTAMP:20230321T132644Z
+UID:93ae0de8-a506-4faa-89bf-fa03bbbaa502@conf.researchr.org
+CREATED:20220504T144424Z
+SUMMARY:[ICT4S Catering] Lunch
+DESCRIPTION:Lunch
+LOCATION:Restaurant - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220526T203015Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220617T130000Z
+DTEND:20220617T133000Z
+DTSTAMP:20230321T132644Z
+UID:301fcf68-e08b-487e-aa7a-30a7d8c0a4cf@conf.researchr.org
+CREATED:20220504T144424Z
+SUMMARY:[ICT4S Catering] Break
+DESCRIPTION:Break
+LOCATION:4 floor - Boulevard "Bulgaria" 236, Plovdiv, Bulgaria
+LAST-MODIFIED:20220517T190051Z
+END:VEVENT
+END:VCALENDAR

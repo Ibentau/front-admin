@@ -113,15 +113,18 @@
           var speaker: string;
           // Condition if no speaker
           if (index == -1) {
-            title = summary;
+            title = summary.trim();
             speaker = "";
           } else {
-            title = summary.substring(0, index);
-            speaker = summary.substring(index + 1);
+            title = summary.substring(0, index).trim();
+            speaker = summary.substring(index + 1).trim();
           }
           const start = dateParser(ev.start);
           const end = dateParser(ev.end);
-          const location = ev.location;
+          const indexOfSecond6DashInLocation = ev.location.indexOf("-", 2);
+          const location = ev.location
+            .substring(0, indexOfSecond6DashInLocation)
+            .trim();
           newLine(null, title, speaker, start, end, location);
         }
       }
@@ -131,7 +134,11 @@
   function parseSpeakers(speaker: string): string[] {
     // speaker : string --> speaker : ArrayList
     // Example : "Jean, Marouane" --> [Jean, Marouane]
-    return speaker.split(",");
+    var speakerArray = speaker.split(",");
+    for (let index = 0; index < speakerArray.length; index++) {
+      speakerArray[index] = speakerArray[index].trim();
+    }
+    return speakerArray;
   }
 
   function dateParser(dateToParse: string) {
