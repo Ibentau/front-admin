@@ -77,6 +77,7 @@
         type="datetime-local"
         placeholder="02/01/2023"
         class="input input-bordered w-full"
+        step="1"
         bind:value={event_start}
       />
     </div>
@@ -87,6 +88,7 @@
       <input
         type="datetime-local"
         class="input input-bordered w-full"
+        step="1"
         bind:value={event_end}
       />
     </div>
