@@ -3,6 +3,7 @@
   import type {
     Conference,
     NameAndColor,
+    Reception,
     Speak,
   } from "../../entities/conference";
   import { page } from "$app/stores";
@@ -13,6 +14,8 @@
   let event_start = "";
   let event_end = "";
   let address = "";
+  let reception: Reception[] = [];
+  let mapLink: string = "";
   let talks: Speak[];
   let meals: [] = [];
   let loadChatbot: boolean;
@@ -25,6 +28,9 @@
     event_end = data.event_end;
     address = data.address;
     talks = data.talks;
+    meals = data.meals;
+    reception = data.reception;
+    mapLink = data.mapLink;
   }
 
   function updateJSON() {
@@ -32,6 +38,8 @@
     let yourData: Conference = {
       event_start: event_start,
       event_end: event_end,
+      reception: reception,
+      mapLink: mapLink,
       address: address,
       talks: talks,
       meals: meals,
@@ -101,6 +109,18 @@
         placeholder="263 Av. Général Leclerc, 35042 Rennes"
         class="input input-bordered w-full"
         bind:value={address}
+      />
+    </div>
+
+    <div class="form-control w-full mt-2">
+      <label for="input" class="label">
+        <span class="label-text">Map Link</span>
+      </label>
+      <input
+        type="url"
+        placeholder="https://www.univ-rennes.fr/plan-du-campus-de-beaulieu"
+        class="input input-bordered w-full"
+        bind:value={mapLink}
       />
     </div>
 

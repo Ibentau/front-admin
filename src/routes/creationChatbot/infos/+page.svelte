@@ -5,13 +5,14 @@
   // import ICalParser, { type ICalJSON } from "ical-js-parser";
   import Step from "$lib/Step.svelte";
   import { onMount } from "svelte";
-  import type { Speak } from "../../../entities/conference";
+  import type { Reception, Speak } from "../../../entities/conference";
   // https://www.npmjs.com/package/ical?activeTab=readme
   import * as ical from "ical";
   import { once } from "svelte/internal";
 
   // Initialize JSON
   let speakers: Speak[] = [];
+  let reception: Reception[] = [];
 
   function newLine(
     _event: any,
@@ -58,6 +59,7 @@
 
     // Save JSON
     yourData.talks = speakers;
+    yourData.reception = reception;
     sessionStorage.setItem("data", JSON.stringify(yourData));
   }
 
@@ -108,24 +110,41 @@
           const summary: string = ev.summary.substring(
             ev.summary.lastIndexOf("]") + 1
           );
-          const index = summary.lastIndexOf("-");
-          var title: string;
+
+          // Initialize parameters
+          var title: string = summary.trim();
           var speaker: string;
-          // Condition if no speaker
-          if (index == -1) {
-            title = summary.trim();
-            speaker = "";
-          } else {
-            title = summary.substring(0, index).trim();
-            speaker = summary.substring(index + 1).trim();
-          }
+          var location = ev.location;
           const start = dateParser(ev.start);
           const end = dateParser(ev.end);
-          const indexOfSecond6DashInLocation = ev.location.indexOf("-", 2);
-          const location = ev.location
-            .substring(0, indexOfSecond6DashInLocation)
-            .trim();
-          newLine(null, title, speaker, start, end, location);
+
+          // RECEPTION
+          if (summary.toUpperCase().includes("RECEPTION")) {
+            console.log("RECEPTION");
+            reception.push({
+              title: summary,
+              start: start,
+              end: end,
+              location: location,
+            });
+          }
+
+          // CONFERENCE & SPEAKERS
+          else {
+            const index = summary.lastIndexOf("-");
+            // Condition if no speaker
+            if (index == -1) {
+              speaker = "";
+            } else {
+              title = summary.substring(0, index).trim();
+              speaker = summary.substring(index + 1).trim();
+            }
+            const indexOfSecond6DashInLocation = ev.location.indexOf("-", 2);
+            location = location
+              .substring(0, indexOfSecond6DashInLocation)
+              .trim();
+            newLine(null, title, speaker, start, end, location);
+          }
         }
       }
     }
