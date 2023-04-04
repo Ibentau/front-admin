@@ -1,1 +1,2136 @@
-{"event_start":"2022-06-13T08:00:00","event_end":"2022-06-17T18:00:00","address":"Boulevard \"Bulgaria\" 236 4027 Plovdiv Bulgaria","meals":[],"talks":[{"title":"","speakers":[""],"start":"","end":"","location":"","article_url":""},{"title":"OCL Workshop","speakers":["OCL & other textual constraint languages"],"start":"2022-10-23T14:30:00","end":"2022-10-23T16:00:00","location":"A-2521.1","article_url":""},{"title":"OCL Workshop","speakers":["Verification and validation"],"start":"2022-10-23T16:30:00","end":"2022-10-23T18:00:00","location":"A-2521.1","article_url":""},{"title":"OCL Workshop","speakers":["Extending OCL"],"start":"2022-10-23T19:30:00","end":"2022-10-23T21:00:00","location":"A-2521.1","article_url":""},{"title":"OCL Workshop","speakers":["Discussion"],"start":"2022-10-23T21:30:00","end":"2022-10-23T23:00:00","location":"A-2521.1","article_url":""},{"title":"MULTI Workshop","speakers":["MLM processes and methodologies"],"start":"2022-10-23T15:00:00","end":"2022-10-23T16:00:00","location":"A-3521.1","article_url":""},{"title":"MULTI Workshop","speakers":["MLM tools and applications"],"start":"2022-10-23T16:30:00","end":"2022-10-23T18:00:00","location":"A-3521.1","article_url":""},{"title":"MULTI Workshop","speakers":["Comparison and unification"],"start":"2022-10-23T19:30:00","end":"2022-10-23T20:50:00","location":"A-3521.1","article_url":""},{"title":"MULTI Workshop","speakers":["Closing words"],"start":"2022-10-23T20:51:00","end":"2022-10-23T21:00:00","location":"A-3521.1","article_url":""},{"title":"Agile, Web-Centric, Model-Driven Development of Real Systems Using Umple","speakers":["Timothy Lethbridge"],"start":"2022-10-23T14:30:00","end":"2022-10-23T16:00:00","location":"A-3561","article_url":""},{"title":"Agile, Web-Centric, Model-Driven Development of Real Systems Using Umple","speakers":["Timothy Lethbridge"],"start":"2022-10-23T16:30:00","end":"2022-10-23T18:00:00","location":"A-3561","article_url":""},{"title":"Ontology modeling language","speakers":["Maged Elaasar"],"start":"2022-10-23T19:30:00","end":"2022-10-23T21:00:00","location":"A-3561","article_url":""},{"title":"Discrete-Event Modeling and Simulation-based Development of Embedded Systems","speakers":["Gabriel A. Wainer","Cristina Ruiz Martin"],"start":"2022-10-23T21:30:00","end":"2022-10-23T23:00:00","location":"A-3561","article_url":""},{"title":"MPM4CPS Workshop","speakers":["Introduction","Keynote"],"start":"2022-10-23T14:30:00","end":"2022-10-23T16:00:00","location":"A-4502.1","article_url":""},{"title":"MPM4CPS Workshop","speakers":["Session 2"],"start":"2022-10-23T16:30:00","end":"2022-10-23T18:00:00","location":"A-4502.1","article_url":""},{"title":"MPM4CPS Workshop","speakers":["Session 3"],"start":"2022-10-23T19:30:00","end":"2022-10-23T21:00:00","location":"A-4502.1","article_url":""},{"title":"MoDeVVa Workshop - Welcome and Keynote Talk","speakers":["Houari Sahraoui"],"start":"2022-10-24T14:30:00","end":"2022-10-24T16:00:00","location":"A-2521.1","article_url":""},{"title":"MoDeVVa Workshop","speakers":["DSLs and formal methods"],"start":"2022-10-24T16:30:00","end":"2022-10-24T18:00:00","location":"A-2521.1","article_url":""},{"title":"MoDeVVa Workshop","speakers":["Model analysis"],"start":"2022-10-24T19:30:00","end":"2022-10-24T21:00:00","location":"A-2521.1","article_url":""},{"title":"MoDeVVa Workshop","speakers":["Brain Storming and Wrap up"],"start":"2022-10-24T21:30:00","end":"2022-10-24T23:00:00","location":"A-2521.1","article_url":""},{"title":"Beyond the Clouds: A journey and lessons learned","speakers":["Mohammad Hamdaqa","Abdelouahed Gherbi"],"start":"2022-10-24T14:30:00","end":"2022-10-24T16:00:00","location":"A-3502.1","article_url":""},{"title":"UML Modelling","speakers":[""],"start":"2022-10-24T16:30:00","end":"2022-10-24T18:00:00","location":"A-3502.1","article_url":""},{"title":"Model Checking","speakers":[""],"start":"2022-10-24T19:30:00","end":"2022-10-24T21:00:00","location":"A-3502.1","article_url":""},{"title":"Innovative Modelling Approaches","speakers":[""],"start":"2022-10-24T21:30:00","end":"2022-10-24T23:00:00","location":"A-3502.1","article_url":""},{"title":"HuFaMo Workshop","speakers":["Opening","Keynote and Session 1"],"start":"2022-10-24T14:30:00","end":"2022-10-24T16:00:00","location":"A-3521.1","article_url":""},{"title":"HuFaMo Workshop","speakers":["Human Factors in Modeling"],"start":"2022-10-24T16:30:00","end":"2022-10-24T18:00:00","location":"A-3521.1","article_url":""},{"title":"DevOps@MODELS Workshop","speakers":["Welcome","Keynote"],"start":"2022-10-24T14:30:00","end":"2022-10-24T16:00:00","location":"A-3561","article_url":""},{"title":"DevOps@MODELS Workshop","speakers":["Session 2"],"start":"2022-10-24T16:30:00","end":"2022-10-24T18:00:00","location":"A-3561","article_url":""},{"title":"ME Workshop - Introduction, Keynote, Analyzing Model Changes with Loupe","speakers":["Benoit Combemale"],"start":"2022-10-24T19:30:00","end":"2022-10-24T21:00:00","location":"A-3561","article_url":""},{"title":"ME Workshop","speakers":["Models and Evolution"],"start":"2022-10-24T21:30:00","end":"2022-10-24T23:00:00","location":"A-3561","article_url":""},{"title":"MDEIntelligence Workshop","speakers":["MDE for AI"],"start":"2022-10-24T14:30:00","end":"2022-10-24T16:00:00","location":"A-4502.1","article_url":""},{"title":"MDEIntelligence Workshop","speakers":["Keynote by Prof. Houari Sahraoui"],"start":"2022-10-24T16:30:00","end":"2022-10-24T18:00:00","location":"A-4502.1","article_url":""},{"title":"MDEIntelligence Workshop","speakers":["AI for MDE"],"start":"2022-10-24T19:30:00","end":"2022-10-24T21:00:00","location":"A-4502.1","article_url":""},{"title":"MDEIntelligence Workshop","speakers":["Lightning Talks and Discussion"],"start":"2022-10-24T21:30:00","end":"2022-10-24T23:00:00","location":"A-4502.1","article_url":""},{"title":"MLE Workshop - Introduction, Keynote, Improving User Experience in Industrial DSM","speakers":["Juan de Lara"],"start":"2022-10-24T14:30:00","end":"2022-10-24T16:00:00","location":"A-5502.1","article_url":""},{"title":"MLE Workshop","speakers":["Session 2"],"start":"2022-10-24T16:30:00","end":"2022-10-24T18:00:00","location":"A-5502.1","article_url":""},{"title":"MLE Workshop","speakers":["Session 3"],"start":"2022-10-24T19:30:00","end":"2022-10-24T21:00:00","location":"A-5502.1","article_url":""},{"title":"MLE Workshop","speakers":["Discussions and closing words"],"start":"2022-10-24T21:30:00","end":"2022-10-24T23:00:00","location":"A-5502.1","article_url":""},{"title":"Digital Twin as a Decision-Making Aid in the Face of Uncertainty","speakers":["Vinay Kulkarni","Souvik Barat","Tony Clark","Balbir Barn"],"start":"2022-10-24T14:30:00","end":"2022-10-24T16:00:00","location":"B-2061","article_url":""},{"title":"Digital Twin as a Decision-Making Aid in the Face of Uncertainty","speakers":["Vinay Kulkarni","Souvik Barat","Tony Clark","Balbir Barn"],"start":"2022-10-24T16:30:00","end":"2022-10-24T18:00:00","location":"B-2061","article_url":""},{"title":"From System Engineering to Analysis and Design for the Best Digital Products Engineering","speakers":["Saulius Pavalkis"],"start":"2022-10-24T19:30:00","end":"2022-10-24T21:00:00","location":"B-2061","article_url":""},{"title":"From System Engineering to Analysis and Design for the Best Digital Products Engineering","speakers":["Saulius Pavalkis"],"start":"2022-10-24T21:30:00","end":"2022-10-24T23:00:00","location":"B-2061","article_url":""},{"title":"SATELLITE RECEPTION","speakers":[""],"start":"2022-10-25T00:00:00","end":"2022-10-25T04:00:00","location":"Microbrewery 3 Brasseurs","article_url":""},{"title":"Welcome Remarks","speakers":[""],"start":"2022-10-25T14:30:00","end":"2022-10-25T14:44:00","location":"A-2521.1","article_url":""},{"title":"A New DSL Textbook in Town!","speakers":["Thorsten Berger"],"start":"2022-10-25T14:45:00","end":"2022-10-25T16:00:00","location":"A-2521.1","article_url":""},{"title":"An analysis of software design understanding & motivation of engineering students - Jean-Christophe Bach, Antoine Beugnard, Jean-Loup Castaigne, Julien Mallet, Salvador Martínez, Maria","speakers":["Teresa Segarra"],"start":"2022-10-25T16:30:00","end":"2022-10-25T17:00:00","location":"A-2521.1","article_url":""},{"title":"A Refined Model of Ill-definedness in Project-Based Learning","speakers":["Arthur Rump","Vadim Zaytsev"],"start":"2022-10-25T17:00:00","end":"2022-10-25T17:30:00","location":"A-2521.1","article_url":""},{"title":"Teaching Modeling to Anyone the Aristotelian Way: Anyone can cook a sound model","speakers":["Michel Zam"],"start":"2022-10-25T17:30:00","end":"2022-10-25T18:00:00","location":"A-2521.1","article_url":""},{"title":"Purpose-driven Model-Driven Engineering Education","speakers":["Daniel Calegari","Andrea Delgado"],"start":"2022-10-25T19:30:00","end":"2022-10-25T20:00:00","location":"A-2521.1","article_url":""},{"title":"Token-based Plagiarism Detection for Metamodels","speakers":["Timur Sağlam","Sebastian Hahner","Jan Willem Wittler","Thomas Kühn"],"start":"2022-10-25T20:00:00","end":"2022-10-25T20:30:00","location":"A-2521.1","article_url":""},{"title":"Tool Support for the Teaching of State-Based Behavior Modeling","speakers":["Christian Zöllner","Christian M Adriano","Simon Wietheger","Leen Lambers","Holger Giese"],"start":"2022-10-25T20:30:00","end":"2022-10-25T21:00:00","location":"A-2521.1","article_url":""},{"title":"A DSL and Model Transformations to Specify Learning Corpora for Modeling Assistants","speakers":["Younes Boubekeur","Prabhsimran Singh","Gunter Mussbacher"],"start":"2022-10-25T21:30:00","end":"2022-10-25T22:00:00","location":"A-2521.1","article_url":""},{"title":"Detection of Anomalous Modeling Behavior: A Goal-Driven Data Mining Approach","speakers":["Tong Li","Yiting Wang","Congkai Geng"],"start":"2022-10-25T22:00:00","end":"2022-10-25T22:30:00","location":"A-2521.1","article_url":""},{"title":"The Epsilon Playground - Dimitris Kolovos, Antonio Garcia","speakers":["Dominguez"],"start":"2022-10-25T22:30:00","end":"2022-10-25T23:00:00","location":"A-2521.1","article_url":""},{"title":"openCAESAR: A Next Generation Platform for Systems Engineering","speakers":["Maged Elaasar"],"start":"2022-10-25T14:45:00","end":"2022-10-25T15:45:00","location":"A-3502.1","article_url":""},{"title":"Awards Ceremony","speakers":[""],"start":"2022-10-25T15:46:00","end":"2022-10-25T16:00:00","location":"A-3502.1","article_url":""},{"title":"SDL Society Annual General Meeting","speakers":[""],"start":"2022-10-25T16:30:00","end":"2022-10-25T18:00:00","location":"A-3502.1","article_url":""},{"title":"System","speakers":["Level Modelling Languages"],"start":"2022-10-25T19:30:00","end":"2022-10-25T21:00:00","location":"A-3502.1","article_url":""},{"title":"SAM 2022 Closing Notes / Discussion","speakers":[""],"start":"2022-10-25T21:30:00","end":"2022-10-25T23:00:00","location":"A-3502.1","article_url":""},{"title":"Opening","speakers":[""],"start":"2022-10-25T14:50:00","end":"2022-10-25T15:00:00","location":"A-3521.1","article_url":""},{"title":"SysML v2: The New Standard for Model-Based Systems Engineering","speakers":["Ed Seidewitz"],"start":"2022-10-25T15:00:00","end":"2022-10-25T15:30:00","location":"A-3521.1","article_url":""},{"title":"MBSE accelerated: SysML v2-based comprehensive toolset for safety analysis, requirements verification, trade studies with multi-physics simulation and embedded SW development","speakers":["Thierry Le Sergent"],"start":"2022-10-25T15:30:00","end":"2022-10-25T16:00:00","location":"A-3521.1","article_url":""},{"title":"Academic research to industry practice: success stories and open challenges in model-based approaches","speakers":["Akshay Rajhans"],"start":"2022-10-25T16:30:00","end":"2022-10-25T17:00:00","location":"A-3521.1","article_url":""},{"title":"Is there a place for physical test in an MBSE world?","speakers":["Taylor Riche"],"start":"2022-10-25T17:00:00","end":"2022-10-25T17:30:00","location":"A-3521.1","article_url":""},{"title":"Digital Twins and Virtualization: Next Generation V&V Technologies for Automotive Systems","speakers":["S Ramesh"],"start":"2022-10-25T17:30:00","end":"2022-10-25T18:00:00","location":"A-3521.1","article_url":""},{"title":"Model-based network automation: opportunities and challenges","speakers":["Mojtaba Bagherzadeh"],"start":"2022-10-25T19:30:00","end":"2022-10-25T20:00:00","location":"A-3521.1","article_url":""},{"title":"RTist in Code – A New Approach to Modeling Real-Time Applications","speakers":["Mattias Mohlin"],"start":"2022-10-25T20:00:00","end":"2022-10-25T20:30:00","location":"A-3521.1","article_url":""},{"title":"How much modeling do we really need? A view on modeling challenges in the automotive industry in the age of the Software-Defined-Vehicle","speakers":["Maged Khalil"],"start":"2022-10-25T20:30:00","end":"2022-10-25T21:00:00","location":"A-3521.1","article_url":""},{"title":"What disruptive technologies are expected to be most influential for the future industrial practice of MBSE?","speakers":["Daniel Varro","Thierry Le Sergent","Mattias Mohlin","Maged Khalil","Ed Seidewitz","Akshay Rajhans","Mojtaba Bagherzadeh"],"start":"2022-10-25T21:30:00","end":"2022-10-25T23:00:00","location":"A-3521.1","article_url":""},{"title":"Opening","speakers":[""],"start":"2022-10-25T14:30:00","end":"2022-10-25T14:35:00","location":"A-3561","article_url":""},{"title":"MDE Doctoral Research Anti-Patterns: How Not to Do It","speakers":["Richard Paige"],"start":"2022-10-25T14:35:00","end":"2022-10-25T15:30:00","location":"A-3561","article_url":""},{"title":"Towards Qualifiable Graphical Editing of Complex Domain-specific Models in Safety-critical Avionics","speakers":["Andreas Waldvogel"],"start":"2022-10-25T15:30:00","end":"2022-10-25T16:00:00","location":"A-3561","article_url":""},{"title":"Measuring the Fidelity of Digital Twin Systems","speakers":["Paula Muñoz"],"start":"2022-10-25T16:30:00","end":"2022-10-25T17:00:00","location":"A-3561","article_url":""},{"title":"Dynamic Adaptation for Distributed Systems in Model-Driven Engineering","speakers":["Mufasir Muthaher Mohammed"],"start":"2022-10-25T17:00:00","end":"2022-10-25T17:30:00","location":"A-3561","article_url":""},{"title":"Towards Realizing Test Conditions for Automated Vehicles","speakers":["Felix Beringhoff"],"start":"2022-10-25T17:30:00","end":"2022-10-25T18:00:00","location":"A-3561","article_url":""},{"title":"Towards Consistency Management in Low-Code Platforms","speakers":["MohammadAmin Zaheri"],"start":"2022-10-25T19:30:00","end":"2022-10-25T20:00:00","location":"A-3561","article_url":""},{"title":"ViMoTest: A Low Code Approach to Specify View Model-based Tests with a Projectional DSL using JetBrains MPS","speakers":["Mario Fuksa"],"start":"2022-10-25T20:00:00","end":"2022-10-25T20:30:00","location":"A-3561","article_url":""},{"title":"Simplify Model Design in MDE Approaches - Asbathou Biyalou","speakers":["Sama"],"start":"2022-10-25T20:30:00","end":"2022-10-25T21:00:00","location":"A-3561","article_url":""},{"title":"Deriving Model-based Safety and Security Assurance Cases from Design Rationale of Countermeasure Patterns","speakers":["Roman Trentinaglia"],"start":"2022-10-25T21:30:00","end":"2022-10-25T22:00:00","location":"A-3561","article_url":""},{"title":"Addressing Non-Functional Requirements of Adaptive IoT Systems: A Model-Driven Approach","speakers":["Mirza R Tabassum"],"start":"2022-10-25T22:00:00","end":"2022-10-25T22:30:00","location":"A-3561","article_url":""},{"title":"Closing","speakers":[""],"start":"2022-10-25T22:30:00","end":"2022-10-25T23:00:00","location":"A-3561","article_url":""},{"title":"LowCode Workshop","speakers":["Opening and Keynote"],"start":"2022-10-25T14:30:00","end":"2022-10-25T16:00:00","location":"A-4502.1","article_url":""},{"title":"LowCode Workshop","speakers":["Session 2"],"start":"2022-10-25T16:30:00","end":"2022-10-25T18:00:00","location":"A-4502.1","article_url":""},{"title":"LowCode Workshop","speakers":["Session 3"],"start":"2022-10-25T19:30:00","end":"2022-10-25T21:00:00","location":"A-4502.1","article_url":""},{"title":"ModDiT Workshop","speakers":["Opening and Keynote"],"start":"2022-10-25T14:30:00","end":"2022-10-25T16:00:00","location":"A-5502.1","article_url":""},{"title":"ModDiT Workshop","speakers":["Engineering Digital Twins"],"start":"2022-10-25T16:30:00","end":"2022-10-25T18:00:00","location":"A-5502.1","article_url":""},{"title":"ModDiT Workshop","speakers":["Keynote","Operations of Digital Twins Pt. 1"],"start":"2022-10-25T19:30:00","end":"2022-10-25T21:00:00","location":"A-5502.1","article_url":""},{"title":"ModDiT Workshop","speakers":["Operations of Digital Twins Pt. 2"],"start":"2022-10-25T21:30:00","end":"2022-10-25T23:00:00","location":"A-5502.1","article_url":""},{"title":"MASE Workshop - Session 1","speakers":["Ahsan Qamar"],"start":"2022-10-25T14:30:00","end":"2022-10-25T16:00:00","location":"B-2061","article_url":""},{"title":"MASE Workshop","speakers":["Session 2"],"start":"2022-10-25T16:30:00","end":"2022-10-25T18:00:00","location":"B-2061","article_url":""},{"title":"MASE Workshop","speakers":["Session 3"],"start":"2022-10-25T19:30:00","end":"2022-10-25T21:00:00","location":"B-2061","article_url":""},{"title":"Welcome to MODELS 2022","speakers":["Eugene Syriani","Houari Sahraoui","Manuel Wimmer","Nelly Bencomo"],"start":"2022-10-26T14:30:00","end":"2022-10-26T15:00:00","location":"A-3502.1","article_url":""},{"title":"Keynote by Akshay Rajhans","speakers":["Akshay Rajhans"],"start":"2022-10-26T15:00:00","end":"2022-10-26T16:00:00","location":"A-3502.1","article_url":""},{"title":"Quantifying the Variability Mismatch Between Problem and Solution Space","speakers":["Marc Hentze","Chico Sundermann","Thomas Thüm","Ina Schaefer"],"start":"2022-10-26T16:30:00","end":"2022-10-26T16:52:30","location":"A-3502.1","article_url":""},{"title":"Modular Language Product Lines. A Graph Transformation Approach","speakers":["Juan de Lara","Esther Guerra","Paolo Bottoni"],"start":"2022-10-26T16:52:30","end":"2022-10-26T17:15:00","location":"A-3502.1","article_url":""},{"title":"Utilizing multi-level concepts for multi-phase modeling - Context-awareness and process-based constraints to enable model evolution","speakers":["Tobias Franz","Christoph Seidl","Philipp M. Fischer","Andreas Gerndt"],"start":"2022-10-26T17:15:00","end":"2022-10-26T17:37:30","location":"A-3502.1","article_url":""},{"title":"Domain object hierarchies inducing multi-level model","speakers":["Bernd Neumayr","Michael Schrefl"],"start":"2022-10-26T17:37:30","end":"2022-10-26T18:00:00","location":"A-3502.1","article_url":""},{"title":"Practical Multiverse Debugging through User-defined Reductions: Application to UML Models","speakers":["Matthias Pasquier","Ciprian Teodorov","Frédéric Jouault","Matthias Brun","Luka Le Roux","Loïc Lagadec"],"start":"2022-10-26T19:30:00","end":"2022-10-26T19:52:30","location":"A-3502.1","article_url":""},{"title":"Modelling Program Verification Tools for Software Engineers","speakers":["Sophie Lathouwers","Vadim Zaytsev"],"start":"2022-10-26T19:52:30","end":"2022-10-26T20:15:00","location":"A-3502.1","article_url":""},{"title":"Automatic Test Amplification for Executable Models - Faezeh Khorram, Erwan Bousse, Jean-Marie Mottu, Gerson Sunyé, Pablo Gómez","speakers":["Abajo","Pablo C Canizares","Esther Guerra","Juan de Lara"],"start":"2022-10-26T20:15:00","end":"2022-10-26T20:37:30","location":"A-3502.1","article_url":""},{"title":"Feedback on the Formal Verification of UML Models in an Industrial Context: The Case of a Smart Device Life Cycle Management System","speakers":["Maxime Méré","Frédéric Jouault","Loïc Pallardy","Richard Perdriau"],"start":"2022-10-26T20:37:30","end":"2022-10-26T21:00:00","location":"A-3502.1","article_url":""},{"title":"Machine learning methods for model classification: A comparative study","speakers":["José Antonio Hernández López","Riccardo Rubei","Jesús Sánchez Cuadrado","Davide Di Ruscio"],"start":"2022-10-26T21:30:00","end":"2022-10-26T21:52:30","location":"A-3502.1","article_url":""},{"title":"Enhancing software model encoding for feature location approaches based on machine learning techniques","speakers":["Ana Cristina Marcén","Francisca Pérez","Oscar Pastor","Carlos Cetina"],"start":"2022-10-26T21:52:30","end":"2022-10-26T22:15:00","location":"A-3502.1","article_url":""},{"title":"ModelSet: a dataset for machine learning in model-driven engineering","speakers":["José Antonio Hernández López","Javier Luis Cánovas Izquierdo","Jesús Sánchez Cuadrado"],"start":"2022-10-26T22:15:00","end":"2022-10-26T22:37:30","location":"A-3502.1","article_url":""},{"title":"Using the ModelSet dataset to support Machine Learning in Model-Driven Engineering","speakers":["José Antonio Hernández López","Javier Luis Cánovas Izquierdo","Jesús Sánchez Cuadrado"],"start":"2022-10-26T22:37:30","end":"2022-10-26T23:00:00","location":"A-3502.1","article_url":""},{"title":"Model Based Systems Engineering for Software Defined Vehicle Development","speakers":["Ahsan Qamar"],"start":"2022-10-26T16:30:00","end":"2022-10-26T17:00:00","location":"A-3521.1","article_url":""},{"title":"An architecture proposal integrating Information Technology (IT) and Operational Technology (OT) objectives for real time data democratisation","speakers":["François Thibodeau"],"start":"2022-10-26T17:00:00","end":"2022-10-26T17:30:00","location":"A-3521.1","article_url":""},{"title":"An emergent Business and Engineering Process Modeling for a hybrid human-multi-robot  workflow management","speakers":["Maroua Ben Attia"],"start":"2022-10-26T17:30:00","end":"2022-10-26T18:00:00","location":"A-3521.1","article_url":""},{"title":"Precomputing Reconfiguration Strategies based on Stochastic Timed Game Automata","speakers":["Hendrik Göttmann","Birte Caesar","Lasse Beers","Malte Lochau","Andy Schürr","Alexander Fay"],"start":"2022-10-26T16:30:00","end":"2022-10-26T16:52:00","location":"A-4502.1","article_url":""},{"title":"A Tool for the Automation of Efficient Multi-Robot Choreography Planning and Execution","speakers":["Eric Roslin Wete Poaka","Joel Greenyer","Daniel Kudenko","Wolfgang Nejdl","Oliver Flegel","Dennes Eisner"],"start":"2022-10-26T16:52:00","end":"2022-10-26T17:07:00","location":"A-4502.1","article_url":""},{"title":"System Architecture Synthesis for Performability by Logic Solvers","speakers":["Máté Földiák","Kristóf Marussy","Daniel Varro","Istvan Majzik"],"start":"2022-10-26T17:07:00","end":"2022-10-26T17:29:00","location":"A-4502.1","article_url":""},{"title":"Migrating from Proprietary Tools to Open-source Software for EAST-ADL Metamodel Generation and Evolution - Jörg Holtmann, Jan","speakers":["Philipp Steghöfer","Henrik Lönn"],"start":"2022-10-26T17:29:00","end":"2022-10-26T17:44:00","location":"A-4502.1","article_url":""},{"title":"A Diagram-Centric Modeling Tool for Systems of Systems","speakers":["Sean Kristian Remond Harbo","Emil Voldby","Jonas Madsen","Michele Albano"],"start":"2022-10-26T17:44:00","end":"2022-10-26T17:59:00","location":"A-4502.1","article_url":""},{"title":"Verification of Railway Network Models with EVEREST","speakers":["João Martins","José M. Fonseca","Rafael Costa","José Creissac Campos","Alcino Cunha","Nuno Macedo","Jose Nuno Oliveira"],"start":"2022-10-26T19:30:00","end":"2022-10-26T19:52:30","location":"A-4502.1","article_url":""},{"title":"Bug Localization in Game Software Engineering: Evolving Simulations to Locate Bugs in Software Models of Video Games","speakers":["Rodrigo Casamayor","Lorena Arcega","Francisca Pérez","Carlos Cetina"],"start":"2022-10-26T19:52:30","end":"2022-10-26T20:15:00","location":"A-4502.1","article_url":""},{"title":"SOCAM: a service-oriented computing architecture modeling method - Paola Reyes-Delgado, Hector Duran-Limon, Manuel Mora, Laura Rodriguez","speakers":["Martinez"],"start":"2022-10-26T20:15:00","end":"2022-10-26T20:37:30","location":"A-4502.1","article_url":""},{"title":"A Comprehensive Framework for the Analysis of Automotive Systems","speakers":["Alessandro Cimatti","Sara Corfini","Luca Cristoforetti","Marco Di Natale","Alberto Griggio","Stefano Puri","Stefano Tonetta"],"start":"2022-10-26T20:37:30","end":"2022-10-26T21:00:00","location":"A-4502.1","article_url":""},{"title":"Incremental Causal Connection for Self-Adaptive Systems based on Relational Reference Attribute Grammars","speakers":["René Schöne","Johannes Mey","Sebastian Ebert","Sebastian Götz","Uwe Aßmann"],"start":"2022-10-26T21:30:00","end":"2022-10-26T21:52:30","location":"A-4502.1","article_url":""},{"title":"Addressing the Uncertainty Interaction Problem in Software-intensive Systems: Challenges and Desiderata","speakers":["Javier Camara","Radu Calinescu","Betty H.C. Cheng","David Garlan","Bradley Schmerl","Javier Troya","Antonio Vallecillo"],"start":"2022-10-26T21:52:30","end":"2022-10-26T22:15:00","location":"A-4502.1","article_url":""},{"title":"Modelling in low-code development: a multi-vocal systematic review","speakers":["Alessio Bucaioni","Antonio Cicchetti","Federico Ciccozzi"],"start":"2022-10-26T22:15:00","end":"2022-10-26T22:37:30","location":"A-4502.1","article_url":""},{"title":"A Value-Based Goal Model Analysis Tool","speakers":["Carlos Cano Genoves","Emilio Insfran","Silvia Abrahão"],"start":"2022-10-26T22:37:30","end":"2022-10-26T23:00:00","location":"A-4502.1","article_url":""},{"title":"Accelerating Similarity-Based Model Matching Using On-The-Fly Similarity Preserving Hashing","speakers":["Xiao He","Letian Tang","Yutong Li"],"start":"2022-10-26T19:30:00","end":"2022-10-26T19:52:30","location":"A-5502.1","article_url":""},{"title":"An efficient line-based approach for resolving merge conflicts in XMI-based models","speakers":["Alfonso de la Vega","Dimitris Kolovos"],"start":"2022-10-26T19:52:30","end":"2022-10-26T20:15:00","location":"A-5502.1","article_url":""},{"title":"A generic approach to detect design patterns in model transformations using a string-matching algorithm","speakers":["Chihab eddine Mokaddem","Houari Sahraoui","Eugene Syriani"],"start":"2022-10-26T20:15:00","end":"2022-10-26T20:37:30","location":"A-5502.1","article_url":""},{"title":"Nested OSTRICH: Hatching Compositions of Low-code Templates","speakers":["João Costa Seco","Hugo Lourenço","Joana Baptista Parreira","Carla Ferreira"],"start":"2022-10-26T20:37:30","end":"2022-10-26T21:00:00","location":"A-5502.1","article_url":""},{"title":"Advanced Visualization and Interaction in GLSP-based Web Modeling: Realizing Semantic Zoom and Off-Screen Elements","speakers":["Giuliano De Carlo","Philip Langer","Dominik Bork"],"start":"2022-10-26T21:30:00","end":"2022-10-26T21:52:30","location":"A-5502.1","article_url":""},{"title":"Picto Web: A Tool for Complex Model Exploration - Alfa Yohannis, Dimitris Kolovos, Antonio Garcia","speakers":["Dominguez","Carlos Javier Fernández Candel"],"start":"2022-10-26T21:52:30","end":"2022-10-26T22:15:00","location":"A-5502.1","article_url":""},{"title":"The Influence of Software Design Representation on the Design Communication of Teams with Diverse Personalities - Rodi Jolak, Maxime Savary","speakers":["Leblanc","Manuela Dalibor","Juraj Vincur","Ivan Polasek","Regina Hebig","Xavier Le Pallec","Michel Chaudron","Sebastian Gerard","Andreas Wortmann"],"start":"2022-10-26T22:15:00","end":"2022-10-26T22:37:30","location":"A-5502.1","article_url":""},{"title":"Blended modeling in commercial and open-source model-driven software engineering tools: A systematic study - Istvan David, Malvina Latifaj, Jakob Pietron, Weixing Zhang, Federico Ciccozzi, Ivano Malavolta, Alexander Raschke, Jan","speakers":["Philipp Steghöfer","Regina Hebig"],"start":"2022-10-26T22:37:30","end":"2022-10-26T23:00:00","location":"A-5502.1","article_url":""},{"title":"SYMBOLEO2SC: From Legal Contract Specifications to Smart Contracts","speakers":["Aidin Rasti","Daniel Amyot","Alireza Parvizimosaed","Marco Roveri","Luigi Logrippo","Amal Ahmed Anda","John Mylopoulos"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"ORM Ontologies with Executable Derivation Rules to Support Semantic Search in Large-Scale Data Applications","speakers":["Márton Búr"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"Modeling Tool for Managing Canvas-Based Models Traceability in ML System Development","speakers":["Jati Hiliamsyah Husen","Hironori Washizaki","Hnin Tun","Nobukazu Yoshioka"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"Contract-based Product-Assembly Co-Design","speakers":["Bert Van Acker","Joachim Denil"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"A Lightweight Approach to the Concurrent Use and Integration of SysML and Formal Methods in Systems Design","speakers":["Robert Thorburn","Asieh Salehi Fathabadi"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"Teaching Modeling to Anyone the Aristotelian Way: Anyone can cook a sound model.","speakers":["Michel Zam"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"Validating the Correctness of Reactive Systems Specifications Through Systematic Exploration","speakers":["Dor Ma'ayan","Shahar Maoz","Roey Rozi"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"Incremental Causal Connection for Self-Adaptive Systems Based on Relational Reference Attribute Grammars","speakers":["René Schöne","Johannes Mey","Sebastian Ebert","Sebastian Götz"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"Modelling Program Verification Tools for Software Engineers","speakers":["Sophie Lathouwers","Vadim Zaytsev"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"SimuV: Model-based Configuration Management for Simulink Models","speakers":["Tien N. Nguyen"],"start":"2022-10-26T16:00:00","end":"2022-10-26T19:30:00","location":"B-140 (Atrium)","article_url":""},{"title":"Solving the Instance Model-View Update Problem in AADL","speakers":["Rakshit Mittal"],"start":"2022-10-26T19:30:00","end":"2022-10-26T21:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Automating the design of recommender systems: from foundational aspects to actual development","speakers":["Claudio Di Sipio"],"start":"2022-10-26T19:30:00","end":"2022-10-26T21:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Participatory Agent-Based Modelling in Healthcare – A Domain-Specific Modelling Language Approach","speakers":["Thomas Godfrey"],"start":"2022-10-26T19:30:00","end":"2022-10-26T21:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"The path towards the automatic provision of blended modeling environments","speakers":["Malvina Latifaj"],"start":"2022-10-26T19:30:00","end":"2022-10-26T21:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"How Alike are my Physical and Digital Twins?","speakers":["Paula Muñoz"],"start":"2022-10-26T19:30:00","end":"2022-10-26T21:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Domain-specific model differencing for graphical domain-specific languages","speakers":["Manouchehr Zadahmad Jafarlou"],"start":"2022-10-26T19:30:00","end":"2022-10-26T21:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Eat Your Own DevOps: A Model Driven Approach to Justify Continous Integration Pipelines","speakers":["Corinne Pulgar"],"start":"2022-10-26T19:30:00","end":"2022-10-26T21:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Automated, Traceable, and Interactive Domain Modelling","speakers":["Rijul Saini"],"start":"2022-10-26T19:30:00","end":"2022-10-26T21:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Pushing the Boundaries of Planned Reuse with Concern Specific Modelling Languages","speakers":["Maximilian Schiedermeier"],"start":"2022-10-26T19:30:00","end":"2022-10-26T21:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Teaching Modeling to Anyone the Aristotelian Way: Anyone can cook a sound model.","speakers":["Michel Zam"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"ORM Ontologies with Executable Derivation Rules to Support Semantic Search in Large-Scale Data Applications","speakers":["Márton Búr"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Contract-based Product-Assembly Co-Design","speakers":["Bert Van Acker","Joachim Denil"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"A Lightweight Approach to the Concurrent Use and Integration of SysML and Formal Methods in Systems Design","speakers":["Robert Thorburn","Asieh Salehi Fathabadi"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Incremental Causal Connection for Self-Adaptive Systems Based on Relational Reference Attribute Grammars","speakers":["René Schöne","Johannes Mey","Sebastian Ebert","Sebastian Götz"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"SimuV: Model-based Configuration Management for Simulink Models","speakers":["Tien N. Nguyen"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"SYMBOLEO2SC: From Legal Contract Specifications to Smart Contracts","speakers":["Aidin Rasti","Daniel Amyot","Alireza Parvizimosaed","Marco Roveri","Luigi Logrippo","Amal Ahmed Anda","John Mylopoulos"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Modelling Program Verification Tools for Software Engineers","speakers":["Sophie Lathouwers","Vadim Zaytsev"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Validating the Correctness of Reactive Systems Specifications Through Systematic Exploration","speakers":["Dor Ma'ayan","Shahar Maoz","Roey Rozi"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Modeling Tool for Managing Canvas-Based Models Traceability in ML System Development","speakers":["Jati Hiliamsyah Husen","Hironori Washizaki","Hnin Tun","Nobukazu Yoshioka"],"start":"2022-10-26T21:00:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"WELCOME RECEPTION","speakers":[""],"start":"2022-10-26T23:30:00","end":"2022-10-27T02:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"SOSYM editorial board meeting","speakers":[""],"start":"2022-10-26T18:00:00","end":"2022-10-26T19:30:00","location":"B-2061","article_url":""},{"title":"MODELS steering committee meeting","speakers":[""],"start":"2022-10-26T21:30:00","end":"2022-10-26T23:00:00","location":"B-2061","article_url":""},{"title":"Announcements","speakers":[""],"start":"2022-10-27T14:45:00","end":"2022-10-27T15:00:00","location":"A-3502.1","article_url":""},{"title":"Keynote by Danny Tarlow","speakers":["Danny Tarlow"],"start":"2022-10-27T15:00:00","end":"2022-10-27T16:00:00","location":"A-3502.1","article_url":""},{"title":"Model-Checking Legal Contracts with SymboleoPC","speakers":["Alireza Parvizimosaed","Marco Roveri","Aidin Rasti","Daniel Amyot","Luigi Logrippo","John Mylopoulos"],"start":"2022-10-27T16:30:00","end":"2022-10-27T16:52:30","location":"A-3502.1","article_url":""},{"title":"Predicate Abstractions for Smart Contract Validation","speakers":["Javier Godoy","Juan Pablo Galeotti","Diego Garbervetsky","Sebastian Uchitel"],"start":"2022-10-27T16:52:30","end":"2022-10-27T17:15:00","location":"A-3502.1","article_url":""},{"title":"Symboleo2SC: From Legal Contract Specifications to Smart Contracts","speakers":["Aidin Rasti","Daniel Amyot","Alireza Parvizimosaed","Marco Roveri","Luigi Logrippo","John Mylopoulos","Amal Ahmed Anda"],"start":"2022-10-27T17:15:00","end":"2022-10-27T17:37:30","location":"A-3502.1","article_url":""},{"title":"A Declarative Modeling Framework for the Deployment and Management of Blockchain Applications","speakers":["Luciano Baresi","Giovanni Quattrocchi","Damian Andrew Tamburri","Luca Terracciano"],"start":"2022-10-27T17:37:30","end":"2022-10-27T18:00:00","location":"A-3502.1","article_url":""},{"title":"Is Lowcode succeeding where we are failing? - Antonio Cicchetti, Ed Seidewitz, Jean","speakers":["Michel Bruel","Maria Angela Ferrario","Richard Paige","UIrich Frank"],"start":"2022-10-27T19:30:00","end":"2022-10-27T21:00:00","location":"A-3502.1","article_url":""},{"title":"Digital Twin as Risk Free Experimentation Aid for Techno-socio-economic Systems","speakers":["Souvik Barat","Vinay Kulkarni","Tony Clark","Balbir Barn"],"start":"2022-10-27T21:30:00","end":"2022-10-27T21:52:30","location":"A-3502.1","article_url":""},{"title":"Digital TwinCity: A Holistic Approach towards Comparative Analysis of Business Processes","speakers":["Shinobu Saito"],"start":"2022-10-27T21:52:30","end":"2022-10-27T22:15:00","location":"A-3502.1","article_url":""},{"title":"Facilitating the migration to the microservice architecture via model-driven reverse engineering and reinforcement learning","speakers":["Shekoufeh Rahimi","MohammadHadi Dehghani","Massimo Tisi","Dalila Tamzalit"],"start":"2022-10-27T22:15:00","end":"2022-10-27T22:37:30","location":"A-3502.1","article_url":""},{"title":"Towards Model-based Bias Mitigation in Machine Learning","speakers":["Alfa Yohannis","Dimitris Kolovos"],"start":"2022-10-27T22:37:30","end":"2022-10-27T23:00:00","location":"A-3502.1","article_url":""},{"title":"A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions","speakers":["Jia Li","Shiva Nejati","Mehrdad Sabetzadeh","Michael McCallen"],"start":"2022-10-27T16:30:00","end":"2022-10-27T16:52:30","location":"A-4502.1","article_url":""},{"title":"Model-based ideal testing of hardware description language (HDL) programs","speakers":["Onur Kilincceker","Ercument Turk","Fevzi Belli","Moharram Challenger"],"start":"2022-10-27T16:52:30","end":"2022-10-27T17:15:00","location":"A-4502.1","article_url":""},{"title":"Validating the Correctness of Reactive Systems Specifications Through Systematic Exploration","speakers":["Dor Ma'ayan","Shahar Maoz","Roey Rozi"],"start":"2022-10-27T17:15:00","end":"2022-10-27T17:37:30","location":"A-4502.1","article_url":""},{"title":"Probabilistic modelling and verification using RoboChart and PRISM","speakers":["Kangfeng Ye","Ana Cavalcanti","Simon Foster","Alvaro Miyazawa","Jim Woodcock"],"start":"2022-10-27T17:37:30","end":"2022-10-27T18:00:00","location":"A-4502.1","article_url":""},{"title":"DescribeML: a tool for describing machine learning datasets","speakers":["Joan Giner","Abel Gómez","Jordi Cabot"],"start":"2022-10-27T21:30:00","end":"2022-10-27T21:52:30","location":"A-4502.1","article_url":""},{"title":"Event-driven temporal models for explanations - ETeMoX: explaining reinforcement learning - Juan Marcelo Parra, Antonio Garcia-Dominguez, Nelly Bencomo, Changgang Zheng, Chen Zhen, Juan Boubeta","speakers":["Puig","Guadalupe Ortiz","Shufan Yang"],"start":"2022-10-27T21:52:30","end":"2022-10-27T22:15:00","location":"A-4502.1","article_url":""},{"title":"MoDLF A Model-Driven Deep Learning Framework for Autonomous Vehicle Perception (AVP)","speakers":["Aon Safdar","Farooque Azam","Muhammad Waseem Anwar","Usman Akram","Yawar Rasheed"],"start":"2022-10-27T22:15:00","end":"2022-10-27T22:37:30","location":"A-4502.1","article_url":""},{"title":"Assisting in Requirements Goal Modeling: A Hybrid Approach based on Machine Learning and Logical Reasoning","speakers":["Qixiang Zhou","Tong Li","Yunduo Wang"],"start":"2022-10-27T22:37:30","end":"2022-10-27T23:00:00","location":"A-4502.1","article_url":""},{"title":"Machine Learning-based Incremental Learning in Interactive Domain Modelling","speakers":["Rijul Saini","Gunter Mussbacher","Jin L.C. Guo","Jörg Kienzle"],"start":"2022-10-27T16:30:00","end":"2022-10-27T16:52:30","location":"A-5502.1","article_url":""},{"title":"MemoRec: a recommender system for assisting modelers in specifying metamodels","speakers":["Juri Di Rocco","Davide Di Ruscio","Claudio Di Sipio","Phuong T. Nguyen","Alfonso Pierantonio"],"start":"2022-10-27T16:52:30","end":"2022-10-27T17:15:00","location":"A-5502.1","article_url":""},{"title":"Recommending metamodel concepts during modeling activities with pre-trained language models","speakers":["Martin Weyssow","Houari Sahraoui","Eugene Syriani"],"start":"2022-10-27T17:15:00","end":"2022-10-27T17:37:30","location":"A-5502.1","article_url":""},{"title":"Finding with NEMO: A Recommender System to Forecast the Next Modeling Operations","speakers":["Juri Di Rocco","Claudio Di Sipio","Phuong T. Nguyen","Davide Di Ruscio","Alfonso Pierantonio"],"start":"2022-10-27T17:37:30","end":"2022-10-27T18:00:00","location":"A-5502.1","article_url":""},{"title":"Generating repairs for inconsistent models","speakers":["Luciano Marchezan","Roland Kretschmer","Wesley Assunção","Alexander Reder","Alexander Egyed"],"start":"2022-10-27T21:30:00","end":"2022-10-27T21:52:30","location":"A-5502.1","article_url":""},{"title":"Solving the Instance Model-View Update Problem in AADL","speakers":["Rakshit Mittal","Dominique Blouin","Anish Bhobe","Soumyadip Bandyopadhyay"],"start":"2022-10-27T21:52:30","end":"2022-10-27T22:15:00","location":"A-5502.1","article_url":""},{"title":"OSATE-DIM Solves the Instance Model View-Update Problem in AADL","speakers":["Rakshit Mittal","Dominique Blouin"],"start":"2022-10-27T22:15:00","end":"2022-10-27T22:37:30","location":"A-5502.1","article_url":""},{"title":"Reactive Links Across Multi-Domain Engineering Models - Cosmina","speakers":["Cristina Ratiu","Wesley Assunção","Rainer Haas","Alexander Egyed"],"start":"2022-10-27T22:37:30","end":"2022-10-27T23:00:00","location":"A-5502.1","article_url":""},{"title":"SimuV: Model-based Configuration Management for Simulink Models","speakers":["Tien N. Nguyen"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"A Lightweight Approach to the Concurrent Use and Integration of SysML and Formal Methods in Systems Design","speakers":["Robert Thorburn","Asieh Salehi Fathabadi"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Teaching Modeling to Anyone the Aristotelian Way: Anyone can cook a sound model.","speakers":["Michel Zam"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Modeling Tool for Managing Canvas-Based Models Traceability in ML System Development","speakers":["Jati Hiliamsyah Husen","Hironori Washizaki","Hnin Tun","Nobukazu Yoshioka"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Modelling Program Verification Tools for Software Engineers","speakers":["Sophie Lathouwers","Vadim Zaytsev"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"ORM Ontologies with Executable Derivation Rules to Support Semantic Search in Large-Scale Data Applications","speakers":["Márton Búr"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Contract-based Product-Assembly Co-Design","speakers":["Bert Van Acker","Joachim Denil"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Validating the Correctness of Reactive Systems Specifications Through Systematic Exploration","speakers":["Dor Ma'ayan","Shahar Maoz","Roey Rozi"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"Incremental Causal Connection for Self-Adaptive Systems Based on Relational Reference Attribute Grammars","speakers":["René Schöne","Johannes Mey","Sebastian Ebert","Sebastian Götz"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"SYMBOLEO2SC: From Legal Contract Specifications to Smart Contracts","speakers":["Aidin Rasti","Daniel Amyot","Alireza Parvizimosaed","Marco Roveri","Luigi Logrippo","Amal Ahmed Anda","John Mylopoulos"],"start":"2022-10-27T16:00:00","end":"2022-10-27T23:00:00","location":"B-140 (Atrium)","article_url":""},{"title":"MODELS steering committee meeting","speakers":[""],"start":"2022-10-27T18:00:00","end":"2022-10-27T19:30:00","location":"B-2061","article_url":""},{"title":"CONFERENCE BANQUET and AWARD CEREMONY","speakers":[""],"start":"2022-10-28T00:30:00","end":"2022-10-28T04:59:00","location":"LeWindsor","article_url":""},{"title":"MODELS 2023 announcement","speakers":[""],"start":"2022-10-28T14:45:00","end":"2022-10-28T15:00:00","location":"A-3502.1","article_url":""},{"title":"Keynote by Maria Angela Ferrrio","speakers":["Maria Angela Ferrario"],"start":"2022-10-28T15:00:00","end":"2022-10-28T16:00:00","location":"A-3502.1","article_url":""},{"title":"10-year SOSYM MIP - Modeling robustness behavior using aspect-oriented modeling to support robustness testing of industrial systems","speakers":["Shaukat Ali","Lionel C. Briand","Hadi Hemmati"],"start":"2022-10-28T16:30:00","end":"2022-10-28T17:00:00","location":"A-3502.1","article_url":""},{"title":"10-year MIP MODELS - From UML and OCL to Relational Logic and Back","speakers":["Micro Kuhlmann","Martin Gogolla"],"start":"2022-10-28T17:00:00","end":"2022-10-28T17:30:00","location":"A-3502.1","article_url":""},{"title":"10-year SOSYM MIP - Model interoperability in building information modelling","speakers":["Jim Steel","Robin Drogemuller","Bianca Toth"],"start":"2022-10-28T17:30:00","end":"2022-10-28T18:00:00","location":"A-3502.1","article_url":""},{"title":"Early timing analysis based on scenario requirements and platform models","speakers":["Jörg Holtmann","Julien DeAntoni","Markus Fockel"],"start":"2022-10-28T19:30:00","end":"2022-10-28T19:52:30","location":"A-3502.1","article_url":""},{"title":"Requirements document relations - A reuse perspective on traceability through standards","speakers":["Katharina Großer","Volker Riediger","Jan Jürjens"],"start":"2022-10-28T19:52:30","end":"2022-10-28T20:15:00","location":"A-3502.1","article_url":""},{"title":"Schema Inference for Multi-Model Data","speakers":["Pavel Koupil","Sebastian Hricko","Irena Holubova"],"start":"2022-10-28T20:15:00","end":"2022-10-28T20:37:30","location":"A-3502.1","article_url":""},{"title":"EvolveDB - A tool for model driven schema evolution","speakers":["Torben Eckwert","Michael Guckert","Gabriele Taentzer"],"start":"2022-10-28T20:37:30","end":"2022-10-28T21:00:00","location":"A-3502.1","article_url":""},{"title":"Editing Support for Software Languages: Implementation Practices in Language Server Protocols","speakers":["Djonathan Barros","Sven Peldszus","Wesley Assunção","Thorsten Berger"],"start":"2022-10-28T19:30:00","end":"2022-10-28T19:52:30","location":"A-4502.1","article_url":""},{"title":"Survey of Established Practices in the Life Cycle of Domain-Specific Languages","speakers":["Holger Borum","Christoph Seidl"],"start":"2022-10-28T19:52:30","end":"2022-10-28T20:15:00","location":"A-4502.1","article_url":""},{"title":"A benchmark of incremental model transformation tools based on an industrial case study with AADL","speakers":["Hana Mkaouar","Dominique Blouin","Etienne Borde"],"start":"2022-10-28T20:15:00","end":"2022-10-28T20:37:30","location":"A-4502.1","article_url":""},{"title":"A cross-technology benchmark for incremental graph queries - Georg Hinkel, Antonio Garcia","speakers":["Dominguez","René Schöne","Artur Boronat","Massimo Tisi","Théo Le Calvar","Frédéric Jouault","Jószef Marton","Tamás Nyíri","János Benjamin Antal","Márton Elekes","Gabor Szarnyas","Gabor Szarnyas"],"start":"2022-10-28T20:37:30","end":"2022-10-28T21:00:00","location":"A-4502.1","article_url":""},{"title":"A descriptive study of assumptions in STRIDE security threat modeling","speakers":["Dimitri Van Landuyt","Wouter Joosen"],"start":"2022-10-28T16:30:00","end":"2022-10-28T16:52:30","location":"A-5502.1","article_url":""},{"title":"TMI: Tokenomics Made Easy For Web3 Applications","speakers":["Han Liu","Xufei Wang","Bin Wang","Huixuan Zheng","Xuchao Liu"],"start":"2022-10-28T16:52:30","end":"2022-10-28T17:15:00","location":"A-5502.1","article_url":""},{"title":"Using DevOps toolchains in Agile model-driven engineering","speakers":["Jörn Guy Süß","Samantha Swift","Eban Escott"],"start":"2022-10-28T17:15:00","end":"2022-10-28T17:37:30","location":"A-5502.1","article_url":""},{"title":"Learning UML Database Design and Modeling with AutoER","speakers":["Sarah Foss","Tatiana Urazova","Ramon Lawrence"],"start":"2022-10-28T17:37:30","end":"2022-10-28T18:00:00","location":"A-5502.1","article_url":""},{"title":"Are models better read on paper or on screen? A comparative study - Mohamed El","speakers":["Attar"],"start":"2022-10-28T19:30:00","end":"2022-10-28T19:48:00","location":"A-5502.1","article_url":""},{"title":"Graphical Projectional Editing in Gentleman","speakers":["Aurélien Ducoin","Eugene Syriani"],"start":"2022-10-28T19:48:00","end":"2022-10-28T20:06:00","location":"A-5502.1","article_url":""},{"title":"Evaluating the accessibility of a PoN-enabled misuse case notation by the red–green colorblind community - Mohamed El","speakers":["Attar"],"start":"2022-10-28T20:06:00","end":"2022-10-28T20:24:00","location":"A-5502.1","article_url":""},{"title":"Gamification-based UML Learning Environment in Virtual Reality","speakers":["Enes Yigitbas","Maximilian Schmidt","Antonio Bucchiarone","Sebastian Gottschalk","Gregor Engels"],"start":"2022-10-28T20:24:00","end":"2022-10-28T20:42:00","location":"A-5502.1","article_url":""},{"title":"Towards the Practical Adoption of LIDL: A Toolchain for Modeling Human-Machine Interface Software Interactions","speakers":["Ning Ge","Yunduo Wang","Yuan Wang","Yong Wang"],"start":"2022-10-28T20:42:00","end":"2022-10-28T21:00:00","location":"A-5502.1","article_url":""},{"title":"CLOSING SOCIAL EVENT","speakers":[""],"start":"2022-10-28T21:30:00","end":"2022-10-28T23:00:00","location":"B-140 (Atrium)","article_url":""}]}
+{
+  "event_start": "2022-06-13T08:00:00",
+  "event_end": "2022-06-17T18:00:00",
+  "address": "Boulevard \"Bulgaria\" 236 4027 Plovdiv Bulgaria",
+  "meals": [],
+  "talks": [
+    {
+      "title": "",
+      "speakers": [""],
+      "start": "",
+      "end": "",
+      "location": "",
+      "article_url": ""
+    },
+    {
+      "title": "OCL Workshop",
+      "speakers": ["OCL & other textual constraint languages"],
+      "start": "2022-10-23T14:30:00",
+      "end": "2022-10-23T16:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "OCL Workshop",
+      "speakers": ["Verification and validation"],
+      "start": "2022-10-23T16:30:00",
+      "end": "2022-10-23T18:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "OCL Workshop",
+      "speakers": ["Extending OCL"],
+      "start": "2022-10-23T19:30:00",
+      "end": "2022-10-23T21:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "OCL Workshop",
+      "speakers": ["Discussion"],
+      "start": "2022-10-23T21:30:00",
+      "end": "2022-10-23T23:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "MULTI Workshop",
+      "speakers": ["MLM processes and methodologies"],
+      "start": "2022-10-23T15:00:00",
+      "end": "2022-10-23T16:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "MULTI Workshop",
+      "speakers": ["MLM tools and applications"],
+      "start": "2022-10-23T16:30:00",
+      "end": "2022-10-23T18:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "MULTI Workshop",
+      "speakers": ["Comparison and unification"],
+      "start": "2022-10-23T19:30:00",
+      "end": "2022-10-23T20:50:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "MULTI Workshop",
+      "speakers": ["Closing words"],
+      "start": "2022-10-23T20:51:00",
+      "end": "2022-10-23T21:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Agile, Web-Centric, Model-Driven Development of Real Systems Using Umple",
+      "speakers": ["Timothy Lethbridge"],
+      "start": "2022-10-23T14:30:00",
+      "end": "2022-10-23T16:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Agile, Web-Centric, Model-Driven Development of Real Systems Using Umple",
+      "speakers": ["Timothy Lethbridge"],
+      "start": "2022-10-23T16:30:00",
+      "end": "2022-10-23T18:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Ontology modeling language",
+      "speakers": ["Maged Elaasar"],
+      "start": "2022-10-23T19:30:00",
+      "end": "2022-10-23T21:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Discrete-Event Modeling and Simulation-based Development of Embedded Systems",
+      "speakers": ["Gabriel A. Wainer", "Cristina Ruiz Martin"],
+      "start": "2022-10-23T21:30:00",
+      "end": "2022-10-23T23:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "MPM4CPS Workshop",
+      "speakers": ["Introduction", "Keynote"],
+      "start": "2022-10-23T14:30:00",
+      "end": "2022-10-23T16:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MPM4CPS Workshop",
+      "speakers": ["Session 2"],
+      "start": "2022-10-23T16:30:00",
+      "end": "2022-10-23T18:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MPM4CPS Workshop",
+      "speakers": ["Session 3"],
+      "start": "2022-10-23T19:30:00",
+      "end": "2022-10-23T21:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MoDeVVa Workshop - Welcome and Keynote Talk",
+      "speakers": ["Houari Sahraoui"],
+      "start": "2022-10-24T14:30:00",
+      "end": "2022-10-24T16:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "MoDeVVa Workshop",
+      "speakers": ["DSLs and formal methods"],
+      "start": "2022-10-24T16:30:00",
+      "end": "2022-10-24T18:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "MoDeVVa Workshop",
+      "speakers": ["Model analysis"],
+      "start": "2022-10-24T19:30:00",
+      "end": "2022-10-24T21:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "MoDeVVa Workshop",
+      "speakers": ["Brain Storming and Wrap up"],
+      "start": "2022-10-24T21:30:00",
+      "end": "2022-10-24T23:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Beyond the Clouds: A journey and lessons learned",
+      "speakers": ["Mohammad Hamdaqa", "Abdelouahed Gherbi"],
+      "start": "2022-10-24T14:30:00",
+      "end": "2022-10-24T16:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "UML Modelling",
+      "speakers": [""],
+      "start": "2022-10-24T16:30:00",
+      "end": "2022-10-24T18:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Model Checking",
+      "speakers": [""],
+      "start": "2022-10-24T19:30:00",
+      "end": "2022-10-24T21:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Innovative Modelling Approaches",
+      "speakers": [""],
+      "start": "2022-10-24T21:30:00",
+      "end": "2022-10-24T23:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "HuFaMo Workshop",
+      "speakers": ["Opening", "Keynote and Session 1"],
+      "start": "2022-10-24T14:30:00",
+      "end": "2022-10-24T16:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "HuFaMo Workshop",
+      "speakers": ["Human Factors in Modeling"],
+      "start": "2022-10-24T16:30:00",
+      "end": "2022-10-24T18:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "DevOps@MODELS Workshop",
+      "speakers": ["Welcome", "Keynote"],
+      "start": "2022-10-24T14:30:00",
+      "end": "2022-10-24T16:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "DevOps@MODELS Workshop",
+      "speakers": ["Session 2"],
+      "start": "2022-10-24T16:30:00",
+      "end": "2022-10-24T18:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "ME Workshop - Introduction, Keynote, Analyzing Model Changes with Loupe",
+      "speakers": ["Benoit Combemale"],
+      "start": "2022-10-24T19:30:00",
+      "end": "2022-10-24T21:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "ME Workshop",
+      "speakers": ["Models and Evolution"],
+      "start": "2022-10-24T21:30:00",
+      "end": "2022-10-24T23:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "MDEIntelligence Workshop",
+      "speakers": ["MDE for AI"],
+      "start": "2022-10-24T14:30:00",
+      "end": "2022-10-24T16:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MDEIntelligence Workshop",
+      "speakers": ["Keynote by Prof. Houari Sahraoui"],
+      "start": "2022-10-24T16:30:00",
+      "end": "2022-10-24T18:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MDEIntelligence Workshop",
+      "speakers": ["AI for MDE"],
+      "start": "2022-10-24T19:30:00",
+      "end": "2022-10-24T21:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MDEIntelligence Workshop",
+      "speakers": ["Lightning Talks and Discussion"],
+      "start": "2022-10-24T21:30:00",
+      "end": "2022-10-24T23:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MLE Workshop - Introduction, Keynote, Improving User Experience in Industrial DSM",
+      "speakers": ["Juan de Lara"],
+      "start": "2022-10-24T14:30:00",
+      "end": "2022-10-24T16:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MLE Workshop",
+      "speakers": ["Session 2"],
+      "start": "2022-10-24T16:30:00",
+      "end": "2022-10-24T18:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MLE Workshop",
+      "speakers": ["Session 3"],
+      "start": "2022-10-24T19:30:00",
+      "end": "2022-10-24T21:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MLE Workshop",
+      "speakers": ["Discussions and closing words"],
+      "start": "2022-10-24T21:30:00",
+      "end": "2022-10-24T23:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Digital Twin as a Decision-Making Aid in the Face of Uncertainty",
+      "speakers": [
+        "Vinay Kulkarni",
+        "Souvik Barat",
+        "Tony Clark",
+        "Balbir Barn"
+      ],
+      "start": "2022-10-24T14:30:00",
+      "end": "2022-10-24T16:00:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "Digital Twin as a Decision-Making Aid in the Face of Uncertainty",
+      "speakers": [
+        "Vinay Kulkarni",
+        "Souvik Barat",
+        "Tony Clark",
+        "Balbir Barn"
+      ],
+      "start": "2022-10-24T16:30:00",
+      "end": "2022-10-24T18:00:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "From System Engineering to Analysis and Design for the Best Digital Products Engineering",
+      "speakers": ["Saulius Pavalkis"],
+      "start": "2022-10-24T19:30:00",
+      "end": "2022-10-24T21:00:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "From System Engineering to Analysis and Design for the Best Digital Products Engineering",
+      "speakers": ["Saulius Pavalkis"],
+      "start": "2022-10-24T21:30:00",
+      "end": "2022-10-24T23:00:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "SATELLITE RECEPTION",
+      "speakers": [""],
+      "start": "2022-10-25T00:00:00",
+      "end": "2022-10-25T04:00:00",
+      "location": "Microbrewery 3 Brasseurs",
+      "article_url": ""
+    },
+    {
+      "title": "Welcome Remarks",
+      "speakers": [""],
+      "start": "2022-10-25T14:30:00",
+      "end": "2022-10-25T14:44:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "A New DSL Textbook in Town!",
+      "speakers": ["Thorsten Berger"],
+      "start": "2022-10-25T14:45:00",
+      "end": "2022-10-25T16:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "An analysis of software design understanding & motivation of engineering students - Jean-Christophe Bach, Antoine Beugnard, Jean-Loup Castaigne, Julien Mallet, Salvador Martínez, Maria",
+      "speakers": ["Teresa Segarra"],
+      "start": "2022-10-25T16:30:00",
+      "end": "2022-10-25T17:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "A Refined Model of Ill-definedness in Project-Based Learning",
+      "speakers": ["Arthur Rump", "Vadim Zaytsev"],
+      "start": "2022-10-25T17:00:00",
+      "end": "2022-10-25T17:30:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Teaching Modeling to Anyone the Aristotelian Way: Anyone can cook a sound model",
+      "speakers": ["Michel Zam"],
+      "start": "2022-10-25T17:30:00",
+      "end": "2022-10-25T18:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Purpose-driven Model-Driven Engineering Education",
+      "speakers": ["Daniel Calegari", "Andrea Delgado"],
+      "start": "2022-10-25T19:30:00",
+      "end": "2022-10-25T20:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Token-based Plagiarism Detection for Metamodels",
+      "speakers": [
+        "Timur Sağlam",
+        "Sebastian Hahner",
+        "Jan Willem Wittler",
+        "Thomas Kühn"
+      ],
+      "start": "2022-10-25T20:00:00",
+      "end": "2022-10-25T20:30:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Tool Support for the Teaching of State-Based Behavior Modeling",
+      "speakers": [
+        "Christian Zöllner",
+        "Christian M Adriano",
+        "Simon Wietheger",
+        "Leen Lambers",
+        "Holger Giese"
+      ],
+      "start": "2022-10-25T20:30:00",
+      "end": "2022-10-25T21:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "A DSL and Model Transformations to Specify Learning Corpora for Modeling Assistants",
+      "speakers": [
+        "Younes Boubekeur",
+        "Prabhsimran Singh",
+        "Gunter Mussbacher"
+      ],
+      "start": "2022-10-25T21:30:00",
+      "end": "2022-10-25T22:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Detection of Anomalous Modeling Behavior: A Goal-Driven Data Mining Approach",
+      "speakers": ["Tong Li", "Yiting Wang", "Congkai Geng"],
+      "start": "2022-10-25T22:00:00",
+      "end": "2022-10-25T22:30:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "The Epsilon Playground - Dimitris Kolovos, Antonio Garcia",
+      "speakers": ["Dominguez"],
+      "start": "2022-10-25T22:30:00",
+      "end": "2022-10-25T23:00:00",
+      "location": "A-2521.1",
+      "article_url": ""
+    },
+    {
+      "title": "openCAESAR: A Next Generation Platform for Systems Engineering",
+      "speakers": ["Maged Elaasar"],
+      "start": "2022-10-25T14:45:00",
+      "end": "2022-10-25T15:45:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Awards Ceremony",
+      "speakers": [""],
+      "start": "2022-10-25T15:46:00",
+      "end": "2022-10-25T16:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "SDL Society Annual General Meeting",
+      "speakers": [""],
+      "start": "2022-10-25T16:30:00",
+      "end": "2022-10-25T18:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "System",
+      "speakers": ["Level Modelling Languages"],
+      "start": "2022-10-25T19:30:00",
+      "end": "2022-10-25T21:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "SAM 2022 Closing Notes / Discussion",
+      "speakers": [""],
+      "start": "2022-10-25T21:30:00",
+      "end": "2022-10-25T23:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Opening",
+      "speakers": [""],
+      "start": "2022-10-25T14:50:00",
+      "end": "2022-10-25T15:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "SysML v2: The New Standard for Model-Based Systems Engineering",
+      "speakers": ["Ed Seidewitz"],
+      "start": "2022-10-25T15:00:00",
+      "end": "2022-10-25T15:30:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "MBSE accelerated: SysML v2-based comprehensive toolset for safety analysis, requirements verification, trade studies with multi-physics simulation and embedded SW development",
+      "speakers": ["Thierry Le Sergent"],
+      "start": "2022-10-25T15:30:00",
+      "end": "2022-10-25T16:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Academic research to industry practice: success stories and open challenges in model-based approaches",
+      "speakers": ["Akshay Rajhans"],
+      "start": "2022-10-25T16:30:00",
+      "end": "2022-10-25T17:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Is there a place for physical test in an MBSE world?",
+      "speakers": ["Taylor Riche"],
+      "start": "2022-10-25T17:00:00",
+      "end": "2022-10-25T17:30:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Digital Twins and Virtualization: Next Generation V&V Technologies for Automotive Systems",
+      "speakers": ["S Ramesh"],
+      "start": "2022-10-25T17:30:00",
+      "end": "2022-10-25T18:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Model-based network automation: opportunities and challenges",
+      "speakers": ["Mojtaba Bagherzadeh"],
+      "start": "2022-10-25T19:30:00",
+      "end": "2022-10-25T20:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "RTist in Code – A New Approach to Modeling Real-Time Applications",
+      "speakers": ["Mattias Mohlin"],
+      "start": "2022-10-25T20:00:00",
+      "end": "2022-10-25T20:30:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "How much modeling do we really need? A view on modeling challenges in the automotive industry in the age of the Software-Defined-Vehicle",
+      "speakers": ["Maged Khalil"],
+      "start": "2022-10-25T20:30:00",
+      "end": "2022-10-25T21:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "What disruptive technologies are expected to be most influential for the future industrial practice of MBSE?",
+      "speakers": [
+        "Daniel Varro",
+        "Thierry Le Sergent",
+        "Mattias Mohlin",
+        "Maged Khalil",
+        "Ed Seidewitz",
+        "Akshay Rajhans",
+        "Mojtaba Bagherzadeh"
+      ],
+      "start": "2022-10-25T21:30:00",
+      "end": "2022-10-25T23:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Opening",
+      "speakers": [""],
+      "start": "2022-10-25T14:30:00",
+      "end": "2022-10-25T14:35:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "MDE Doctoral Research Anti-Patterns: How Not to Do It",
+      "speakers": ["Richard Paige"],
+      "start": "2022-10-25T14:35:00",
+      "end": "2022-10-25T15:30:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Towards Qualifiable Graphical Editing of Complex Domain-specific Models in Safety-critical Avionics",
+      "speakers": ["Andreas Waldvogel"],
+      "start": "2022-10-25T15:30:00",
+      "end": "2022-10-25T16:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Measuring the Fidelity of Digital Twin Systems",
+      "speakers": ["Paula Muñoz"],
+      "start": "2022-10-25T16:30:00",
+      "end": "2022-10-25T17:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Dynamic Adaptation for Distributed Systems in Model-Driven Engineering",
+      "speakers": ["Mufasir Muthaher Mohammed"],
+      "start": "2022-10-25T17:00:00",
+      "end": "2022-10-25T17:30:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Towards Realizing Test Conditions for Automated Vehicles",
+      "speakers": ["Felix Beringhoff"],
+      "start": "2022-10-25T17:30:00",
+      "end": "2022-10-25T18:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Towards Consistency Management in Low-Code Platforms",
+      "speakers": ["MohammadAmin Zaheri"],
+      "start": "2022-10-25T19:30:00",
+      "end": "2022-10-25T20:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "ViMoTest: A Low Code Approach to Specify View Model-based Tests with a Projectional DSL using JetBrains MPS",
+      "speakers": ["Mario Fuksa"],
+      "start": "2022-10-25T20:00:00",
+      "end": "2022-10-25T20:30:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Simplify Model Design in MDE Approaches - Asbathou Biyalou",
+      "speakers": ["Sama"],
+      "start": "2022-10-25T20:30:00",
+      "end": "2022-10-25T21:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Deriving Model-based Safety and Security Assurance Cases from Design Rationale of Countermeasure Patterns",
+      "speakers": ["Roman Trentinaglia"],
+      "start": "2022-10-25T21:30:00",
+      "end": "2022-10-25T22:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Addressing Non-Functional Requirements of Adaptive IoT Systems: A Model-Driven Approach",
+      "speakers": ["Mirza R Tabassum"],
+      "start": "2022-10-25T22:00:00",
+      "end": "2022-10-25T22:30:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "Closing",
+      "speakers": [""],
+      "start": "2022-10-25T22:30:00",
+      "end": "2022-10-25T23:00:00",
+      "location": "A-3561",
+      "article_url": ""
+    },
+    {
+      "title": "LowCode Workshop",
+      "speakers": ["Opening and Keynote"],
+      "start": "2022-10-25T14:30:00",
+      "end": "2022-10-25T16:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "LowCode Workshop",
+      "speakers": ["Session 2"],
+      "start": "2022-10-25T16:30:00",
+      "end": "2022-10-25T18:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "LowCode Workshop",
+      "speakers": ["Session 3"],
+      "start": "2022-10-25T19:30:00",
+      "end": "2022-10-25T21:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "ModDiT Workshop",
+      "speakers": ["Opening and Keynote"],
+      "start": "2022-10-25T14:30:00",
+      "end": "2022-10-25T16:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "ModDiT Workshop",
+      "speakers": ["Engineering Digital Twins"],
+      "start": "2022-10-25T16:30:00",
+      "end": "2022-10-25T18:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "ModDiT Workshop",
+      "speakers": ["Keynote", "Operations of Digital Twins Pt. 1"],
+      "start": "2022-10-25T19:30:00",
+      "end": "2022-10-25T21:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "ModDiT Workshop",
+      "speakers": ["Operations of Digital Twins Pt. 2"],
+      "start": "2022-10-25T21:30:00",
+      "end": "2022-10-25T23:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MASE Workshop - Session 1",
+      "speakers": ["Ahsan Qamar"],
+      "start": "2022-10-25T14:30:00",
+      "end": "2022-10-25T16:00:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "MASE Workshop",
+      "speakers": ["Session 2"],
+      "start": "2022-10-25T16:30:00",
+      "end": "2022-10-25T18:00:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "MASE Workshop",
+      "speakers": ["Session 3"],
+      "start": "2022-10-25T19:30:00",
+      "end": "2022-10-25T21:00:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "Welcome to MODELS 2022",
+      "speakers": [
+        "Eugene Syriani",
+        "Houari Sahraoui",
+        "Manuel Wimmer",
+        "Nelly Bencomo"
+      ],
+      "start": "2022-10-26T14:30:00",
+      "end": "2022-10-26T15:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Keynote by Akshay Rajhans",
+      "speakers": ["Akshay Rajhans"],
+      "start": "2022-10-26T15:00:00",
+      "end": "2022-10-26T16:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Quantifying the Variability Mismatch Between Problem and Solution Space",
+      "speakers": [
+        "Marc Hentze",
+        "Chico Sundermann",
+        "Thomas Thüm",
+        "Ina Schaefer"
+      ],
+      "start": "2022-10-26T16:30:00",
+      "end": "2022-10-26T16:52:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Modular Language Product Lines. A Graph Transformation Approach",
+      "speakers": ["Juan de Lara", "Esther Guerra", "Paolo Bottoni"],
+      "start": "2022-10-26T16:52:30",
+      "end": "2022-10-26T17:15:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Utilizing multi-level concepts for multi-phase modeling - Context-awareness and process-based constraints to enable model evolution",
+      "speakers": [
+        "Tobias Franz",
+        "Christoph Seidl",
+        "Philipp M. Fischer",
+        "Andreas Gerndt"
+      ],
+      "start": "2022-10-26T17:15:00",
+      "end": "2022-10-26T17:37:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Domain object hierarchies inducing multi-level model",
+      "speakers": ["Bernd Neumayr", "Michael Schrefl"],
+      "start": "2022-10-26T17:37:30",
+      "end": "2022-10-26T18:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Practical Multiverse Debugging through User-defined Reductions: Application to UML Models",
+      "speakers": [
+        "Matthias Pasquier",
+        "Ciprian Teodorov",
+        "Frédéric Jouault",
+        "Matthias Brun",
+        "Luka Le Roux",
+        "Loïc Lagadec"
+      ],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T19:52:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Modelling Program Verification Tools for Software Engineers",
+      "speakers": ["Sophie Lathouwers", "Vadim Zaytsev"],
+      "start": "2022-10-26T19:52:30",
+      "end": "2022-10-26T20:15:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Automatic Test Amplification for Executable Models - Faezeh Khorram, Erwan Bousse, Jean-Marie Mottu, Gerson Sunyé, Pablo Gómez",
+      "speakers": [
+        "Abajo",
+        "Pablo C Canizares",
+        "Esther Guerra",
+        "Juan de Lara"
+      ],
+      "start": "2022-10-26T20:15:00",
+      "end": "2022-10-26T20:37:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Feedback on the Formal Verification of UML Models in an Industrial Context: The Case of a Smart Device Life Cycle Management System",
+      "speakers": [
+        "Maxime Méré",
+        "Frédéric Jouault",
+        "Loïc Pallardy",
+        "Richard Perdriau"
+      ],
+      "start": "2022-10-26T20:37:30",
+      "end": "2022-10-26T21:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Machine learning methods for model classification: A comparative study",
+      "speakers": [
+        "José Antonio Hernández López",
+        "Riccardo Rubei",
+        "Jesús Sánchez Cuadrado",
+        "Davide Di Ruscio"
+      ],
+      "start": "2022-10-26T21:30:00",
+      "end": "2022-10-26T21:52:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Enhancing software model encoding for feature location approaches based on machine learning techniques",
+      "speakers": [
+        "Ana Cristina Marcén",
+        "Francisca Pérez",
+        "Oscar Pastor",
+        "Carlos Cetina"
+      ],
+      "start": "2022-10-26T21:52:30",
+      "end": "2022-10-26T22:15:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "ModelSet: a dataset for machine learning in model-driven engineering",
+      "speakers": [
+        "José Antonio Hernández López",
+        "Javier Luis Cánovas Izquierdo",
+        "Jesús Sánchez Cuadrado"
+      ],
+      "start": "2022-10-26T22:15:00",
+      "end": "2022-10-26T22:37:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Using the ModelSet dataset to support Machine Learning in Model-Driven Engineering",
+      "speakers": [
+        "José Antonio Hernández López",
+        "Javier Luis Cánovas Izquierdo",
+        "Jesús Sánchez Cuadrado"
+      ],
+      "start": "2022-10-26T22:37:30",
+      "end": "2022-10-26T23:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Model Based Systems Engineering for Software Defined Vehicle Development",
+      "speakers": ["Ahsan Qamar"],
+      "start": "2022-10-26T16:30:00",
+      "end": "2022-10-26T17:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "An architecture proposal integrating Information Technology (IT) and Operational Technology (OT) objectives for real time data democratisation",
+      "speakers": ["François Thibodeau"],
+      "start": "2022-10-26T17:00:00",
+      "end": "2022-10-26T17:30:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "An emergent Business and Engineering Process Modeling for a hybrid human-multi-robot  workflow management",
+      "speakers": ["Maroua Ben Attia"],
+      "start": "2022-10-26T17:30:00",
+      "end": "2022-10-26T18:00:00",
+      "location": "A-3521.1",
+      "article_url": ""
+    },
+    {
+      "title": "Precomputing Reconfiguration Strategies based on Stochastic Timed Game Automata",
+      "speakers": [
+        "Hendrik Göttmann",
+        "Birte Caesar",
+        "Lasse Beers",
+        "Malte Lochau",
+        "Andy Schürr",
+        "Alexander Fay"
+      ],
+      "start": "2022-10-26T16:30:00",
+      "end": "2022-10-26T16:52:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A Tool for the Automation of Efficient Multi-Robot Choreography Planning and Execution",
+      "speakers": [
+        "Eric Roslin Wete Poaka",
+        "Joel Greenyer",
+        "Daniel Kudenko",
+        "Wolfgang Nejdl",
+        "Oliver Flegel",
+        "Dennes Eisner"
+      ],
+      "start": "2022-10-26T16:52:00",
+      "end": "2022-10-26T17:07:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "System Architecture Synthesis for Performability by Logic Solvers",
+      "speakers": [
+        "Máté Földiák",
+        "Kristóf Marussy",
+        "Daniel Varro",
+        "Istvan Majzik"
+      ],
+      "start": "2022-10-26T17:07:00",
+      "end": "2022-10-26T17:29:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Migrating from Proprietary Tools to Open-source Software for EAST-ADL Metamodel Generation and Evolution - Jörg Holtmann, Jan",
+      "speakers": ["Philipp Steghöfer", "Henrik Lönn"],
+      "start": "2022-10-26T17:29:00",
+      "end": "2022-10-26T17:44:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A Diagram-Centric Modeling Tool for Systems of Systems",
+      "speakers": [
+        "Sean Kristian Remond Harbo",
+        "Emil Voldby",
+        "Jonas Madsen",
+        "Michele Albano"
+      ],
+      "start": "2022-10-26T17:44:00",
+      "end": "2022-10-26T17:59:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Verification of Railway Network Models with EVEREST",
+      "speakers": [
+        "João Martins",
+        "José M. Fonseca",
+        "Rafael Costa",
+        "José Creissac Campos",
+        "Alcino Cunha",
+        "Nuno Macedo",
+        "Jose Nuno Oliveira"
+      ],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T19:52:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Bug Localization in Game Software Engineering: Evolving Simulations to Locate Bugs in Software Models of Video Games",
+      "speakers": [
+        "Rodrigo Casamayor",
+        "Lorena Arcega",
+        "Francisca Pérez",
+        "Carlos Cetina"
+      ],
+      "start": "2022-10-26T19:52:30",
+      "end": "2022-10-26T20:15:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "SOCAM: a service-oriented computing architecture modeling method - Paola Reyes-Delgado, Hector Duran-Limon, Manuel Mora, Laura Rodriguez",
+      "speakers": ["Martinez"],
+      "start": "2022-10-26T20:15:00",
+      "end": "2022-10-26T20:37:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A Comprehensive Framework for the Analysis of Automotive Systems",
+      "speakers": [
+        "Alessandro Cimatti",
+        "Sara Corfini",
+        "Luca Cristoforetti",
+        "Marco Di Natale",
+        "Alberto Griggio",
+        "Stefano Puri",
+        "Stefano Tonetta"
+      ],
+      "start": "2022-10-26T20:37:30",
+      "end": "2022-10-26T21:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Incremental Causal Connection for Self-Adaptive Systems based on Relational Reference Attribute Grammars",
+      "speakers": [
+        "René Schöne",
+        "Johannes Mey",
+        "Sebastian Ebert",
+        "Sebastian Götz",
+        "Uwe Aßmann"
+      ],
+      "start": "2022-10-26T21:30:00",
+      "end": "2022-10-26T21:52:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Addressing the Uncertainty Interaction Problem in Software-intensive Systems: Challenges and Desiderata",
+      "speakers": [
+        "Javier Camara",
+        "Radu Calinescu",
+        "Betty H.C. Cheng",
+        "David Garlan",
+        "Bradley Schmerl",
+        "Javier Troya",
+        "Antonio Vallecillo"
+      ],
+      "start": "2022-10-26T21:52:30",
+      "end": "2022-10-26T22:15:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Modelling in low-code development: a multi-vocal systematic review",
+      "speakers": [
+        "Alessio Bucaioni",
+        "Antonio Cicchetti",
+        "Federico Ciccozzi"
+      ],
+      "start": "2022-10-26T22:15:00",
+      "end": "2022-10-26T22:37:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A Value-Based Goal Model Analysis Tool",
+      "speakers": ["Carlos Cano Genoves", "Emilio Insfran", "Silvia Abrahão"],
+      "start": "2022-10-26T22:37:30",
+      "end": "2022-10-26T23:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Accelerating Similarity-Based Model Matching Using On-The-Fly Similarity Preserving Hashing",
+      "speakers": ["Xiao He", "Letian Tang", "Yutong Li"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T19:52:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "An efficient line-based approach for resolving merge conflicts in XMI-based models",
+      "speakers": ["Alfonso de la Vega", "Dimitris Kolovos"],
+      "start": "2022-10-26T19:52:30",
+      "end": "2022-10-26T20:15:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A generic approach to detect design patterns in model transformations using a string-matching algorithm",
+      "speakers": [
+        "Chihab eddine Mokaddem",
+        "Houari Sahraoui",
+        "Eugene Syriani"
+      ],
+      "start": "2022-10-26T20:15:00",
+      "end": "2022-10-26T20:37:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Nested OSTRICH: Hatching Compositions of Low-code Templates",
+      "speakers": [
+        "João Costa Seco",
+        "Hugo Lourenço",
+        "Joana Baptista Parreira",
+        "Carla Ferreira"
+      ],
+      "start": "2022-10-26T20:37:30",
+      "end": "2022-10-26T21:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Advanced Visualization and Interaction in GLSP-based Web Modeling: Realizing Semantic Zoom and Off-Screen Elements",
+      "speakers": ["Giuliano De Carlo", "Philip Langer", "Dominik Bork"],
+      "start": "2022-10-26T21:30:00",
+      "end": "2022-10-26T21:52:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Picto Web: A Tool for Complex Model Exploration - Alfa Yohannis, Dimitris Kolovos, Antonio Garcia",
+      "speakers": ["Dominguez", "Carlos Javier Fernández Candel"],
+      "start": "2022-10-26T21:52:30",
+      "end": "2022-10-26T22:15:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "The Influence of Software Design Representation on the Design Communication of Teams with Diverse Personalities - Rodi Jolak, Maxime Savary",
+      "speakers": [
+        "Leblanc",
+        "Manuela Dalibor",
+        "Juraj Vincur",
+        "Ivan Polasek",
+        "Regina Hebig",
+        "Xavier Le Pallec",
+        "Michel Chaudron",
+        "Sebastian Gerard",
+        "Andreas Wortmann"
+      ],
+      "start": "2022-10-26T22:15:00",
+      "end": "2022-10-26T22:37:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Blended modeling in commercial and open-source model-driven software engineering tools: A systematic study - Istvan David, Malvina Latifaj, Jakob Pietron, Weixing Zhang, Federico Ciccozzi, Ivano Malavolta, Alexander Raschke, Jan",
+      "speakers": ["Philipp Steghöfer", "Regina Hebig"],
+      "start": "2022-10-26T22:37:30",
+      "end": "2022-10-26T23:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "SYMBOLEO2SC: From Legal Contract Specifications to Smart Contracts",
+      "speakers": [
+        "Aidin Rasti",
+        "Daniel Amyot",
+        "Alireza Parvizimosaed",
+        "Marco Roveri",
+        "Luigi Logrippo",
+        "Amal Ahmed Anda",
+        "John Mylopoulos"
+      ],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "ORM Ontologies with Executable Derivation Rules to Support Semantic Search in Large-Scale Data Applications",
+      "speakers": ["Márton Búr"],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Modeling Tool for Managing Canvas-Based Models Traceability in ML System Development",
+      "speakers": [
+        "Jati Hiliamsyah Husen",
+        "Hironori Washizaki",
+        "Hnin Tun",
+        "Nobukazu Yoshioka"
+      ],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Contract-based Product-Assembly Co-Design",
+      "speakers": ["Bert Van Acker", "Joachim Denil"],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "A Lightweight Approach to the Concurrent Use and Integration of SysML and Formal Methods in Systems Design",
+      "speakers": ["Robert Thorburn", "Asieh Salehi Fathabadi"],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Teaching Modeling to Anyone the Aristotelian Way: Anyone can cook a sound model.",
+      "speakers": ["Michel Zam"],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Validating the Correctness of Reactive Systems Specifications Through Systematic Exploration",
+      "speakers": ["Dor Ma'ayan", "Shahar Maoz", "Roey Rozi"],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Incremental Causal Connection for Self-Adaptive Systems Based on Relational Reference Attribute Grammars",
+      "speakers": [
+        "René Schöne",
+        "Johannes Mey",
+        "Sebastian Ebert",
+        "Sebastian Götz"
+      ],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Modelling Program Verification Tools for Software Engineers",
+      "speakers": ["Sophie Lathouwers", "Vadim Zaytsev"],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "SimuV: Model-based Configuration Management for Simulink Models",
+      "speakers": ["Tien N. Nguyen"],
+      "start": "2022-10-26T16:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Solving the Instance Model-View Update Problem in AADL",
+      "speakers": ["Rakshit Mittal"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T21:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Automating the design of recommender systems: from foundational aspects to actual development",
+      "speakers": ["Claudio Di Sipio"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T21:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Participatory Agent-Based Modelling in Healthcare – A Domain-Specific Modelling Language Approach",
+      "speakers": ["Thomas Godfrey"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T21:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "The path towards the automatic provision of blended modeling environments",
+      "speakers": ["Malvina Latifaj"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T21:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "How Alike are my Physical and Digital Twins?",
+      "speakers": ["Paula Muñoz"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T21:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Domain-specific model differencing for graphical domain-specific languages",
+      "speakers": ["Manouchehr Zadahmad Jafarlou"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T21:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Eat Your Own DevOps: A Model Driven Approach to Justify Continous Integration Pipelines",
+      "speakers": ["Corinne Pulgar"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T21:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Automated, Traceable, and Interactive Domain Modelling",
+      "speakers": ["Rijul Saini"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T21:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Pushing the Boundaries of Planned Reuse with Concern Specific Modelling Languages",
+      "speakers": ["Maximilian Schiedermeier"],
+      "start": "2022-10-26T19:30:00",
+      "end": "2022-10-26T21:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Teaching Modeling to Anyone the Aristotelian Way: Anyone can cook a sound model.",
+      "speakers": ["Michel Zam"],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "ORM Ontologies with Executable Derivation Rules to Support Semantic Search in Large-Scale Data Applications",
+      "speakers": ["Márton Búr"],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Contract-based Product-Assembly Co-Design",
+      "speakers": ["Bert Van Acker", "Joachim Denil"],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "A Lightweight Approach to the Concurrent Use and Integration of SysML and Formal Methods in Systems Design",
+      "speakers": ["Robert Thorburn", "Asieh Salehi Fathabadi"],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Incremental Causal Connection for Self-Adaptive Systems Based on Relational Reference Attribute Grammars",
+      "speakers": [
+        "René Schöne",
+        "Johannes Mey",
+        "Sebastian Ebert",
+        "Sebastian Götz"
+      ],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "SimuV: Model-based Configuration Management for Simulink Models",
+      "speakers": ["Tien N. Nguyen"],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "SYMBOLEO2SC: From Legal Contract Specifications to Smart Contracts",
+      "speakers": [
+        "Aidin Rasti",
+        "Daniel Amyot",
+        "Alireza Parvizimosaed",
+        "Marco Roveri",
+        "Luigi Logrippo",
+        "Amal Ahmed Anda",
+        "John Mylopoulos"
+      ],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Modelling Program Verification Tools for Software Engineers",
+      "speakers": ["Sophie Lathouwers", "Vadim Zaytsev"],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Validating the Correctness of Reactive Systems Specifications Through Systematic Exploration",
+      "speakers": ["Dor Ma'ayan", "Shahar Maoz", "Roey Rozi"],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Modeling Tool for Managing Canvas-Based Models Traceability in ML System Development",
+      "speakers": [
+        "Jati Hiliamsyah Husen",
+        "Hironori Washizaki",
+        "Hnin Tun",
+        "Nobukazu Yoshioka"
+      ],
+      "start": "2022-10-26T21:00:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "WELCOME RECEPTION",
+      "speakers": [""],
+      "start": "2022-10-26T23:30:00",
+      "end": "2022-10-27T02:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "SOSYM editorial board meeting",
+      "speakers": [""],
+      "start": "2022-10-26T18:00:00",
+      "end": "2022-10-26T19:30:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "MODELS steering committee meeting",
+      "speakers": [""],
+      "start": "2022-10-26T21:30:00",
+      "end": "2022-10-26T23:00:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "Announcements",
+      "speakers": [""],
+      "start": "2022-10-27T14:45:00",
+      "end": "2022-10-27T15:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Keynote by Danny Tarlow",
+      "speakers": ["Danny Tarlow"],
+      "start": "2022-10-27T15:00:00",
+      "end": "2022-10-27T16:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Model-Checking Legal Contracts with SymboleoPC",
+      "speakers": [
+        "Alireza Parvizimosaed",
+        "Marco Roveri",
+        "Aidin Rasti",
+        "Daniel Amyot",
+        "Luigi Logrippo",
+        "John Mylopoulos"
+      ],
+      "start": "2022-10-27T16:30:00",
+      "end": "2022-10-27T16:52:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Predicate Abstractions for Smart Contract Validation",
+      "speakers": [
+        "Javier Godoy",
+        "Juan Pablo Galeotti",
+        "Diego Garbervetsky",
+        "Sebastian Uchitel"
+      ],
+      "start": "2022-10-27T16:52:30",
+      "end": "2022-10-27T17:15:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Symboleo2SC: From Legal Contract Specifications to Smart Contracts",
+      "speakers": [
+        "Aidin Rasti",
+        "Daniel Amyot",
+        "Alireza Parvizimosaed",
+        "Marco Roveri",
+        "Luigi Logrippo",
+        "John Mylopoulos",
+        "Amal Ahmed Anda"
+      ],
+      "start": "2022-10-27T17:15:00",
+      "end": "2022-10-27T17:37:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A Declarative Modeling Framework for the Deployment and Management of Blockchain Applications",
+      "speakers": [
+        "Luciano Baresi",
+        "Giovanni Quattrocchi",
+        "Damian Andrew Tamburri",
+        "Luca Terracciano"
+      ],
+      "start": "2022-10-27T17:37:30",
+      "end": "2022-10-27T18:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Is Lowcode succeeding where we are failing? - Antonio Cicchetti, Ed Seidewitz, Jean",
+      "speakers": [
+        "Michel Bruel",
+        "Maria Angela Ferrario",
+        "Richard Paige",
+        "UIrich Frank"
+      ],
+      "start": "2022-10-27T19:30:00",
+      "end": "2022-10-27T21:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Digital Twin as Risk Free Experimentation Aid for Techno-socio-economic Systems",
+      "speakers": [
+        "Souvik Barat",
+        "Vinay Kulkarni",
+        "Tony Clark",
+        "Balbir Barn"
+      ],
+      "start": "2022-10-27T21:30:00",
+      "end": "2022-10-27T21:52:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Digital TwinCity: A Holistic Approach towards Comparative Analysis of Business Processes",
+      "speakers": ["Shinobu Saito"],
+      "start": "2022-10-27T21:52:30",
+      "end": "2022-10-27T22:15:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Facilitating the migration to the microservice architecture via model-driven reverse engineering and reinforcement learning",
+      "speakers": [
+        "Shekoufeh Rahimi",
+        "MohammadHadi Dehghani",
+        "Massimo Tisi",
+        "Dalila Tamzalit"
+      ],
+      "start": "2022-10-27T22:15:00",
+      "end": "2022-10-27T22:37:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Towards Model-based Bias Mitigation in Machine Learning",
+      "speakers": ["Alfa Yohannis", "Dimitris Kolovos"],
+      "start": "2022-10-27T22:37:30",
+      "end": "2022-10-27T23:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions",
+      "speakers": [
+        "Jia Li",
+        "Shiva Nejati",
+        "Mehrdad Sabetzadeh",
+        "Michael McCallen"
+      ],
+      "start": "2022-10-27T16:30:00",
+      "end": "2022-10-27T16:52:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Model-based ideal testing of hardware description language (HDL) programs",
+      "speakers": [
+        "Onur Kilincceker",
+        "Ercument Turk",
+        "Fevzi Belli",
+        "Moharram Challenger"
+      ],
+      "start": "2022-10-27T16:52:30",
+      "end": "2022-10-27T17:15:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Validating the Correctness of Reactive Systems Specifications Through Systematic Exploration",
+      "speakers": ["Dor Ma'ayan", "Shahar Maoz", "Roey Rozi"],
+      "start": "2022-10-27T17:15:00",
+      "end": "2022-10-27T17:37:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Probabilistic modelling and verification using RoboChart and PRISM",
+      "speakers": [
+        "Kangfeng Ye",
+        "Ana Cavalcanti",
+        "Simon Foster",
+        "Alvaro Miyazawa",
+        "Jim Woodcock"
+      ],
+      "start": "2022-10-27T17:37:30",
+      "end": "2022-10-27T18:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "DescribeML: a tool for describing machine learning datasets",
+      "speakers": ["Joan Giner", "Abel Gómez", "Jordi Cabot"],
+      "start": "2022-10-27T21:30:00",
+      "end": "2022-10-27T21:52:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Event-driven temporal models for explanations - ETeMoX: explaining reinforcement learning - Juan Marcelo Parra, Antonio Garcia-Dominguez, Nelly Bencomo, Changgang Zheng, Chen Zhen, Juan Boubeta",
+      "speakers": ["Puig", "Guadalupe Ortiz", "Shufan Yang"],
+      "start": "2022-10-27T21:52:30",
+      "end": "2022-10-27T22:15:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MoDLF A Model-Driven Deep Learning Framework for Autonomous Vehicle Perception (AVP)",
+      "speakers": [
+        "Aon Safdar",
+        "Farooque Azam",
+        "Muhammad Waseem Anwar",
+        "Usman Akram",
+        "Yawar Rasheed"
+      ],
+      "start": "2022-10-27T22:15:00",
+      "end": "2022-10-27T22:37:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Assisting in Requirements Goal Modeling: A Hybrid Approach based on Machine Learning and Logical Reasoning",
+      "speakers": ["Qixiang Zhou", "Tong Li", "Yunduo Wang"],
+      "start": "2022-10-27T22:37:30",
+      "end": "2022-10-27T23:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Machine Learning-based Incremental Learning in Interactive Domain Modelling",
+      "speakers": [
+        "Rijul Saini",
+        "Gunter Mussbacher",
+        "Jin L.C. Guo",
+        "Jörg Kienzle"
+      ],
+      "start": "2022-10-27T16:30:00",
+      "end": "2022-10-27T16:52:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "MemoRec: a recommender system for assisting modelers in specifying metamodels",
+      "speakers": [
+        "Juri Di Rocco",
+        "Davide Di Ruscio",
+        "Claudio Di Sipio",
+        "Phuong T. Nguyen",
+        "Alfonso Pierantonio"
+      ],
+      "start": "2022-10-27T16:52:30",
+      "end": "2022-10-27T17:15:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Recommending metamodel concepts during modeling activities with pre-trained language models",
+      "speakers": ["Martin Weyssow", "Houari Sahraoui", "Eugene Syriani"],
+      "start": "2022-10-27T17:15:00",
+      "end": "2022-10-27T17:37:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Finding with NEMO: A Recommender System to Forecast the Next Modeling Operations",
+      "speakers": [
+        "Juri Di Rocco",
+        "Claudio Di Sipio",
+        "Phuong T. Nguyen",
+        "Davide Di Ruscio",
+        "Alfonso Pierantonio"
+      ],
+      "start": "2022-10-27T17:37:30",
+      "end": "2022-10-27T18:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Generating repairs for inconsistent models",
+      "speakers": [
+        "Luciano Marchezan",
+        "Roland Kretschmer",
+        "Wesley Assunção",
+        "Alexander Reder",
+        "Alexander Egyed"
+      ],
+      "start": "2022-10-27T21:30:00",
+      "end": "2022-10-27T21:52:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Solving the Instance Model-View Update Problem in AADL",
+      "speakers": [
+        "Rakshit Mittal",
+        "Dominique Blouin",
+        "Anish Bhobe",
+        "Soumyadip Bandyopadhyay"
+      ],
+      "start": "2022-10-27T21:52:30",
+      "end": "2022-10-27T22:15:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "OSATE-DIM Solves the Instance Model View-Update Problem in AADL",
+      "speakers": ["Rakshit Mittal", "Dominique Blouin"],
+      "start": "2022-10-27T22:15:00",
+      "end": "2022-10-27T22:37:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Reactive Links Across Multi-Domain Engineering Models - Cosmina",
+      "speakers": [
+        "Cristina Ratiu",
+        "Wesley Assunção",
+        "Rainer Haas",
+        "Alexander Egyed"
+      ],
+      "start": "2022-10-27T22:37:30",
+      "end": "2022-10-27T23:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "SimuV: Model-based Configuration Management for Simulink Models",
+      "speakers": ["Tien N. Nguyen"],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "A Lightweight Approach to the Concurrent Use and Integration of SysML and Formal Methods in Systems Design",
+      "speakers": ["Robert Thorburn", "Asieh Salehi Fathabadi"],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Teaching Modeling to Anyone the Aristotelian Way: Anyone can cook a sound model.",
+      "speakers": ["Michel Zam"],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Modeling Tool for Managing Canvas-Based Models Traceability in ML System Development",
+      "speakers": [
+        "Jati Hiliamsyah Husen",
+        "Hironori Washizaki",
+        "Hnin Tun",
+        "Nobukazu Yoshioka"
+      ],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Modelling Program Verification Tools for Software Engineers",
+      "speakers": ["Sophie Lathouwers", "Vadim Zaytsev"],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "ORM Ontologies with Executable Derivation Rules to Support Semantic Search in Large-Scale Data Applications",
+      "speakers": ["Márton Búr"],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Contract-based Product-Assembly Co-Design",
+      "speakers": ["Bert Van Acker", "Joachim Denil"],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Validating the Correctness of Reactive Systems Specifications Through Systematic Exploration",
+      "speakers": ["Dor Ma'ayan", "Shahar Maoz", "Roey Rozi"],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "Incremental Causal Connection for Self-Adaptive Systems Based on Relational Reference Attribute Grammars",
+      "speakers": [
+        "René Schöne",
+        "Johannes Mey",
+        "Sebastian Ebert",
+        "Sebastian Götz"
+      ],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "SYMBOLEO2SC: From Legal Contract Specifications to Smart Contracts",
+      "speakers": [
+        "Aidin Rasti",
+        "Daniel Amyot",
+        "Alireza Parvizimosaed",
+        "Marco Roveri",
+        "Luigi Logrippo",
+        "Amal Ahmed Anda",
+        "John Mylopoulos"
+      ],
+      "start": "2022-10-27T16:00:00",
+      "end": "2022-10-27T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    },
+    {
+      "title": "MODELS steering committee meeting",
+      "speakers": [""],
+      "start": "2022-10-27T18:00:00",
+      "end": "2022-10-27T19:30:00",
+      "location": "B-2061",
+      "article_url": ""
+    },
+    {
+      "title": "CONFERENCE BANQUET and AWARD CEREMONY",
+      "speakers": [""],
+      "start": "2022-10-28T00:30:00",
+      "end": "2022-10-28T04:59:00",
+      "location": "LeWindsor",
+      "article_url": ""
+    },
+    {
+      "title": "MODELS 2023 announcement",
+      "speakers": [""],
+      "start": "2022-10-28T14:45:00",
+      "end": "2022-10-28T15:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Keynote by Maria Angela Ferrrio",
+      "speakers": ["Maria Angela Ferrario"],
+      "start": "2022-10-28T15:00:00",
+      "end": "2022-10-28T16:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "10-year SOSYM MIP - Modeling robustness behavior using aspect-oriented modeling to support robustness testing of industrial systems",
+      "speakers": ["Shaukat Ali", "Lionel C. Briand", "Hadi Hemmati"],
+      "start": "2022-10-28T16:30:00",
+      "end": "2022-10-28T17:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "10-year MIP MODELS - From UML and OCL to Relational Logic and Back",
+      "speakers": ["Micro Kuhlmann", "Martin Gogolla"],
+      "start": "2022-10-28T17:00:00",
+      "end": "2022-10-28T17:30:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "10-year SOSYM MIP - Model interoperability in building information modelling",
+      "speakers": ["Jim Steel", "Robin Drogemuller", "Bianca Toth"],
+      "start": "2022-10-28T17:30:00",
+      "end": "2022-10-28T18:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Early timing analysis based on scenario requirements and platform models",
+      "speakers": ["Jörg Holtmann", "Julien DeAntoni", "Markus Fockel"],
+      "start": "2022-10-28T19:30:00",
+      "end": "2022-10-28T19:52:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Requirements document relations - A reuse perspective on traceability through standards",
+      "speakers": ["Katharina Großer", "Volker Riediger", "Jan Jürjens"],
+      "start": "2022-10-28T19:52:30",
+      "end": "2022-10-28T20:15:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Schema Inference for Multi-Model Data",
+      "speakers": ["Pavel Koupil", "Sebastian Hricko", "Irena Holubova"],
+      "start": "2022-10-28T20:15:00",
+      "end": "2022-10-28T20:37:30",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "EvolveDB - A tool for model driven schema evolution",
+      "speakers": ["Torben Eckwert", "Michael Guckert", "Gabriele Taentzer"],
+      "start": "2022-10-28T20:37:30",
+      "end": "2022-10-28T21:00:00",
+      "location": "A-3502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Editing Support for Software Languages: Implementation Practices in Language Server Protocols",
+      "speakers": [
+        "Djonathan Barros",
+        "Sven Peldszus",
+        "Wesley Assunção",
+        "Thorsten Berger"
+      ],
+      "start": "2022-10-28T19:30:00",
+      "end": "2022-10-28T19:52:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Survey of Established Practices in the Life Cycle of Domain-Specific Languages",
+      "speakers": ["Holger Borum", "Christoph Seidl"],
+      "start": "2022-10-28T19:52:30",
+      "end": "2022-10-28T20:15:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A benchmark of incremental model transformation tools based on an industrial case study with AADL",
+      "speakers": ["Hana Mkaouar", "Dominique Blouin", "Etienne Borde"],
+      "start": "2022-10-28T20:15:00",
+      "end": "2022-10-28T20:37:30",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A cross-technology benchmark for incremental graph queries - Georg Hinkel, Antonio Garcia",
+      "speakers": [
+        "Dominguez",
+        "René Schöne",
+        "Artur Boronat",
+        "Massimo Tisi",
+        "Théo Le Calvar",
+        "Frédéric Jouault",
+        "Jószef Marton",
+        "Tamás Nyíri",
+        "János Benjamin Antal",
+        "Márton Elekes",
+        "Gabor Szarnyas",
+        "Gabor Szarnyas"
+      ],
+      "start": "2022-10-28T20:37:30",
+      "end": "2022-10-28T21:00:00",
+      "location": "A-4502.1",
+      "article_url": ""
+    },
+    {
+      "title": "A descriptive study of assumptions in STRIDE security threat modeling",
+      "speakers": ["Dimitri Van Landuyt", "Wouter Joosen"],
+      "start": "2022-10-28T16:30:00",
+      "end": "2022-10-28T16:52:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "TMI: Tokenomics Made Easy For Web3 Applications",
+      "speakers": [
+        "Han Liu",
+        "Xufei Wang",
+        "Bin Wang",
+        "Huixuan Zheng",
+        "Xuchao Liu"
+      ],
+      "start": "2022-10-28T16:52:30",
+      "end": "2022-10-28T17:15:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Using DevOps toolchains in Agile model-driven engineering",
+      "speakers": ["Jörn Guy Süß", "Samantha Swift", "Eban Escott"],
+      "start": "2022-10-28T17:15:00",
+      "end": "2022-10-28T17:37:30",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Learning UML Database Design and Modeling with AutoER",
+      "speakers": ["Sarah Foss", "Tatiana Urazova", "Ramon Lawrence"],
+      "start": "2022-10-28T17:37:30",
+      "end": "2022-10-28T18:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Are models better read on paper or on screen? A comparative study - Mohamed El",
+      "speakers": ["Attar"],
+      "start": "2022-10-28T19:30:00",
+      "end": "2022-10-28T19:48:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Graphical Projectional Editing in Gentleman",
+      "speakers": ["Aurélien Ducoin", "Eugene Syriani"],
+      "start": "2022-10-28T19:48:00",
+      "end": "2022-10-28T20:06:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Evaluating the accessibility of a PoN-enabled misuse case notation by the red–green colorblind community - Mohamed El",
+      "speakers": ["Attar"],
+      "start": "2022-10-28T20:06:00",
+      "end": "2022-10-28T20:24:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Gamification-based UML Learning Environment in Virtual Reality",
+      "speakers": [
+        "Enes Yigitbas",
+        "Maximilian Schmidt",
+        "Antonio Bucchiarone",
+        "Sebastian Gottschalk",
+        "Gregor Engels"
+      ],
+      "start": "2022-10-28T20:24:00",
+      "end": "2022-10-28T20:42:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "Towards the Practical Adoption of LIDL: A Toolchain for Modeling Human-Machine Interface Software Interactions",
+      "speakers": ["Ning Ge", "Yunduo Wang", "Yuan Wang", "Yong Wang"],
+      "start": "2022-10-28T20:42:00",
+      "end": "2022-10-28T21:00:00",
+      "location": "A-5502.1",
+      "article_url": ""
+    },
+    {
+      "title": "CLOSING SOCIAL EVENT",
+      "speakers": [""],
+      "start": "2022-10-28T21:30:00",
+      "end": "2022-10-28T23:00:00",
+      "location": "B-140 (Atrium)",
+      "article_url": ""
+    }
+  ]
+}
